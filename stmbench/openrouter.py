@@ -11,6 +11,9 @@ import urllib.error
 import urllib.request
 
 URL = "https://openrouter.ai/api/v1/chat/completions"
+# Отключение рассуждения (унифицированный параметр OpenRouter). Без него модели с
+# рассуждением по умолчанию тратят весь лимит max_tokens на рассуждение и не отвечают.
+NO_REASONING = {"reasoning": {"effort": "none"}}
 
 
 class OpenRouterError(RuntimeError):

@@ -1,0 +1,300 @@
+{"sid": "P020", "qid": "P020-Q26", "answer": "Это был вариант 9/04.", "expect": "V2", "exact": null, "judge": "V2"}
+{"sid": "P024", "qid": "P024-Q16", "answer": "Насколько я помню, это заголовок Модель данных.", "expect": "V5", "exact": "V5", "judge": "V5"}
+{"sid": "P014", "qid": "P014-Q28", "answer": "Это был вариант 16.04.", "expect": "V1", "exact": null, "judge": "V1"}
+{"sid": "P016", "qid": "P016-Q04", "answer": "Насколько я помню, это 8 (912) 234-17-13.", "expect": "V10", "exact": "V10", "judge": "V10"}
+{"sid": "P008", "qid": "P008-Q04", "answer": "Это был вариант на 24 марта.", "expect": "V3", "exact": "V3", "judge": "V3"}
+{"sid": "P008", "qid": "P008-Q06", "answer": "Это был вариант 24-го марта.", "expect": "V3", "exact": null, "judge": "V3"}
+{"sid": "P024", "qid": "P024-Q07", "answer": "Методика исследования", "expect": "V1", "exact": "V1", "judge": "V1"}
+{"sid": "P021", "qid": "P021-Q14", "answer": "Насколько я помню, это 185 000 руб..", "expect": "V1", "exact": "V1", "judge": "V1"}
+{"sid": "P015", "qid": "P015-Q27", "answer": "Это был вариант 210000 ₽.", "expect": "V2", "exact": "V2", "judge": "V2"}
+{"sid": "P015", "qid": "P015-Q02", "answer": "35 000 руб.", "expect": "V9", "exact": "V9", "judge": "V9"}
+{"sid": "P006", "qid": "P006-Q15", "answer": "Насколько я помню, это Методика исследования.", "expect": "V4", "exact": "V4", "judge": "V4"}
+{"sid": "P017", "qid": "P017-Q16", "answer": "Это был вариант в 22 часов ровно.", "expect": "V9", "exact": null, "judge": "V9"}
+{"sid": "P017", "qid": "P017-Q12", "answer": "Это был вариант в 7 часов ровно.", "expect": "V7", "exact": null, "judge": "V7"}
+{"sid": "P015", "qid": "P015-Q25", "answer": "210000 ₽", "expect": "V2", "exact": "V2", "judge": "V2"}
+{"sid": "P016", "qid": "P016-Q14", "answer": "Ответ: 8 (967) 479-18-85.", "expect": "V6", "exact": "V6", "judge": "V6"}
+{"sid": "P003", "qid": "P003-Q13", "answer": "Это был вариант 260 000 руб..", "expect": "V5", "exact": "V5", "judge": "V5"}
+{"sid": "P016", "qid": "P016-Q30", "answer": "Это был вариант 8 (900) 992-24-80.", "expect": "V1", "exact": "V1", "judge": "V1"}
+{"sid": "P022", "qid": "P022-Q05", "answer": "Насколько я помню, это 8-997-314-59-77.", "expect": "V9", "exact": "V9", "judge": "V9"}
+{"sid": "P007", "qid": "P007-Q02", "answer": "Насколько я помню, это ул.Почтовая д.17.", "expect": "V4", "exact": "V4", "judge": "V4"}
+{"sid": "P013", "qid": "P013-Q29", "answer": "Насколько я помню, это Рябиновая ул., д. 5.", "expect": "V2", "exact": null, "judge": "NONE"}
+{"sid": "P013", "qid": "P013-Q09", "answer": "Ответ: Рябиновая ул., д. 5.", "expect": "V2", "exact": null, "judge": "V2"}
+{"sid": "P004", "qid": "P004-Q05", "answer": "8-959-442-17-26", "expect": "V5", "exact": "V5", "judge": "V5"}
+{"sid": "P002", "qid": "P002-Q13", "answer": "на 8 марта", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P020", "qid": "P020-Q11", "answer": "Ответ: 21.03.", "expect": "V7", "exact": null, "judge": "V7"}
+{"sid": "P013", "qid": "P013-Q24", "answer": "улица Рябиновая, дом 5", "expect": "V2", "exact": "V2", "judge": "V2"}
+{"sid": "P030", "qid": "P030-Q05", "answer": "\"Обработка данных\"", "expect": "V2", "exact": "V2", "judge": "V2"}
+{"sid": "P015", "qid": "P015-Q01", "answer": "Вы указывали 220 тысяч рублей.", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P013", "qid": "P013-Q19", "answer": "ул.Песочная д.3", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P021", "qid": "P021-Q06", "answer": "Это был вариант 275 000 руб..", "expect": "V8", "exact": "V8", "judge": "V8"}
+{"sid": "P013", "qid": "P013-Q08", "answer": "Ответ: улица Морская, дом 57.", "expect": "V8", "exact": "V8", "judge": "V8"}
+{"sid": "P012", "qid": "P012-Q15", "answer": "Ответ: заголовок Сравнение подходов.", "expect": "V1", "exact": "V1", "judge": "V1"}
+{"sid": "P001", "qid": "P001-Q14", "answer": "Это был вариант ул.Спортивная д.56.", "expect": "V1", "exact": "V1", "judge": "V1"}
+{"sid": "P018", "qid": "P018-Q10", "answer": "Ответ: \"Ход работы\".", "expect": "V7", "exact": "V7", "judge": "V7"}
+{"sid": "P001", "qid": "P001-Q13", "answer": "Это был вариант улица Спортивная, дом 56.", "expect": "V1", "exact": "V1", "judge": "V1"}
+{"sid": "P017", "qid": "P017-Q05", "answer": "Насколько я помню, это 22 ч 30 мин.", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P010", "qid": "P010-Q12", "answer": "+79276526052", "expect": "V1", "exact": "V1", "judge": "V1"}
+{"sid": "P001", "qid": "P001-Q02", "answer": "Ответ: Спортивная ул., д. 8.", "expect": "V2", "exact": null, "judge": "V2"}
+{"sid": "P023", "qid": "P023-Q04", "answer": "4:15 вечера", "expect": "V10", "exact": null, "judge": "V10"}
+{"sid": "P021", "qid": "P021-Q17", "answer": "Вы указывали 185000 ₽.", "expect": "V1", "exact": "V1", "judge": "V1"}
+{"sid": "P005", "qid": "P005-Q09", "answer": "Вы указывали 9 ч 15 мин.", "expect": "V1", "exact": null, "judge": "V1"}
+{"sid": "P001", "qid": "P001-Q01", "answer": "Вы указывали на Полевой, 37.", "expect": "V5", "exact": null, "judge": "V5"}
+{"sid": "P004", "qid": "P004-Q10", "answer": "Это был вариант 8 (988) 542-32-13.", "expect": "V4", "exact": "V4", "judge": "V4"}
+{"sid": "P007", "qid": "P007-Q03", "answer": "Вы указывали улица Почтовая, дом 17.", "expect": "V4", "exact": "V4", "judge": "V4"}
+{"sid": "P022", "qid": "P022-Q03", "answer": "8-997-314-59-77", "expect": "V9", "exact": "V9", "judge": "V9"}
+{"sid": "P028", "qid": "P028-Q07", "answer": "Ответ: 8-952-549-62-14.", "expect": "V1", "exact": "V1", "judge": "V1"}
+{"sid": "P018", "qid": "P018-Q01", "answer": "Вы указывали заголовок Дальнейшие шаги.", "expect": "V2", "exact": "V2", "judge": "V2"}
+{"sid": "P007", "qid": "P007-Q01", "answer": "Насколько я помню, это улица Песочная, дом 52.", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P010", "qid": "P010-Q13", "answer": "Ответ: 8 (913) 211-41-48.", "expect": "V3", "exact": "V3", "judge": "V3"}
+{"sid": "P017", "qid": "P017-Q03", "answer": "Насколько я помню, это 11.30.", "expect": "V8", "exact": "V8", "judge": "V8"}
+{"sid": "P018", "qid": "P018-Q14", "answer": "Вы указывали заголовок План внедрения.", "expect": "V1", "exact": "V1", "judge": "V1"}
+{"sid": "P022", "qid": "P022-Q21", "answer": "Это был вариант +79424819337.", "expect": "V4", "exact": "V4", "judge": "V4"}
+{"sid": "P017", "qid": "P017-Q16", "answer": "17 ч 30 мин", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P019", "qid": "P019-Q08", "answer": "Ответ: на Парковой, 34.", "expect": "V8", "exact": null, "judge": "V8"}
+{"sid": "P012", "qid": "P012-Q03", "answer": "Это был вариант заголовок Отзывы пользователей.", "expect": "V4", "exact": "V4", "judge": "V4"}
+{"sid": "P010", "qid": "P010-Q09", "answer": "8 (983) 332-32-64", "expect": "V2", "exact": "V2", "judge": "V2"}
+{"sid": "P018", "qid": "P018-Q07", "answer": "Вы указывали \"Дальнейшие шаги\".", "expect": "V2", "exact": "V2", "judge": "V2"}
+{"sid": "P018", "qid": "P018-Q28", "answer": "Вы указывали заголовок План внедрения.", "expect": "V1", "exact": "V1", "judge": "V1"}
+{"sid": "P019", "qid": "P019-Q07", "answer": "Вы указывали улица Южная, дом 38.", "expect": "V6", "exact": "V6", "judge": "V6"}
+{"sid": "P009", "qid": "P009-Q06", "answer": "Насколько я помню, это 170 тысяч рублей.", "expect": "V3", "exact": null, "judge": "V3"}
+{"sid": "P012", "qid": "P012-Q09", "answer": "Отзывы пользователей", "expect": "V4", "exact": "V4", "judge": "V4"}
+{"sid": "P007", "qid": "P007-Q04", "answer": "Почтовая, 17", "expect": "V4", "exact": "V4", "judge": "V4"}
+{"sid": "P008", "qid": "P008-Q03", "answer": "Это был вариант на 22 апреля.", "expect": "V4", "exact": "V4", "judge": "V4"}
+{"sid": "P014", "qid": "P014-Q27", "answer": "Это был вариант 16/04.", "expect": "V1", "exact": null, "judge": "V1"}
+{"sid": "P013", "qid": "P013-Q05", "answer": "улица Лесная, дом 55", "expect": "V9", "exact": "V9", "judge": "V9"}
+{"sid": "P028", "qid": "P028-Q04", "answer": "Вы указывали +79525496214.", "expect": "V1", "exact": "V1", "judge": "V1"}
+{"sid": "P016", "qid": "P016-Q10", "answer": "Это был вариант 8 (962) 419-80-74.", "expect": "V7", "exact": "V7", "judge": "V7"}
+{"sid": "P011", "qid": "P011-Q11", "answer": "Это был вариант 21 ч 45 мин.", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P012", "qid": "P012-Q04", "answer": "Ответ: заголовок Проблемы и решения.", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P021", "qid": "P021-Q21", "answer": "Насколько я помню, это 130 000 руб..", "expect": "V3", "exact": "V3", "judge": "V3"}
+{"sid": "P024", "qid": "P024-Q29", "answer": "карта процессов", "expect": "V4", "exact": "V4", "judge": "V4"}
+{"sid": "P019", "qid": "P019-Q10", "answer": "на Южной, 38", "expect": "V6", "exact": null, "judge": "V6"}
+{"sid": "P028", "qid": "P028-Q03", "answer": "Насколько я помню, это 8-932-717-29-58.", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P023", "qid": "P023-Q27", "answer": "Ответ: 9.00.", "expect": "NONE", "exact": null, "judge": "O1.1"}
+{"sid": "P010", "qid": "P010-Q10", "answer": "Ответ: 8 (901) 877-67-52.", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P023", "qid": "P023-Q17", "answer": "Это был вариант 15.45.", "expect": "V9", "exact": "V9", "judge": "V9"}
+{"sid": "P007", "qid": "P007-Q10", "answer": "Вы указывали улица Береговая, дом 19.", "expect": "V5", "exact": "V5", "judge": "V5"}
+{"sid": "P014", "qid": "P014-Q16", "answer": "Вы указывали на 13 марта.", "expect": "V7", "exact": "V7", "judge": "V7"}
+{"sid": "P015", "qid": "P015-Q14", "answer": "Насколько я помню, это 85000 ₽.", "expect": "V1", "exact": "V1", "judge": "V1"}
+{"sid": "P025", "qid": "P025-Q08", "answer": "Насколько я помню, это Лесная, 24.", "expect": "V1", "exact": "V1", "judge": "V1"}
+{"sid": "P018", "qid": "P018-Q02", "answer": "заголовок Пилотный запуск", "expect": "V9", "exact": "V9", "judge": "V9"}
+{"sid": "P013", "qid": "P013-Q02", "answer": "Насколько я помню, это на Лесной, 55.", "expect": "V9", "exact": null, "judge": "V9"}
+{"sid": "P004", "qid": "P004-Q15", "answer": "Вы указывали 8 (984) 973-12-19.", "expect": "V1", "exact": "V1", "judge": "V1"}
+{"sid": "P007", "qid": "P007-Q01", "answer": "Вы указывали на Береговой, 19.", "expect": "V5", "exact": null, "judge": "V5"}
+{"sid": "P003", "qid": "P003-Q10", "answer": "215 тыс. руб.", "expect": "V2", "exact": null, "judge": "V2"}
+{"sid": "P024", "qid": "P024-Q01", "answer": "Насколько я помню, это сроки и этапы.", "expect": "V10", "exact": "V10", "judge": "V10"}
+{"sid": "P008", "qid": "P008-Q10", "answer": "Вы указывали на 18 марта.", "expect": "V2", "exact": "V2", "judge": "V2"}
+{"sid": "P009", "qid": "P009-Q01", "answer": "115 тысяч рублей", "expect": "V4", "exact": null, "judge": "V4"}
+{"sid": "P017", "qid": "P017-Q21", "answer": "Насколько я помню, это 6:45 вечера.", "expect": "V2", "exact": null, "judge": "V2"}
+{"sid": "P010", "qid": "P010-Q01", "answer": "Вы указывали 8 (983) 332-32-64.", "expect": "V2", "exact": "V2", "judge": "V2"}
+{"sid": "P023", "qid": "P023-Q01", "answer": "16 ч 15 мин", "expect": "V10", "exact": null, "judge": "V10"}
+{"sid": "P004", "qid": "P004-Q04", "answer": "+79885423213", "expect": "V4", "exact": "V4", "judge": "V4"}
+{"sid": "P027", "qid": "P027-Q07", "answer": "390000 ₽", "expect": "V1", "exact": "V1", "judge": "V1"}
+{"sid": "P025", "qid": "P025-Q03", "answer": "на Вишнёвой, 15", "expect": "V2", "exact": null, "judge": "V2"}
+{"sid": "P011", "qid": "P011-Q11", "answer": "Вы указывали 7.30.", "expect": "V1", "exact": "V1", "judge": "V1"}
+{"sid": "P005", "qid": "P005-Q08", "answer": "Вы указывали в 11 часов ровно.", "expect": "NONE", "exact": null, "judge": "V2"}
+{"sid": "P022", "qid": "P022-Q03", "answer": "+79418394220", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P010", "qid": "P010-Q01", "answer": "Ответ: +79001839810.", "expect": "V5", "exact": "V5", "judge": "V5"}
+{"sid": "P001", "qid": "P001-Q11", "answer": "на Спортивной, 8", "expect": "V2", "exact": null, "judge": "V2"}
+{"sid": "P011", "qid": "P011-Q08", "answer": "12 ч 15 мин", "expect": "V2", "exact": null, "judge": "V2"}
+{"sid": "P001", "qid": "P001-Q08", "answer": "Ответ: Полевая ул., д. 37.", "expect": "V5", "exact": null, "judge": "V5"}
+{"sid": "P013", "qid": "P013-Q26", "answer": "Ответ: на Рябиновой, 5.", "expect": "V2", "exact": null, "judge": "V2"}
+{"sid": "P002", "qid": "P002-Q14", "answer": "Насколько я помню, это на 22 апреля.", "expect": "V1", "exact": "V1", "judge": "V1"}
+{"sid": "P017", "qid": "P017-Q21", "answer": "Это был вариант в 20 часов 30 минут.", "expect": "V6", "exact": null, "judge": "V6"}
+{"sid": "P006", "qid": "P006-Q15", "answer": "Ответ: \"Обзор решений\".", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P020", "qid": "P020-Q17", "answer": "Это был вариант 13/03.", "expect": "V4", "exact": null, "judge": "V4"}
+{"sid": "P015", "qid": "P015-Q26", "answer": "Вы указывали 210 тысяч рублей.", "expect": "V2", "exact": null, "judge": "V2"}
+{"sid": "P004", "qid": "P004-Q06", "answer": "8 (988) 542-32-13", "expect": "V4", "exact": "V4", "judge": "V4"}
+{"sid": "P010", "qid": "P010-Q12", "answer": "Вы указывали 8-983-332-32-64.", "expect": "V2", "exact": "V2", "judge": "V2"}
+{"sid": "P017", "qid": "P017-Q23", "answer": "Насколько я помню, это в 9 часов ровно.", "expect": "V1", "exact": null, "judge": "V1"}
+{"sid": "P028", "qid": "P028-Q07", "answer": "Ответ: +79521086351.", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P020", "qid": "P020-Q12", "answer": "13-го апреля", "expect": "V6", "exact": null, "judge": "V6"}
+{"sid": "P017", "qid": "P017-Q01", "answer": "Ответ: в 11 часов 45 минут.", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P022", "qid": "P022-Q07", "answer": "Насколько я помню, это +79123122663.", "expect": "V8", "exact": "V8", "judge": "V8"}
+{"sid": "P028", "qid": "P028-Q01", "answer": "Ответ: +79597469121.", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P017", "qid": "P017-Q19", "answer": "Ответ: 21.45.", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P017", "qid": "P017-Q23", "answer": "Вы указывали 4:15 вечера.", "expect": "NONE", "exact": null, "judge": "V5"}
+{"sid": "P007", "qid": "P007-Q12", "answer": "Вы указывали ул.Вишнёвая д.14.", "expect": "V2", "exact": "V2", "judge": "V2"}
+{"sid": "P017", "qid": "P017-Q04", "answer": "в 11 часов 30 минут", "expect": "V8", "exact": null, "judge": "V8"}
+{"sid": "P001", "qid": "P001-Q01", "answer": "Вы указывали Полевая, 37.", "expect": "V5", "exact": "V5", "judge": "V5"}
+{"sid": "P008", "qid": "P008-Q07", "answer": "Это был вариант 24-го марта.", "expect": "V3", "exact": null, "judge": "V3"}
+{"sid": "P007", "qid": "P007-Q05", "answer": "Это был вариант на Светлой, 17.", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P019", "qid": "P019-Q10", "answer": "Торговая ул., д. 16", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P021", "qid": "P021-Q30", "answer": "Это был вариант 185000 ₽.", "expect": "V1", "exact": "V1", "judge": "V1"}
+{"sid": "P028", "qid": "P028-Q01", "answer": "Это был вариант 8-979-856-70-85.", "expect": "V2", "exact": "V2", "judge": "V2"}
+{"sid": "P021", "qid": "P021-Q19", "answer": "Вы указывали 245 тысяч рублей.", "expect": "V5", "exact": null, "judge": "V5"}
+{"sid": "P020", "qid": "P020-Q12", "answer": "13.04", "expect": "V6", "exact": null, "judge": "V6"}
+{"sid": "P020", "qid": "P020-Q22", "answer": "Насколько я помню, это 10/04.", "expect": "V3", "exact": null, "judge": "V3"}
+{"sid": "P024", "qid": "P024-Q03", "answer": "Это был вариант заголовок Источники данных.", "expect": "V9", "exact": "V9", "judge": "V9"}
+{"sid": "P018", "qid": "P018-Q17", "answer": "Ответ: \"Обзор литературы\".", "expect": "V8", "exact": "V8", "judge": "V8"}
+{"sid": "P024", "qid": "P024-Q26", "answer": "основные понятия", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P019", "qid": "P019-Q25", "answer": "ул.Почтовая д.9", "expect": "V1", "exact": "V1", "judge": "V1"}
+{"sid": "P007", "qid": "P007-Q01", "answer": "Насколько я помню, это улица Почтовая, дом 17.", "expect": "V4", "exact": "V4", "judge": "V4"}
+{"sid": "P004", "qid": "P004-Q01", "answer": "Ответ: +79003769199.", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P011", "qid": "P011-Q06", "answer": "Вы указывали 12.15.", "expect": "V2", "exact": "V2", "judge": "V2"}
+{"sid": "P023", "qid": "P023-Q17", "answer": "Вы указывали в 10 часов 45 минут.", "expect": "V4", "exact": null, "judge": "V4"}
+{"sid": "P022", "qid": "P022-Q21", "answer": "Ответ: 8 (990) 251-77-50.", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P013", "qid": "P013-Q26", "answer": "Вы указывали Береговая, 42.", "expect": "V7", "exact": "V7", "judge": "V7"}
+{"sid": "P020", "qid": "P020-Q30", "answer": "Это был вариант 5-го марта.", "expect": "V8", "exact": null, "judge": "V8"}
+{"sid": "P004", "qid": "P004-Q09", "answer": "8-973-678-32-81", "expect": "V2", "exact": "V2", "judge": "V2"}
+{"sid": "P013", "qid": "P013-Q26", "answer": "Это был вариант Лесная ул., д. 46.", "expect": "V3", "exact": null, "judge": "V3"}
+{"sid": "P017", "qid": "P017-Q22", "answer": "Насколько я помню, это 22 ч 00 мин.", "expect": "V9", "exact": null, "judge": "V9"}
+{"sid": "P021", "qid": "P021-Q27", "answer": "Это был вариант 320 000 руб..", "expect": "V9", "exact": "V9", "judge": "V9"}
+{"sid": "P023", "qid": "P023-Q11", "answer": "Насколько я помню, это в 10 часов 45 минут.", "expect": "V4", "exact": null, "judge": "V4"}
+{"sid": "P004", "qid": "P004-Q02", "answer": "8-920-458-10-47", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P011", "qid": "P011-Q05", "answer": "Это был вариант 8:15 вечера.", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P015", "qid": "P015-Q01", "answer": "Это был вариант 30 тыс. руб..", "expect": "V10", "exact": null, "judge": "V10"}
+{"sid": "P007", "qid": "P007-Q05", "answer": "Насколько я помню, это Почтовая, 17.", "expect": "V4", "exact": "V4", "judge": "V4"}
+{"sid": "P016", "qid": "P016-Q09", "answer": "Это был вариант 8 (905) 294-57-20.", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P019", "qid": "P019-Q16", "answer": "Насколько я помню, это на Школьной, 33.", "expect": "V5", "exact": null, "judge": "V5"}
+{"sid": "P026", "qid": "P026-Q09", "answer": "Ответ: 29/04.", "expect": "V1", "exact": null, "judge": "V1"}
+{"sid": "P004", "qid": "P004-Q04", "answer": "Вы указывали +79849731219.", "expect": "V1", "exact": "V1", "judge": "V1"}
+{"sid": "P022", "qid": "P022-Q24", "answer": "8 (952) 605-68-66", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P007", "qid": "P007-Q01", "answer": "Ответ: Вишнёвая, 14.", "expect": "V2", "exact": "V2", "judge": "V2"}
+{"sid": "P022", "qid": "P022-Q27", "answer": "+79973145977", "expect": "V9", "exact": "V9", "judge": "V9"}
+{"sid": "P013", "qid": "P013-Q19", "answer": "Насколько я помню, это на Озёрной, 18.", "expect": "V4", "exact": null, "judge": "V4"}
+{"sid": "P018", "qid": "P018-Q19", "answer": "Это был вариант \"Проблемы и решения\".", "expect": "V4", "exact": "V4", "judge": "V4"}
+{"sid": "P030", "qid": "P030-Q02", "answer": "Это был вариант заголовок Обработка данных.", "expect": "V2", "exact": "V2", "judge": "V2"}
+{"sid": "P016", "qid": "P016-Q15", "answer": "8-983-609-43-85", "expect": "V5", "exact": "V5", "judge": "V5"}
+{"sid": "P013", "qid": "P013-Q11", "answer": "на Береговой, 42", "expect": "V7", "exact": null, "judge": "V7"}
+{"sid": "P029", "qid": "P029-Q05", "answer": "Насколько я помню, это 6:00 вечера.", "expect": "V1", "exact": null, "judge": "V1"}
+{"sid": "P009", "qid": "P009-Q09", "answer": "Ответ: 45 тысяч рублей.", "expect": "V2", "exact": null, "judge": "V2"}
+{"sid": "P015", "qid": "P015-Q23", "answer": "Ответ: 225 тысяч рублей.", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P020", "qid": "P020-Q14", "answer": "Ответ: 13-го апреля.", "expect": "V6", "exact": null, "judge": "V6"}
+{"sid": "P002", "qid": "P002-Q01", "answer": "Ответ: 17.03.", "expect": "V5", "exact": null, "judge": "V5"}
+{"sid": "P021", "qid": "P021-Q11", "answer": "Ответ: 270 тыс. руб..", "expect": "V7", "exact": null, "judge": "V7"}
+{"sid": "P014", "qid": "P014-Q16", "answer": "Ответ: 5-го апреля.", "expect": "V10", "exact": null, "judge": "V10"}
+{"sid": "P010", "qid": "P010-Q12", "answer": "Это был вариант 8-913-211-41-48.", "expect": "V3", "exact": "V3", "judge": "V3"}
+{"sid": "P010", "qid": "P010-Q12", "answer": "8-927-652-60-52", "expect": "V1", "exact": "V1", "judge": "V1"}
+{"sid": "P028", "qid": "P028-Q05", "answer": "+79798567085", "expect": "V2", "exact": "V2", "judge": "V2"}
+{"sid": "P014", "qid": "P014-Q30", "answer": "Вы указывали на 16 апреля.", "expect": "V1", "exact": "V1", "judge": "V1"}
+{"sid": "P018", "qid": "P018-Q13", "answer": "Это был вариант сравнительная таблица.", "expect": "V6", "exact": "V6", "judge": "V6"}
+{"sid": "P021", "qid": "P021-Q17", "answer": "245 000 руб.", "expect": "V5", "exact": "V5", "judge": "V5"}
+{"sid": "P014", "qid": "P014-Q18", "answer": "Вы указывали 25/03.", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P015", "qid": "P015-Q06", "answer": "Насколько я помню, это 70 тыс. руб..", "expect": "V5", "exact": null, "judge": "V5"}
+{"sid": "P029", "qid": "P029-Q09", "answer": "Вы указывали 11.30.", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P005", "qid": "P005-Q06", "answer": "Насколько я помню, это 8.00.", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P006", "qid": "P006-Q01", "answer": "Ответ: заголовок Модель данных.", "expect": "V5", "exact": "V5", "judge": "V5"}
+{"sid": "P014", "qid": "P014-Q26", "answer": "Ответ: 2/04.", "expect": "V2", "exact": null, "judge": "V2"}
+{"sid": "P018", "qid": "P018-Q28", "answer": "заголовок Ход работы", "expect": "V7", "exact": "V7", "judge": "V7"}
+{"sid": "P021", "qid": "P021-Q25", "answer": "Это был вариант 275 тыс. руб..", "expect": "V8", "exact": null, "judge": "V8"}
+{"sid": "P010", "qid": "P010-Q02", "answer": "Это был вариант 8 (982) 262-10-49.", "expect": "V4", "exact": "V4", "judge": "V4"}
+{"sid": "P011", "qid": "P011-Q03", "answer": "Насколько я помню, это 12.15.", "expect": "V2", "exact": "V2", "judge": "V2"}
+{"sid": "P015", "qid": "P015-Q21", "answer": "Ответ: 170 тыс. руб..", "expect": "V4", "exact": null, "judge": "V4"}
+{"sid": "P013", "qid": "P013-Q07", "answer": "ул.Морская д.57", "expect": "V8", "exact": "V8", "judge": "V8"}
+{"sid": "P023", "qid": "P023-Q14", "answer": "Насколько я помню, это 19 ч 15 мин.", "expect": "V1", "exact": null, "judge": "V1"}
+{"sid": "P020", "qid": "P020-Q17", "answer": "Насколько я помню, это 17/03.", "expect": "NONE", "exact": null, "judge": "O1.1"}
+{"sid": "P012", "qid": "P012-Q04", "answer": "Насколько я помню, это заголовок Ключевые выводы.", "expect": "V2", "exact": "V2", "judge": "V2"}
+{"sid": "P016", "qid": "P016-Q24", "answer": "Это был вариант +79009922480.", "expect": "V1", "exact": "V1", "judge": "V1"}
+{"sid": "P017", "qid": "P017-Q13", "answer": "22 ч 00 мин", "expect": "V9", "exact": null, "judge": "V9"}
+{"sid": "P023", "qid": "P023-Q12", "answer": "Вы указывали 20 ч 30 мин.", "expect": "V5", "exact": null, "judge": "V5"}
+{"sid": "P004", "qid": "P004-Q11", "answer": "Это был вариант 8-994-135-42-97.", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P017", "qid": "P017-Q14", "answer": "Вы указывали 22 ч 00 мин.", "expect": "V9", "exact": null, "judge": "V9"}
+{"sid": "P016", "qid": "P016-Q04", "answer": "Это был вариант 8 (967) 479-18-85.", "expect": "V6", "exact": "V6", "judge": "V6"}
+{"sid": "P029", "qid": "P029-Q02", "answer": "Насколько я помню, это в 13 часов ровно.", "expect": "V2", "exact": null, "judge": "V2"}
+{"sid": "P001", "qid": "P001-Q10", "answer": "Насколько я помню, это Спортивная ул., д. 8.", "expect": "V2", "exact": null, "judge": "V2"}
+{"sid": "P020", "qid": "P020-Q03", "answer": "Вы указывали на 12 апреля.", "expect": "V9", "exact": "V9", "judge": "V9"}
+{"sid": "P022", "qid": "P022-Q17", "answer": "Это был вариант 8 (984) 780-44-73.", "expect": "V5", "exact": "V5", "judge": "V5"}
+{"sid": "P004", "qid": "P004-Q03", "answer": "Вы указывали 8 (988) 542-32-13.", "expect": "V4", "exact": "V4", "judge": "V4"}
+{"sid": "P016", "qid": "P016-Q11", "answer": "Вы указывали 8-962-419-80-74.", "expect": "V7", "exact": "V7", "judge": "V7"}
+{"sid": "P017", "qid": "P017-Q03", "answer": "11.30", "expect": "V8", "exact": "V8", "judge": "V8"}
+{"sid": "P012", "qid": "P012-Q11", "answer": "Вы указывали заголовок Источники данных.", "expect": "V5", "exact": "V5", "judge": "V5"}
+{"sid": "P016", "qid": "P016-Q20", "answer": "Насколько я помню, это 8-985-636-57-65.", "expect": "V4", "exact": "V4", "judge": "V4"}
+{"sid": "P016", "qid": "P016-Q12", "answer": "Вы указывали 8 (967) 479-18-85.", "expect": "V6", "exact": "V6", "judge": "V6"}
+{"sid": "P011", "qid": "P011-Q07", "answer": "Это был вариант 12 ч 15 мин.", "expect": "V2", "exact": null, "judge": "V2"}
+{"sid": "P020", "qid": "P020-Q25", "answer": "Это был вариант на 12 апреля.", "expect": "V9", "exact": "V9", "judge": "V9"}
+{"sid": "P015", "qid": "P015-Q08", "answer": "Ответ: 115000 ₽.", "expect": "V8", "exact": "V8", "judge": "V8"}
+{"sid": "P019", "qid": "P019-Q24", "answer": "Это был вариант Кленовая ул., д. 49.", "expect": "V2", "exact": null, "judge": "V2"}
+{"sid": "P015", "qid": "P015-Q25", "answer": "Это был вариант 75 тыс. руб..", "expect": "V7", "exact": null, "judge": "V7"}
+{"sid": "P023", "qid": "P023-Q04", "answer": "Ответ: 15.45.", "expect": "V9", "exact": "V9", "judge": "V9"}
+{"sid": "P013", "qid": "P013-Q03", "answer": "Вы указывали Лесная, 55.", "expect": "V9", "exact": "V9", "judge": "V9"}
+{"sid": "P016", "qid": "P016-Q26", "answer": "Насколько я помню, это 8-967-479-18-85.", "expect": "V6", "exact": "V6", "judge": "V6"}
+{"sid": "P007", "qid": "P007-Q10", "answer": "Ответ: на Вишнёвой, 14.", "expect": "V2", "exact": null, "judge": "V2"}
+{"sid": "P021", "qid": "P021-Q13", "answer": "Это был вариант 270 тыс. руб..", "expect": "V7", "exact": null, "judge": "V7"}
+{"sid": "P023", "qid": "P023-Q22", "answer": "Насколько я помню, это 16 ч 15 мин.", "expect": "V10", "exact": null, "judge": "V10"}
+{"sid": "P002", "qid": "P002-Q10", "answer": "29.04", "expect": "V2", "exact": null, "judge": "V2"}
+{"sid": "P019", "qid": "P019-Q17", "answer": "Это был вариант улица Школьная, дом 33.", "expect": "V5", "exact": "V5", "judge": "V5"}
+{"sid": "P024", "qid": "P024-Q01", "answer": "Ответ: заголовок Тестирование прототипа.", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P016", "qid": "P016-Q29", "answer": "Вы указывали 8 (900) 992-24-80.", "expect": "V1", "exact": "V1", "judge": "V1"}
+{"sid": "P018", "qid": "P018-Q05", "answer": "Вы указывали пилотный запуск.", "expect": "V9", "exact": "V9", "judge": "V9"}
+{"sid": "P004", "qid": "P004-Q06", "answer": "Вы указывали 8-959-442-17-26.", "expect": "V5", "exact": "V5", "judge": "V5"}
+{"sid": "P013", "qid": "P013-Q19", "answer": "Это был вариант улица Рябиновая, дом 5.", "expect": "V2", "exact": "V2", "judge": "V2"}
+{"sid": "P013", "qid": "P013-Q13", "answer": "Насколько я помню, это на Полевой, 53.", "expect": "V6", "exact": null, "judge": "V6"}
+{"sid": "P016", "qid": "P016-Q07", "answer": "Вы указывали 8 (919) 161-96-92.", "expect": "V8", "exact": "V8", "judge": "V8"}
+{"sid": "P012", "qid": "P012-Q06", "answer": "Насколько я помню, это Архитектура системы.", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P006", "qid": "P006-Q06", "answer": "Вы указывали модель данных.", "expect": "V5", "exact": "V5", "judge": "V5"}
+{"sid": "P027", "qid": "P027-Q09", "answer": "Вы указывали 390000 ₽.", "expect": "V1", "exact": "V1", "judge": "V1"}
+{"sid": "P005", "qid": "P005-Q02", "answer": "12.30", "expect": "V3", "exact": "V3", "judge": "V3"}
+{"sid": "P008", "qid": "P008-Q09", "answer": "Насколько я помню, это на 18 марта.", "expect": "V2", "exact": "V2", "judge": "V2"}
+{"sid": "P020", "qid": "P020-Q19", "answer": "Насколько я помню, это 9-го апреля.", "expect": "V2", "exact": null, "judge": "V2"}
+{"sid": "P002", "qid": "P002-Q09", "answer": "Это был вариант 29/04.", "expect": "V2", "exact": null, "judge": "V2"}
+{"sid": "P014", "qid": "P014-Q02", "answer": "на 24 апреля", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P013", "qid": "P013-Q07", "answer": "Рябиновая, 5", "expect": "V2", "exact": "V2", "judge": "V2"}
+{"sid": "P022", "qid": "P022-Q27", "answer": "Насколько я помню, это 8-984-780-44-73.", "expect": "V5", "exact": "V5", "judge": "V5"}
+{"sid": "P023", "qid": "P023-Q10", "answer": "Ответ: 15 ч 30 мин.", "expect": "V6", "exact": null, "judge": "V6"}
+{"sid": "P020", "qid": "P020-Q28", "answer": "Это был вариант на 2 марта.", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P001", "qid": "P001-Q14", "answer": "Липовая, 17", "expect": "V4", "exact": "V4", "judge": "V4"}
+{"sid": "P004", "qid": "P004-Q11", "answer": "+79736783281", "expect": "V2", "exact": "V2", "judge": "V2"}
+{"sid": "P026", "qid": "P026-Q08", "answer": "Насколько я помню, это 28/03.", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P008", "qid": "P008-Q03", "answer": "22/04", "expect": "V4", "exact": null, "judge": "V4"}
+{"sid": "P001", "qid": "P001-Q01", "answer": "Ответ: ул.Полевая д.37.", "expect": "V5", "exact": "V5", "judge": "V5"}
+{"sid": "P012", "qid": "P012-Q14", "answer": "\"Ключевые выводы\"", "expect": "V2", "exact": "V2", "judge": "V2"}
+{"sid": "P024", "qid": "P024-Q13", "answer": "Ответ: Пилотный запуск.", "expect": "V7", "exact": "V7", "judge": "V7"}
+{"sid": "P015", "qid": "P015-Q24", "answer": "Насколько я помню, это 210000 ₽.", "expect": "V2", "exact": "V2", "judge": "V2"}
+{"sid": "P015", "qid": "P015-Q06", "answer": "Это был вариант 115 тысяч рублей.", "expect": "V8", "exact": null, "judge": "V8"}
+{"sid": "P011", "qid": "P011-Q03", "answer": "12 ч 15 мин", "expect": "V2", "exact": null, "judge": "V2"}
+{"sid": "P021", "qid": "P021-Q01", "answer": "355000 ₽", "expect": "V10", "exact": "V10", "judge": "V10"}
+{"sid": "P002", "qid": "P002-Q11", "answer": "22.04", "expect": "V1", "exact": null, "judge": "V1"}
+{"sid": "P012", "qid": "P012-Q01", "answer": "Вы указывали Отзывы пользователей.", "expect": "V4", "exact": "V4", "judge": "V4"}
+{"sid": "P022", "qid": "P022-Q22", "answer": "Насколько я помню, это 8 (942) 481-93-37.", "expect": "V4", "exact": "V4", "judge": "V4"}
+{"sid": "P026", "qid": "P026-Q02", "answer": "Вы указывали 27-го марта.", "expect": "V2", "exact": null, "judge": "V2"}
+{"sid": "P019", "qid": "P019-Q21", "answer": "Ответ: Северная, 57.", "expect": "V3", "exact": "V3", "judge": "V3"}
+{"sid": "P024", "qid": "P024-Q01", "answer": "Вы указывали заголовок Карта процессов.", "expect": "V4", "exact": "V4", "judge": "V4"}
+{"sid": "P006", "qid": "P006-Q03", "answer": "Это был вариант \"Модель данных\".", "expect": "V5", "exact": "V5", "judge": "V5"}
+{"sid": "P002", "qid": "P002-Q08", "answer": "29/04", "expect": "V2", "exact": null, "judge": "V2"}
+{"sid": "P018", "qid": "P018-Q21", "answer": "Это был вариант Итоги проекта.", "expect": "V3", "exact": "V3", "judge": "V3"}
+{"sid": "P004", "qid": "P004-Q08", "answer": "+79501276360", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P023", "qid": "P023-Q17", "answer": "Вы указывали в 10 часов 45 минут.", "expect": "V4", "exact": null, "judge": "V4"}
+{"sid": "P021", "qid": "P021-Q26", "answer": "Насколько я помню, это 245 тыс. руб..", "expect": "V5", "exact": null, "judge": "V5"}
+{"sid": "P019", "qid": "P019-Q15", "answer": "Это был вариант Вишнёвая, 50.", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P004", "qid": "P004-Q14", "answer": "Это был вариант 8-973-678-32-81.", "expect": "V2", "exact": "V2", "judge": "V2"}
+{"sid": "P018", "qid": "P018-Q24", "answer": "заголовок Отзывы пользователей", "expect": "V5", "exact": "V5", "judge": "V5"}
+{"sid": "P021", "qid": "P021-Q26", "answer": "Ответ: 205000 ₽.", "expect": "V6", "exact": "V6", "judge": "V6"}
+{"sid": "P008", "qid": "P008-Q15", "answer": "Это был вариант на 30 апреля.", "expect": "V1", "exact": "V1", "judge": "V1"}
+{"sid": "P021", "qid": "P021-Q13", "answer": "Это был вариант 45 000 руб..", "expect": "V2", "exact": "V2", "judge": "V2"}
+{"sid": "P011", "qid": "P011-Q03", "answer": "в 18 часов ровно", "expect": "V4", "exact": null, "judge": "V4"}
+{"sid": "P028", "qid": "P028-Q03", "answer": "Насколько я помню, это 8-963-465-89-46.", "expect": "NONE", "exact": null, "judge": "O0.1"}
+{"sid": "P009", "qid": "P009-Q09", "answer": "Ответ: 115 тысяч рублей.", "expect": "V4", "exact": null, "judge": "V4"}
+{"sid": "P019", "qid": "P019-Q12", "answer": "Вы указывали Сосновая ул., д. 25.", "expect": "V9", "exact": null, "judge": "V9"}
+{"sid": "P018", "qid": "P018-Q04", "answer": "Вы указывали \"Ход работы\".", "expect": "V7", "exact": "V7", "judge": "V7"}
+{"sid": "P024", "qid": "P024-Q01", "answer": "Ответ: Пилотный запуск.", "expect": "V7", "exact": "V7", "judge": "V7"}
+{"sid": "P012", "qid": "P012-Q01", "answer": "Ответ: Проблемы и решения.", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P026", "qid": "P026-Q05", "answer": "на 24 марта", "expect": "NONE", "exact": null, "judge": "V2"}
+{"sid": "P003", "qid": "P003-Q10", "answer": "335 тысяч рублей", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P023", "qid": "P023-Q09", "answer": "Ответ: 7.30.", "expect": "V8", "exact": "V8", "judge": "V8"}
+{"sid": "P006", "qid": "P006-Q12", "answer": "Ответ: Постановка задачи.", "expect": "V2", "exact": "V2", "judge": "V2"}
+{"sid": "P026", "qid": "P026-Q09", "answer": "Насколько я помню, это на 27 марта.", "expect": "V2", "exact": "V2", "judge": "V2"}
+{"sid": "P002", "qid": "P002-Q07", "answer": "Это был вариант на 29 апреля.", "expect": "V2", "exact": "V2", "judge": "V2"}
+{"sid": "P004", "qid": "P004-Q13", "answer": "Это был вариант 8-984-973-12-19.", "expect": "V1", "exact": "V1", "judge": "V1"}
+{"sid": "P021", "qid": "P021-Q20", "answer": "Вы указывали 275 тыс. руб..", "expect": "V8", "exact": null, "judge": "V8"}
+{"sid": "P008", "qid": "P008-Q07", "answer": "Вы указывали на 7 апреля.", "expect": "V5", "exact": "V5", "judge": "V5"}
+{"sid": "P016", "qid": "P016-Q19", "answer": "Это был вариант +79882327166.", "expect": "V3", "exact": "V3", "judge": "V3"}
+{"sid": "P011", "qid": "P011-Q09", "answer": "Это был вариант 6:00 вечера.", "expect": "V4", "exact": null, "judge": "V4"}
+{"sid": "P021", "qid": "P021-Q25", "answer": "45000 ₽", "expect": "V2", "exact": "V2", "judge": "V2"}
+{"sid": "P017", "qid": "P017-Q21", "answer": "10 ч 15 мин", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P011", "qid": "P011-Q02", "answer": "Вы указывали 18.00.", "expect": "V4", "exact": "V4", "judge": "V4"}
+{"sid": "P024", "qid": "P024-Q21", "answer": "Это был вариант заголовок Обзор литературы.", "expect": "V3", "exact": "V3", "judge": "V3"}
+{"sid": "P019", "qid": "P019-Q17", "answer": "улица Школьная, дом 33", "expect": "V5", "exact": "V5", "judge": "V5"}
+{"sid": "P015", "qid": "P015-Q25", "answer": "Ответ: 70 тысяч рублей.", "expect": "V5", "exact": null, "judge": "V5"}
+{"sid": "P001", "qid": "P001-Q10", "answer": "на Полевой, 37", "expect": "V5", "exact": null, "judge": "V5"}
+{"sid": "P006", "qid": "P006-Q12", "answer": "Вы указывали \"Обработка данных\".", "expect": "V1", "exact": "V1", "judge": "V1"}
+{"sid": "P011", "qid": "P011-Q10", "answer": "Насколько я помню, это 18 ч 00 мин.", "expect": "V4", "exact": null, "judge": "V4"}
+{"sid": "P020", "qid": "P020-Q25", "answer": "Насколько я помню, это на 9 апреля.", "expect": "V2", "exact": "V2", "judge": "V2"}
+{"sid": "P025", "qid": "P025-Q01", "answer": "Насколько я помню, это на Светлой, 46.", "expect": "V3", "exact": null, "judge": "V3"}
+{"sid": "P022", "qid": "P022-Q18", "answer": "Вы указывали 8 (984) 780-44-73.", "expect": "V5", "exact": "V5", "judge": "V5"}
+{"sid": "P017", "qid": "P017-Q16", "answer": "Вы указывали 14 ч 15 мин.", "expect": "NONE", "exact": null, "judge": "V3"}
+{"sid": "P015", "qid": "P015-Q09", "answer": "Вы указывали 275 000 руб..", "expect": "NONE", "exact": null, "judge": "NONE"}
+{"sid": "P026", "qid": "P026-Q05", "answer": "Вы указывали 20-го апреля.", "expect": "V3", "exact": null, "judge": "V3"}
+{"sid": "P025", "qid": "P025-Q03", "answer": "ул.Вишнёвая д.15", "expect": "V2", "exact": "V2", "judge": "V2"}
+{"sid": "P007", "qid": "P007-Q12", "answer": "Вы указывали Спортивная ул., д. 28.", "expect": "V1", "exact": null, "judge": "V1"}
+{"sid": "P004", "qid": "P004-Q08", "answer": "Насколько я помню, это 8 (982) 730-65-64.", "expect": "V3", "exact": "V3", "judge": "V3"}

@@ -25,7 +25,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
 from stmbench.domains import DOMAINS  # noqa: E402
 from stmbench.judge import judge_prompt, parse_judge  # noqa: E402
-from stmbench.openrouter import chat  # noqa: E402
+from stmbench.openrouter import NO_REASONING, chat  # noqa: E402
 from stmbench.scoring import exact_match  # noqa: E402
 
 MONTHS = {"марта": "03", "апреля": "04"}
@@ -111,7 +111,7 @@ def main():
         for t in tests:
             s, q = smap[t["sid"]], qmap[t["qid"]]
             msgs, mapping = judge_prompt(s, q, t["answer"])
-            r = chat(args.judge, msgs, temperature=0.0, max_tokens=64)
+            r = chat(args.judge, msgs, temperature=0.0, max_tokens=64, extra=NO_REASONING)
             t["judge"] = parse_judge(r["content"], mapping)
             ok += t["judge"] == t["expect"]
             f.write(json.dumps(t, ensure_ascii=False) + "\n")
@@ -128,7 +128,7 @@ def main():
         for r in sample[:100]:
             s, q = smap[r["sid"]], qmap[r["qid"]]
             msgs, mapping = judge_prompt(s, q, res[r["item_id"]]["response"])
-            lab = parse_judge(chat(args.judge, msgs, temperature=0.0, max_tokens=64)["content"], mapping)
+            lab = parse_judge(chat(args.judge, msgs, temperature=0.0, max_tokens=64, extra=NO_REASONING)["content"], mapping)
             agree += lab == r["label"]
             tot += 1
     if tot:

@@ -3,25 +3,36 @@
 # модель для проверки эффекта потолка. Перечень окончательно фиксируется после
 # пробного прогона на пилотном наборе и приводится в главе 3 вместе с датами запуска.
 #
-# max_tokens — ограничение длины ответа. Для моделей, которые рассуждают по умолчанию,
-# число токенов рассуждения видно в usage после пробного прогона; при необходимости
-# рассуждение ограничивается через extra (параметр reasoning OpenRouter).
+# Основное условие — без рассуждения: reasoning.effort = none у всех моделей. Пробный
+# запуск 23.11.2026 показал, что gpt-6-luna, deepseek-v4.1-flash и qwen3.8-flash по
+# умолчанию рассуждают и при max_tokens = 64 тратят весь лимит на рассуждение, не
+# выдавая ответа; с effort = none токенов рассуждения 0 у всех семи моделей.
+# max_tokens = 512: при 128 часть ответов claude-haiku-5.5 и qwen3.8-flash обрывалась
+# (пилот 23.11.2026, 146 из 5 726 ответов), такие ответы запрошены заново.
+# Условие с рассуждением можно добавить отдельно (effort: low, max_tokens не меньше 1024).
 # У моделей OpenAI и Anthropic последнего поколения OpenRouter не передаёт temperature,
 # для них используются параметры декодирования по умолчанию (отмечается в главе 3).
 models:
   - id: openai/gpt-6-luna
-    max_tokens: 64
+    max_tokens: 512
+    extra: {reasoning: {effort: none}}
   - id: anthropic/claude-haiku-5.5
-    max_tokens: 64
+    max_tokens: 512
+    extra: {reasoning: {effort: none}}
   - id: google/gemini-3.1-flash-lite
-    max_tokens: 64
+    max_tokens: 512
+    extra: {reasoning: {effort: none}}
   - id: deepseek/deepseek-v4.1-flash
-    max_tokens: 64
+    max_tokens: 512
+    extra: {reasoning: {effort: none}}
   - id: qwen/qwen3.8-flash
-    max_tokens: 64
+    max_tokens: 512
+    extra: {reasoning: {effort: none}}
   - id: mistralai/mistral-small-2603
-    max_tokens: 64
+    max_tokens: 512
+    extra: {reasoning: {effort: none}}
   - id: openai/gpt-6.1-terra          # сильная модель: проверка эффекта потолка
-    max_tokens: 64
+    max_tokens: 512
+    extra: {reasoning: {effort: none}}
 judge:
-  id: deepseek/deepseek-v4-pro        # судья не входит в число оцениваемых моделей
+  id: deepseek/deepseek-v4-pro        # судья не входит в число оцениваемых моделей; рассуждение отключено

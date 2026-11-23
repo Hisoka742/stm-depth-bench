@@ -18,7 +18,7 @@ from collections import Counter, defaultdict
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
 from stmbench.judge import judge_prompt, parse_judge  # noqa: E402
-from stmbench.openrouter import chat  # noqa: E402
+from stmbench.openrouter import NO_REASONING, chat  # noqa: E402
 from stmbench.scoring import error_class, exact_match, leaked  # noqa: E402
 from stmbench.solvers import macro  # noqa: E402
 
@@ -58,7 +58,7 @@ def classify_all(set_dir, res_path, judge_model=None):
             key = (q["qid"], ans)
             if key not in jcache:
                 msgs, mapping = judge_prompt(s, q, ans)
-                out = chat(judge_model, msgs, temperature=0.0, max_tokens=64)
+                out = chat(judge_model, msgs, temperature=0.0, max_tokens=64, extra=NO_REASONING)
                 jrec = dict(qid=q["qid"], answer=ans, raw=out["content"], label=parse_judge(out["content"], mapping))
                 jcache[key] = jrec
                 jf.write(json.dumps(jrec, ensure_ascii=False) + "\n")

@@ -87,7 +87,7 @@ def main():
         if p is None:
             print(f"{m['id']:40s}  нет в списке OpenRouter")
             continue
-        out_t = args.out_tokens + (args.reasoning_tokens if (m.get("extra") or {}).get("reasoning") else 0)
+        out_t = args.out_tokens + (args.reasoning_tokens if ((m.get("extra") or {}).get("reasoning") or {}).get("effort", "none") != "none" else 0)
         cells = []
         for name, st in sets.items():
             out_cost = st["calls"] * out_t * p["out"] / 1e6

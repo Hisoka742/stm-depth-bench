@@ -1,0 +1,9 @@
+Диалогов: 403
+Вопросов в режиме adjacent_operation: 2006
+StateTrajectory: 82 (4.1 %)
+С проверкой intermediate_state: 121 (6.0 %)
+    Remember / OperationApplication: 1
+    TrajectoryOps / OperationTrace: 38
+    TrajectoryOps / StateTrajectory: 82
+Сценариев Update и TrajectoryOps: 159
+Значения num_updates: {3: 159}

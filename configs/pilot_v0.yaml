@@ -1,0 +1,17 @@
+# Пилотный набор: 30 цепочек для ручной проверки разметки и проверки нижних границ.
+name: pilot_v0
+prefix: P
+seed: 11
+domains: [gifts, meetings, renovation, contacts, trip, report]
+rotate_positions: true      # каждая цепочка в одной позиции, позиции чередуются
+facts: true
+noise: 0
+blocks:
+  - name: main
+    n: [5, 10]
+    m: [0, 2]
+    extras: [none, rejected, forget_ban, none, forget_soft, rejected]
+  - name: control
+    n: [3]
+    m: [2]
+    extras: [none, rejected, forget_ban]

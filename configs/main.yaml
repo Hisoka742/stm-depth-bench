@@ -1,0 +1,19 @@
+# Основной набор (глава 3). Длина цепочки: n = 5 и 10 — основной анализ, n = 3 — контрольный случай.
+name: main
+prefix: M
+seed: 23
+domains: [gifts, meetings, renovation, contacts, trip, report]
+facts: true
+blocks:
+  - name: main
+    n: [5, 10]
+    m: [0, 2, 4]
+    replicates: 1
+    positions: [start, middle, end]
+    extras: [none, rejected, none, forget_ban, none, forget_soft]
+  - name: control
+    n: [3]
+    m: [0, 2, 4]
+    replicates: 1
+    positions: [start, middle, end]
+    extras: [none, rejected, none, forget_ban, none, forget_soft]

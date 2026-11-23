@@ -22,7 +22,8 @@ def chat(model: str, messages: list[dict], temperature: float = 0.0, max_tokens:
     key = os.environ.get("OPENROUTER_API_KEY")
     if not key:
         raise OpenRouterError("не задана переменная окружения OPENROUTER_API_KEY")
-    body = {"model": model, "messages": messages, "temperature": temperature, "max_tokens": max_tokens}
+    body = {"model": model, "messages": messages, "temperature": temperature, "max_tokens": max_tokens,
+            "usage": {"include": True}}  # в usage возвращается стоимость запроса (поле cost)
     if extra:
         body.update(extra)
     data = json.dumps(body).encode("utf-8")
@@ -51,3 +52,13 @@ def chat(model: str, messages: list[dict], temperature: float = 0.0, max_tokens:
         time.sleep(delay)
         delay = min(delay * 2, 60)
     raise OpenRouterError(f"запрос не выполнен после {retries} попыток: {last}")
+
+
+def key_info(timeout: int = 30) -> dict:
+    """Расход и остаток по ключу (сам ключ не выводится)."""
+    key = os.environ.get("OPENROUTER_API_KEY")
+    if not key:
+        raise OpenRouterError("не задана переменная окружения OPENROUTER_API_KEY")
+    req = urllib.request.Request("https://openrouter.ai/api/v1/key", headers={"Authorization": f"Bearer {key}"})
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return json.loads(r.read().decode("utf-8"))["data"]

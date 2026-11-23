@@ -100,6 +100,7 @@ python scripts/build_set.py configs/pilot.yaml   # пилотный набор: 
 python scripts/build_set.py configs/main.yaml    # основной набор: 54 сценария, 996 вопросов
 python scripts/bounds.py data/main               # нижние границы точности
 python scripts/estimate.py data/main --models 6  # число вызовов и токенов
+python scripts/cost.py data/pilot data/main      # стоимость по текущим ценам OpenRouter
 ```
 
 Проверка всего конвейера без обращения к API:
@@ -113,6 +114,8 @@ python scripts/score.py data/pilot results/pilot/mock__oracle.jsonl   # точн
 
 ```bash
 export OPENROUTER_API_KEY=...          # PowerShell: $env:OPENROUTER_API_KEY = "..."
+python scripts/balance.py                        # расход и остаток по ключу
+python scripts/run_models.py data/pilot --limit 20   # пробный запуск
 python scripts/run_models.py data/main --models configs/models.yaml
 python scripts/score.py data/main results/main/<модель>.jsonl --judge <модель-судья>
 python scripts/judge_check.py data/main --judge <модель-судья>

@@ -109,7 +109,12 @@ def main():
                 if i % 100 == 0:
                     print(f"  {i}/{len(todo)}, ошибок: {n_err}")
         fout.close()
-        print(f"  готово, ошибок: {n_err}")
+        recs = [r for r in load_jsonl(path) if r.get("error") is None and r.get("usage")]
+        cost = sum((r["usage"] or {}).get("cost") or 0 for r in recs)
+        reas = [((r["usage"] or {}).get("completion_tokens_details") or {}).get("reasoning_tokens") or 0
+                for r in recs]
+        print(f"  готово, ошибок: {n_err}; стоимость по файлу: {cost:.4f} $"
+              + (f", токенов рассуждения в среднем: {sum(reas) / len(reas):.0f}" if reas else ""))
 
 
 if __name__ == "__main__":

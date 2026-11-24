@@ -75,7 +75,7 @@ def main():
     widths = [22, 9, 4, 4, 14, 8, 10, 12, 8, 12, 60, 24, 9, 60, 10, 9, 16, 8, 10, 9, 9, 11, 14, 19]
     for p in sorted(glob.glob(os.path.join(rdir, "*.jsonl"))):
         base = os.path.basename(p)[:-len(".jsonl")]
-        if base.endswith("__scored") or base.startswith(("judge", "mock__")):
+        if base.endswith("__scored") or base.startswith(("judge", "mock__", "coherence")):
             continue
         raw = {r["item_id"]: r for r in load_jsonl(p) if r.get("error") is None}
         scored = {r["item_id"]: r for r in load_jsonl(os.path.join(rdir, base + "__scored.jsonl"))}

@@ -1,0 +1,300 @@
+{"sid": "B020", "qid": "B020-Q26", "answer": "Это был вариант 17/01.", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"17/01\"}", "final": "V2"}
+{"sid": "B024", "qid": "B024-Q15", "answer": "Насколько я помню, это карта **** 9771.", "expect": "V5", "exact": "V5", "judge": "V5", "judge_raw": "{\"value\": \"**** 9771\"}", "final": "V5"}
+{"sid": "B014", "qid": "B014-Q28", "answer": "Это был вариант 07.12.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"07.12\"}", "final": "V1"}
+{"sid": "B016", "qid": "B016-Q04", "answer": "Насколько я помню, это 8 (961) 352-14-93.", "expect": "V10", "exact": "V10", "judge": "V10", "judge_raw": "{\"value\": \"8 (961) 352-14-93\"}", "final": "V10"}
+{"sid": "B008", "qid": "B008-Q04", "answer": "Это был вариант на 4 января.", "expect": "V3", "exact": "V3", "judge": "V3", "judge_raw": "{\"value\": \"4 января\"}", "final": "V3"}
+{"sid": "B008", "qid": "B008-Q06", "answer": "Это был вариант 4-го января.", "expect": "V3", "exact": "V3", "judge": "V3", "judge_raw": "{\"value\": \"4-го января\"}", "final": "V3"}
+{"sid": "B024", "qid": "B024-Q06", "answer": "карта, оканчивающаяся на 2119", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"2119\"}", "final": "V1"}
+{"sid": "B021", "qid": "B021-Q10", "answer": "Вы указывали 295к.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"295к\"}", "final": "V1"}
+{"sid": "B019", "qid": "B019-Q03", "answer": "Это был вариант Парковая ул., д. 34.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"Парковая ул., д. 34\"}", "final": "NONE"}
+{"sid": "B015", "qid": "B015-Q02", "answer": "Вы указывали 265к.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"265к\"}", "final": "NONE"}
+{"sid": "B007", "qid": "B007-Q11", "answer": "Зеленая, 7", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"Зеленая, 7\"}", "final": "NONE"}
+{"sid": "B017", "qid": "B017-Q26", "answer": "Это был вариант в 16:00 ровно.", "expect": "V9", "exact": "V9", "judge": "V9", "judge_raw": "{\"value\": \"16:00\"}", "final": "V9"}
+{"sid": "B014", "qid": "B014-Q13", "answer": "Вы указывали 18/12.", "expect": "V10", "exact": "V10", "judge": "V10", "judge_raw": "{\"value\": \"18/12\"}", "final": "V10"}
+{"sid": "B007", "qid": "B007-Q11", "answer": "Ответ: ул.Цветочная д.22.", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"ул.Цветочная д.22\"}", "final": "V2"}
+{"sid": "B017", "qid": "B017-Q15", "answer": "Насколько я помню, это в 9 ч 30 мин.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"9 ч 30 мин\"}", "final": "NONE"}
+{"sid": "B024", "qid": "B024-Q05", "answer": "…3133", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"…3133\"}", "final": "NONE"}
+{"sid": "B006", "qid": "B006-Q15", "answer": "Это был вариант карта **** 4768.", "expect": "V5", "exact": "V5", "judge": "V5", "judge_raw": "{\"value\": \"**** 4768\"}", "final": "V5"}
+{"sid": "B016", "qid": "B016-Q30", "answer": "Это был вариант 8 (995) 787-96-35.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"8 (995) 787-96-35\"}", "final": "V1"}
+{"sid": "B022", "qid": "B022-Q04", "answer": "Насколько я помню, это 8-911-871-77-37.", "expect": "V9", "exact": "V9", "judge": "V9", "judge_raw": "{\"value\": \"8-911-871-77-37\"}", "final": "V9"}
+{"sid": "B007", "qid": "B007-Q02", "answer": "Насколько я помню, это ул.Зеленая д.6.", "expect": "V4", "exact": "V4", "judge": "V4", "judge_raw": "{\"value\": \"ул.Зеленая д.6\"}", "final": "V4"}
+{"sid": "B013", "qid": "B013-Q29", "answer": "Насколько я помню, это Заводская ул., д. 46.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"Заводская ул., д. 46\"}", "final": "NONE"}
+{"sid": "B013", "qid": "B013-Q09", "answer": "Ответ: Спортивная ул., д. 37.", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"Спортивная ул., д. 37\"}", "final": "V2"}
+{"sid": "B004", "qid": "B004-Q05", "answer": "8-980-240-20-94", "expect": "V5", "exact": "V5", "judge": "V5", "judge_raw": "{\"value\": \"8-980-240-20-94\"}", "final": "V5"}
+{"sid": "B002", "qid": "B002-Q13", "answer": "на 30 декабря", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"30 декабря\"}", "final": "NONE"}
+{"sid": "B020", "qid": "B020-Q11", "answer": "Ответ: 12.01.", "expect": "V7", "exact": "V7", "judge": "V7", "judge_raw": "{\"value\": \"12.01.\"}", "final": "V7"}
+{"sid": "B013", "qid": "B013-Q24", "answer": "улица Спортивная, дом 37", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"улица Спортивная, дом 37\"}", "final": "V2"}
+{"sid": "B030", "qid": "B030-Q04", "answer": "карта 2888", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"2888\"}", "final": "V2"}
+{"sid": "B015", "qid": "B015-Q01", "answer": "175000 ₽", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"175000 ₽\"}", "final": "NONE"}
+{"sid": "B025", "qid": "B025-Q03", "answer": "Ответ: Морская, 7.", "expect": "V3", "exact": "V3", "judge": "V3", "judge_raw": "{\"value\": \"Морская, 7\"}", "final": "V3"}
+{"sid": "B016", "qid": "B016-Q14", "answer": "Ответ: 8 (961) 352-14-93.", "expect": "V10", "exact": "V10", "judge": "V10", "judge_raw": "{\"value\": \"8 (961) 352-14-93\"}", "final": "V10"}
+{"sid": "B005", "qid": "B005-Q03", "answer": "Насколько я помню, это 10.00.", "expect": "V4", "exact": "V4", "judge": "V4", "judge_raw": "{\"value\": \"10.00\"}", "final": "V4"}
+{"sid": "B028", "qid": "B028-Q07", "answer": "Вы указывали +79567813211.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"+79567813211\"}", "final": "NONE"}
+{"sid": "B025", "qid": "B025-Q08", "answer": "Ответ: на Садовой, 58.", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"на Садовой, 58\"}", "final": "V2"}
+{"sid": "B001", "qid": "B001-Q13", "answer": "Это был вариант улица Почтовая, дом 13.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"улица Почтовая, дом 13\"}", "final": "V1"}
+{"sid": "B017", "qid": "B017-Q05", "answer": "Насколько я помню, это в 18 ч 30 мин.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"18 ч 30 мин\"}", "final": "NONE"}
+{"sid": "B010", "qid": "B010-Q11", "answer": "+79588428251", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"+79588428251\"}", "final": "V2"}
+{"sid": "B001", "qid": "B001-Q02", "answer": "Ответ: Светлая ул., д. 45.", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"Светлая ул., д. 45\"}", "final": "V2"}
+{"sid": "B023", "qid": "B023-Q03", "answer": "12:30", "expect": "V10", "exact": "V10", "judge": "V10", "judge_raw": "{\"value\": \"12:30\"}", "final": "V10"}
+{"sid": "B021", "qid": "B021-Q13", "answer": "Вы указывали 295000 ₽.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"295000 ₽\"}", "final": "V1"}
+{"sid": "B005", "qid": "B005-Q09", "answer": "Это был вариант в 6 вечера.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"6 вечера\"}", "final": "NONE"}
+{"sid": "B001", "qid": "B001-Q01", "answer": "Вы указывали на Луговой, 50.", "expect": "V5", "exact": "V5", "judge": "V5", "judge_raw": "{\"value\": \"на Луговой, 50\"}", "final": "V5"}
+{"sid": "B004", "qid": "B004-Q10", "answer": "Это был вариант 8 (969) 377-80-48.", "expect": "V4", "exact": "V4", "judge": "V4", "judge_raw": "{\"value\": \"8 (969) 377-80-48\"}", "final": "V4"}
+{"sid": "B007", "qid": "B007-Q03", "answer": "Вы указывали улица Зеленая, дом 6.", "expect": "V4", "exact": "V4", "judge": "V4", "judge_raw": "{\"value\": \"улица Зеленая, дом 6\"}", "final": "V4"}
+{"sid": "B022", "qid": "B022-Q02", "answer": "8-911-871-77-37", "expect": "V9", "exact": "V9", "judge": "V9", "judge_raw": "{\"value\": \"8-911-871-77-37\"}", "final": "V9"}
+{"sid": "B028", "qid": "B028-Q06", "answer": "Ответ: 8-939-232-40-41.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"8-939-232-40-41\"}", "final": "V1"}
+{"sid": "B018", "qid": "B018-Q01", "answer": "Вы указывали карта **** 2641.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"2641\"}", "final": "NONE"}
+{"sid": "B007", "qid": "B007-Q01", "answer": "Насколько я помню, это улица Дачная, дом 51.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"улица Дачная, дом 51\"}", "final": "NONE"}
+{"sid": "B010", "qid": "B010-Q12", "answer": "Ответ: 8 (900) 538-85-81.", "expect": "V3", "exact": "V3", "judge": "V3", "judge_raw": "{\"value\": \"8 (900) 538-85-81\"}", "final": "V3"}
+{"sid": "B017", "qid": "B017-Q03", "answer": "Насколько я помню, это 16:00.", "expect": "V9", "exact": "V9", "judge": "V9", "judge_raw": "{\"value\": \"16:00\"}", "final": "V9"}
+{"sid": "B018", "qid": "B018-Q14", "answer": "Вы указывали карта **** 1733.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"**** 1733\"}", "final": "V1"}
+{"sid": "B022", "qid": "B022-Q20", "answer": "Это был вариант +79035251327.", "expect": "V4", "exact": "V4", "judge": "V4", "judge_raw": "{\"value\": \"+79035251327\"}", "final": "V4"}
+{"sid": "B017", "qid": "B017-Q16", "answer": "Насколько я помню, это в 17 ч 30 мин.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"17 ч 30 мин\"}", "final": "NONE"}
+{"sid": "B007", "qid": "B007-Q13", "answer": "Ответ: на Цветочной, 21.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"на Цветочной, 21\"}", "final": "V1"}
+{"sid": "B012", "qid": "B012-Q03", "answer": "Это был вариант карта **** 2404.", "expect": "V4", "exact": "V4", "judge": "V4", "judge_raw": "{\"value\": \"**** 2404\"}", "final": "V4"}
+{"sid": "B010", "qid": "B010-Q08", "answer": "Насколько я помню, это 8 (958) 842-28-51.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"8 (958) 842-28-51\"}", "final": "NONE"}
+{"sid": "B013", "qid": "B013-Q18", "answer": "Насколько я помню, это Цветочная, 27.", "expect": "V5", "exact": "V5", "judge": "V5", "judge_raw": "{\"value\": \"Цветочная, 27\"}", "final": "V5"}
+{"sid": "B017", "qid": "B017-Q24", "answer": "Вы указывали 12:30.", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"12:30\"}", "final": "V2"}
+{"sid": "B019", "qid": "B019-Q07", "answer": "Вы указывали улица Лесная, дом 21.", "expect": "V6", "exact": "V6", "judge": "V6", "judge_raw": "{\"value\": \"улица Лесная, дом 21\"}", "final": "V6"}
+{"sid": "B009", "qid": "B009-Q09", "answer": "Насколько я помню, это 171 тысяч рублей.", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"171 тысяч рублей\"}", "final": "V2"}
+{"sid": "B012", "qid": "B012-Q09", "answer": "карта, оканчивающаяся на 2404", "expect": "V4", "exact": "V4", "judge": "V4", "judge_raw": "{\"value\": \"2404\"}", "final": "V4"}
+{"sid": "B007", "qid": "B007-Q04", "answer": "улица Зеленая, дом 7", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"улица Зеленая, дом 7\"}", "final": "NONE"}
+{"sid": "B021", "qid": "B021-Q05", "answer": "Это был вариант 165 000 руб..", "expect": "V9", "exact": "V9", "judge": "V9", "judge_raw": "{\"value\": \"165 000 руб.\"}", "final": "V9"}
+{"sid": "B014", "qid": "B014-Q27", "answer": "Это был вариант 7/12.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"7/12\"}", "final": "V1"}
+{"sid": "B013", "qid": "B013-Q05", "answer": "улица Светлая, дом 52", "expect": "V9", "exact": "V9", "judge": "V9", "judge_raw": "{\"value\": \"улица Светлая, дом 52\"}", "final": "V9"}
+{"sid": "B028", "qid": "B028-Q03", "answer": "Вы указывали +79392324041.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"+79392324041\"}", "final": "V1"}
+{"sid": "B016", "qid": "B016-Q10", "answer": "Ответ: 8-916-680-37-95.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"8-916-680-37-95\"}", "final": "NONE"}
+{"sid": "B008", "qid": "B008-Q10", "answer": "13-го января", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"13-го января\"}", "final": "NONE"}
+{"sid": "B024", "qid": "B024-Q17", "answer": "Это был вариант карта **** 6273.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"**** 6273\"}", "final": "NONE"}
+{"sid": "B024", "qid": "B024-Q25", "answer": "Ответ: карта **** 8682.", "expect": "V8", "exact": "V8", "judge": "V8", "judge_raw": "{\"value\": \"**** 8682\"}", "final": "V8"}
+{"sid": "B030", "qid": "B030-Q02", "answer": "Насколько я помню, это карта 2888.", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"2888\"}", "final": "V2"}
+{"sid": "B018", "qid": "B018-Q21", "answer": "Вы указывали …2462.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"…2462\"}", "final": "NONE"}
+{"sid": "B017", "qid": "B017-Q19", "answer": "Это был вариант 12.30.", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"12.30\"}", "final": "V2"}
+{"sid": "B003", "qid": "B003-Q14", "answer": "Вы указывали 215 тыс. руб..", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"215 тыс. руб.\"}", "final": "NONE"}
+{"sid": "B018", "qid": "B018-Q30", "answer": "Это был вариант карта 1519.", "expect": "V8", "exact": "V8", "judge": "V8", "judge_raw": "{\"value\": \"1519\"}", "final": "V8"}
+{"sid": "B020", "qid": "B020-Q23", "answer": "Это был вариант 11.12.", "expect": "V10", "exact": "V10", "judge": "V10", "judge_raw": "{\"value\": \"11.12\"}", "final": "V10"}
+{"sid": "B006", "qid": "B006-Q11", "answer": "Это был вариант карта 6067.", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"6067\"}", "final": "V2"}
+{"sid": "B022", "qid": "B022-Q02", "answer": "Это был вариант +79118717737.", "expect": "V9", "exact": "V9", "judge": "V9", "judge_raw": "{\"value\": \"+79118717737\"}", "final": "V9"}
+{"sid": "B015", "qid": "B015-Q14", "answer": "Насколько я помню, это 280000 ₽.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"280000 ₽\"}", "final": "V1"}
+{"sid": "B025", "qid": "B025-Q07", "answer": "Насколько я помню, это Речная, 52.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"Речная, 52\"}", "final": "V1"}
+{"sid": "B018", "qid": "B018-Q02", "answer": "карта **** 1591", "expect": "V9", "exact": "V9", "judge": "V9", "judge_raw": "{\"value\": \"1591\"}", "final": "V9"}
+{"sid": "B013", "qid": "B013-Q02", "answer": "Насколько я помню, это на Светлой, 52.", "expect": "V9", "exact": "V9", "judge": "V9", "judge_raw": "{\"value\": \"на Светлой, 52\"}", "final": "V9"}
+{"sid": "B004", "qid": "B004-Q15", "answer": "Вы указывали 8 (922) 628-88-53.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"8 (922) 628-88-53\"}", "final": "V1"}
+{"sid": "B007", "qid": "B007-Q01", "answer": "Вы указывали на Зеленой, 5.", "expect": "V5", "exact": "V5", "judge": "V5", "judge_raw": "{\"value\": \"на Зеленой, 5\"}", "final": "V5"}
+{"sid": "B003", "qid": "B003-Q07", "answer": "125 тыс. руб.", "expect": "V3", "exact": "V3", "judge": "V3", "judge_raw": "{\"value\": \"125 тыс. руб.\"}", "final": "V3"}
+{"sid": "B023", "qid": "B023-Q27", "answer": "Это был вариант в 10:00 ровно.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"10:00\"}", "final": "V1"}
+{"sid": "B010", "qid": "B010-Q11", "answer": "Насколько я помню, это 8-958-842-82-51.", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"8-958-842-82-51\"}", "final": "V2"}
+{"sid": "B014", "qid": "B014-Q04", "answer": "29.12", "expect": "V8", "exact": "V8", "judge": "V8", "judge_raw": "{\"value\": \"29.12\"}", "final": "V8"}
+{"sid": "B023", "qid": "B023-Q23", "answer": "Это был вариант в 9 ч 30 мин.", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"9 ч 30 мин\"}", "final": "V2"}
+{"sid": "B017", "qid": "B017-Q21", "answer": "Насколько я помню, это 2:30 вечера.", "expect": "V3", "exact": "V3", "judge": "V3", "judge_raw": "{\"value\": \"2:30 вечера\"}", "final": "V3"}
+{"sid": "B009", "qid": "B009-Q15", "answer": "Вы указывали 171 тыс. руб..", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"171 тыс. руб.\"}", "final": "V2"}
+{"sid": "B022", "qid": "B022-Q30", "answer": "+79094348514", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"+79094348514\"}", "final": "V1"}
+{"sid": "B004", "qid": "B004-Q04", "answer": "+79693778048", "expect": "V4", "exact": "V4", "judge": "V4", "judge_raw": "{\"value\": \"+79693778048\"}", "final": "V4"}
+{"sid": "B027", "qid": "B027-Q06", "answer": "185000 ₽", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"185000 ₽\"}", "final": "V1"}
+{"sid": "B025", "qid": "B025-Q02", "answer": "на Садовой, 58", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"на Садовой, 58\"}", "final": "V2"}
+{"sid": "B011", "qid": "B011-Q10", "answer": "Вы указывали 11.30.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"11.30\"}", "final": "V1"}
+{"sid": "B005", "qid": "B005-Q08", "answer": "Вы указывали в 4 вечера.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"в 4 вечера\"}", "final": "NONE"}
+{"sid": "B003", "qid": "B003-Q01", "answer": "125 тысяч рублей", "expect": "V3", "exact": "V3", "judge": "V3", "judge_raw": "{\"value\": \"125 тысяч рублей\"}", "final": "V3"}
+{"sid": "B019", "qid": "B019-Q22", "answer": "Насколько я помню, это на Дачной, 21.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"на Дачной, 21\"}", "final": "NONE"}
+{"sid": "B013", "qid": "B013-Q17", "answer": "Это был вариант улица Набережная, дом 24.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"улица Набережная, дом 24\"}", "final": "NONE"}
+{"sid": "B011", "qid": "B011-Q07", "answer": "14.30", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"14.30\"}", "final": "NONE"}
+{"sid": "B017", "qid": "B017-Q18", "answer": "Ответ: 15:30.", "expect": "V4", "exact": "V4", "judge": "V4", "judge_raw": "{\"value\": \"15:30\"}", "final": "V4"}
+{"sid": "B013", "qid": "B013-Q26", "answer": "Ответ: на Спортивной, 37.", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"на Спортивной, 37\"}", "final": "V2"}
+{"sid": "B002", "qid": "B002-Q14", "answer": "Насколько я помню, это на 1 января.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"1 января\"}", "final": "V1"}
+{"sid": "B017", "qid": "B017-Q21", "answer": "Это был вариант 13:00.", "expect": "V6", "exact": "V6", "judge": "V6", "judge_raw": "{\"value\": \"13:00\"}", "final": "V6"}
+{"sid": "B006", "qid": "B006-Q15", "answer": "Ответ: карта **** 3562.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"**** 3562\"}", "final": "NONE"}
+{"sid": "B010", "qid": "B010-Q04", "answer": "Ответ: 8 (958) 763-46-12.", "expect": "V4", "exact": "V4", "judge": "V4", "judge_raw": "{\"value\": \"8 (958) 763-46-12\"}", "final": "V4"}
+{"sid": "B013", "qid": "B013-Q23", "answer": "Это был вариант Дачная ул., д. 11.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"Дачная ул., д. 11\"}", "final": "NONE"}
+{"sid": "B002", "qid": "B002-Q07", "answer": "Насколько я помню, это на 31 декабря.", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"31 декабря\"}", "final": "V2"}
+{"sid": "B022", "qid": "B022-Q01", "answer": "Насколько я помню, это +79692158122.", "expect": "V10", "exact": "V10", "judge": "V10", "judge_raw": "{\"value\": \"+79692158122\"}", "final": "V10"}
+{"sid": "B019", "qid": "B019-Q25", "answer": "ул.Лесная д.12", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"ул.Лесная д.12\"}", "final": "NONE"}
+{"sid": "B020", "qid": "B020-Q17", "answer": "Вы указывали 30/01.", "expect": "V5", "exact": "V5", "judge": "V5", "judge_raw": "{\"value\": \"30/01\"}", "final": "V5"}
+{"sid": "B014", "qid": "B014-Q13", "answer": "5-го декабря", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"5-го декабря\"}", "final": "V2"}
+{"sid": "B017", "qid": "B017-Q01", "answer": "Вы указывали в 11:00 ровно.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"11:00\"}", "final": "NONE"}
+{"sid": "B021", "qid": "B021-Q10", "answer": "Вы указывали 103000 ₽.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"103000 ₽\"}", "final": "NONE"}
+{"sid": "B019", "qid": "B019-Q10", "answer": "Липовая, 40", "expect": "V7", "exact": "V7", "judge": "V7", "judge_raw": "{\"value\": \"Липовая, 40\"}", "final": "V7"}
+{"sid": "B024", "qid": "B024-Q12", "answer": "Это был вариант карта **** 9480.", "expect": "V6", "exact": "V6", "judge": "V6", "judge_raw": "{\"value\": \"9480\"}", "final": "V6"}
+{"sid": "B023", "qid": "B023-Q18", "answer": "Вы указывали 20:00.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"20:00\"}", "final": "NONE"}
+{"sid": "B023", "qid": "B023-Q27", "answer": "Насколько я помню, это в 3 вечера.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"3 вечера\"}", "final": "NONE"}
+{"sid": "B002", "qid": "B002-Q08", "answer": "Насколько я помню, это 03.12.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"03.12\"}", "final": "NONE"}
+{"sid": "B021", "qid": "B021-Q09", "answer": "220 000 руб.", "expect": "V7", "exact": "V7", "judge": "V7", "judge_raw": "{\"value\": \"220 000 руб.\"}", "final": "V7"}
+{"sid": "B016", "qid": "B016-Q06", "answer": "8-981-983-53-27", "expect": "V4", "exact": "V4", "judge": "V4", "judge_raw": "{\"value\": \"8-981-983-53-27\"}", "final": "V4"}
+{"sid": "B003", "qid": "B003-Q07", "answer": "145 тысяч рублей", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"145 тысяч рублей\"}", "final": "NONE"}
+{"sid": "B028", "qid": "B028-Q07", "answer": "Вы указывали 8 (939) 232-40-41.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"8 (939) 232-40-41\"}", "final": "V1"}
+{"sid": "B017", "qid": "B017-Q14", "answer": "Ответ: в 11:00 ровно.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"11:00\"}", "final": "NONE"}
+{"sid": "B028", "qid": "B028-Q09", "answer": "Насколько я помню, это +79695134547.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"+79695134547\"}", "final": "NONE"}
+{"sid": "B011", "qid": "B011-Q02", "answer": "Насколько я помню, это в 11:00 ровно.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"11:00\"}", "final": "NONE"}
+{"sid": "B019", "qid": "B019-Q24", "answer": "Вы указывали Липовая, 7.", "expect": "V4", "exact": "V4", "judge": "V4", "judge_raw": "{\"value\": \"Липовая, 7\"}", "final": "V4"}
+{"sid": "B025", "qid": "B025-Q01", "answer": "Насколько я помню, это Речная, 52.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"Речная, 52\"}", "final": "V1"}
+{"sid": "B011", "qid": "B011-Q07", "answer": "13:30", "expect": "V3", "exact": "V3", "judge": "V3", "judge_raw": "{\"value\": \"13:30\"}", "final": "V3"}
+{"sid": "B019", "qid": "B019-Q25", "answer": "ул.Дачная д.22", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"ул.Дачная д.22\"}", "final": "V1"}
+{"sid": "B007", "qid": "B007-Q01", "answer": "Насколько я помню, это улица Зеленая, дом 6.", "expect": "V4", "exact": "V4", "judge": "V4", "judge_raw": "{\"value\": \"улица Зеленая, дом 6\"}", "final": "V4"}
+{"sid": "B004", "qid": "B004-Q01", "answer": "Насколько я помню, это 8-932-501-88-42.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"8-932-501-88-42\"}", "final": "NONE"}
+{"sid": "B015", "qid": "B015-Q07", "answer": "Вы указывали 70 тыс. руб..", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"70 тыс. руб.\"}", "final": "NONE"}
+{"sid": "B023", "qid": "B023-Q16", "answer": "Вы указывали в 16:00 ровно.", "expect": "V5", "exact": "V5", "judge": "V5", "judge_raw": "{\"value\": \"16:00\"}", "final": "V5"}
+{"sid": "B022", "qid": "B022-Q20", "answer": "Ответ: 8 (918) 636-50-26.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"8 (918) 636-50-26\"}", "final": "NONE"}
+{"sid": "B022", "qid": "B022-Q29", "answer": "Вы указывали +79285598838.", "expect": "V7", "exact": "V7", "judge": "V7", "judge_raw": "{\"value\": \"+79285598838\"}", "final": "V7"}
+{"sid": "B014", "qid": "B014-Q30", "answer": "Это был вариант 7-го декабря.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"7-го декабря\"}", "final": "V1"}
+{"sid": "B004", "qid": "B004-Q09", "answer": "8-932-501-88-24", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"8-932-501-88-24\"}", "final": "V2"}
+{"sid": "B013", "qid": "B013-Q26", "answer": "Это был вариант Береговая ул., д. 1.", "expect": "V3", "exact": "V3", "judge": "V3", "judge_raw": "{\"value\": \"Береговая ул., д. 1\"}", "final": "V3"}
+{"sid": "B017", "qid": "B017-Q22", "answer": "Насколько я помню, это в 16:00 ровно.", "expect": "V9", "exact": "V9", "judge": "V9", "judge_raw": "{\"value\": \"16:00\"}", "final": "V9"}
+{"sid": "B021", "qid": "B021-Q26", "answer": "Вы указывали 165к.", "expect": "V9", "exact": "V9", "judge": "V9", "judge_raw": "{\"value\": \"165к\"}", "final": "V9"}
+{"sid": "B023", "qid": "B023-Q10", "answer": "Насколько я помню, это в 17:00 ровно.", "expect": "V4", "exact": "V4", "judge": "V4", "judge_raw": "{\"value\": \"17:00\"}", "final": "V4"}
+{"sid": "B004", "qid": "B004-Q02", "answer": "+79222688853", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"+79222688853\"}", "final": "NONE"}
+{"sid": "B011", "qid": "B011-Q04", "answer": "Вы указывали в 11:00 ровно.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"11:00\"}", "final": "NONE"}
+{"sid": "B015", "qid": "B015-Q01", "answer": "Это был вариант 75 тыс. руб..", "expect": "V10", "exact": "V10", "judge": "V10", "judge_raw": "{\"value\": \"75 тыс. руб.\"}", "final": "V10"}
+{"sid": "B007", "qid": "B007-Q05", "answer": "Насколько я помню, это Зеленая, 6.", "expect": "V4", "exact": "V4", "judge": "V4", "judge_raw": "{\"value\": \"Зеленая, 6\"}", "final": "V4"}
+{"sid": "B016", "qid": "B016-Q09", "answer": "Ответ: 8 (949) 415-02-55.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"8 (949) 415-02-55\"}", "final": "NONE"}
+{"sid": "B028", "qid": "B028-Q02", "answer": "Насколько я помню, это 8-920-761-86-98.", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"8-920-761-86-98\"}", "final": "V2"}
+{"sid": "B018", "qid": "B018-Q11", "answer": "Насколько я помню, это карта **** 1024.", "expect": "V7", "exact": "V7", "judge": "V7", "judge_raw": "{\"value\": \"**** 1024\"}", "final": "V7"}
+{"sid": "B015", "qid": "B015-Q23", "answer": "Вы указывали 30 тыс. руб..", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"30 тыс. руб.\"}", "final": "NONE"}
+{"sid": "B024", "qid": "B024-Q25", "answer": "Вы указывали карта **** 8198.", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"8198\"}", "final": "V2"}
+{"sid": "B023", "qid": "B023-Q16", "answer": "16:00", "expect": "V5", "exact": "V5", "judge": "V5", "judge_raw": "{\"value\": \"16:00\"}", "final": "V5"}
+{"sid": "B012", "qid": "B012-Q07", "answer": "Вы указывали карта, оканчивающаяся на 2404.", "expect": "V4", "exact": "V4", "judge": "MULTIPLE", "judge_raw": "{\"value\": \"MULTIPLE\"}", "final": "V4"}
+{"sid": "B021", "qid": "B021-Q05", "answer": "Ответ: 265000 ₽.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"265000 ₽\"}", "final": "NONE"}
+{"sid": "B017", "qid": "B017-Q03", "answer": "в 4 вечера", "expect": "V9", "exact": "V9", "judge": "V9", "judge_raw": "{\"value\": \"в 4 вечера\"}", "final": "V9"}
+{"sid": "B017", "qid": "B017-Q10", "answer": "Это был вариант 4:30 вечера.", "expect": "V5", "exact": "V5", "judge": "V5", "judge_raw": "{\"value\": \"4:30 вечера\"}", "final": "V5"}
+{"sid": "B023", "qid": "B023-Q18", "answer": "13:00", "expect": "V3", "exact": "V3", "judge": "V3", "judge_raw": "{\"value\": \"13:00\"}", "final": "V3"}
+{"sid": "B009", "qid": "B009-Q12", "answer": "Ответ: 171 000 руб..", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"171 000 руб.\"}", "final": "V2"}
+{"sid": "B014", "qid": "B014-Q28", "answer": "Это был вариант 12.01.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"12.01\"}", "final": "NONE"}
+{"sid": "B026", "qid": "B026-Q06", "answer": "Насколько я помню, это на 8 декабря.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"8 декабря\"}", "final": "V1"}
+{"sid": "B009", "qid": "B009-Q12", "answer": "Насколько я помню, это 171к.", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"171к\"}", "final": "V2"}
+{"sid": "B015", "qid": "B015-Q01", "answer": "Насколько я помню, это 205к.", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"205к\"}", "final": "V2"}
+{"sid": "B018", "qid": "B018-Q27", "answer": "Ответ: …5699.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"…5699\"}", "final": "NONE"}
+{"sid": "B002", "qid": "B002-Q01", "answer": "Ответ: 21.01.", "expect": "V5", "exact": "V5", "judge": "V5", "judge_raw": "{\"value\": \"21.01\"}", "final": "V5"}
+{"sid": "B021", "qid": "B021-Q07", "answer": "Ответ: 196000 ₽.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"196000 ₽\"}", "final": "NONE"}
+{"sid": "B024", "qid": "B024-Q26", "answer": "Ответ: …3273.", "expect": "V4", "exact": "V4", "judge": "V4", "judge_raw": "{\"value\": \"…3273\"}", "final": "V4"}
+{"sid": "B015", "qid": "B015-Q14", "answer": "Ответ: 291к.", "expect": "V6", "exact": "V6", "judge": "V6", "judge_raw": "{\"value\": \"291к\"}", "final": "V6"}
+{"sid": "B024", "qid": "B024-Q28", "answer": "Это был вариант карта, оканчивающаяся на 2119.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"2119\"}", "final": "V1"}
+{"sid": "B019", "qid": "B019-Q29", "answer": "Это был вариант Дачная ул., д. 22.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"Дачная ул., д. 22\"}", "final": "V1"}
+{"sid": "B013", "qid": "B013-Q01", "answer": "Это был вариант Светлая, 53.", "expect": "V10", "exact": "V10", "judge": "V10", "judge_raw": "{\"value\": \"Светлая, 53\"}", "final": "V10"}
+{"sid": "B018", "qid": "B018-Q13", "answer": "Это был вариант …1204.", "expect": "V6", "exact": "V6", "judge": "V6", "judge_raw": "{\"value\": \"…1204\"}", "final": "V6"}
+{"sid": "B021", "qid": "B021-Q13", "answer": "120 000 руб.", "expect": "V5", "exact": "V5", "judge": "V5", "judge_raw": "{\"value\": \"120 000 руб.\"}", "final": "V5"}
+{"sid": "B014", "qid": "B014-Q18", "answer": "Насколько я помню, это 31-го января.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"31-го января\"}", "final": "NONE"}
+{"sid": "B022", "qid": "B022-Q26", "answer": "Насколько я помню, это +79035251327.", "expect": "V4", "exact": "V4", "judge": "V4", "judge_raw": "{\"value\": \"+79035251327\"}", "final": "V4"}
+{"sid": "B013", "qid": "B013-Q01", "answer": "ул.Светлая д.53", "expect": "V10", "exact": "V10", "judge": "V10", "judge_raw": "{\"value\": \"ул.Светлая д.53\"}", "final": "V10"}
+{"sid": "B012", "qid": "B012-Q04", "answer": "карта, оканчивающаяся на 2404", "expect": "V4", "exact": "V4", "judge": "V4", "judge_raw": "{\"value\": \"2404\"}", "final": "V4"}
+{"sid": "B015", "qid": "B015-Q25", "answer": "57 тысяч рублей", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"57 тысяч рублей\"}", "final": "NONE"}
+{"sid": "B005", "qid": "B005-Q07", "answer": "Вы указывали 12.00.", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"12.00\"}", "final": "V2"}
+{"sid": "B022", "qid": "B022-Q20", "answer": "Вы указывали +79692518122.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"+79692518122\"}", "final": "NONE"}
+{"sid": "B020", "qid": "B020-Q23", "answer": "на 21 января", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"21 января\"}", "final": "NONE"}
+{"sid": "B010", "qid": "B010-Q01", "answer": "Это был вариант 8 (985) 312-74-59.", "expect": "V5", "exact": "V5", "judge": "V5", "judge_raw": "{\"value\": \"8 (985) 312-74-59\"}", "final": "V5"}
+{"sid": "B011", "qid": "B011-Q02", "answer": "Насколько я помню, это 15.00.", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"15.00\"}", "final": "V2"}
+{"sid": "B015", "qid": "B015-Q21", "answer": "Ответ: 275 тыс. руб..", "expect": "V4", "exact": "V4", "judge": "V4", "judge_raw": "{\"value\": \"275 тыс. руб.\"}", "final": "V4"}
+{"sid": "B013", "qid": "B013-Q07", "answer": "ул.Луговая д.16", "expect": "V8", "exact": "V8", "judge": "V8", "judge_raw": "{\"value\": \"ул.Луговая д.16\"}", "final": "V8"}
+{"sid": "B023", "qid": "B023-Q13", "answer": "Насколько я помню, это 10:00.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"10:00\"}", "final": "V1"}
+{"sid": "B020", "qid": "B020-Q17", "answer": "Насколько я помню, это 01.01.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"01.01\"}", "final": "NONE"}
+{"sid": "B017", "qid": "B017-Q17", "answer": "Ответ: в 16 ч 30 мин.", "expect": "V5", "exact": "V5", "judge": "V5", "judge_raw": "{\"value\": \"в 16 ч 30 мин\"}", "final": "V5"}
+{"sid": "B021", "qid": "B021-Q16", "answer": "Насколько я помню, это 220 тыс. руб..", "expect": "V7", "exact": "V7", "judge": "V7", "judge_raw": "{\"value\": \"220 тыс. руб.\"}", "final": "V7"}
+{"sid": "B028", "qid": "B028-Q08", "answer": "Это был вариант 8-939-232-40-41.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"8-939-232-40-41\"}", "final": "V1"}
+{"sid": "B016", "qid": "B016-Q16", "answer": "+79494105255", "expect": "V5", "exact": "V5", "judge": "V5", "judge_raw": "{\"value\": \"+79494105255\"}", "final": "V5"}
+{"sid": "B021", "qid": "B021-Q15", "answer": "120 тысяч рублей", "expect": "V5", "exact": "V5", "judge": "V5", "judge_raw": "{\"value\": \"120 тысяч рублей\"}", "final": "V5"}
+{"sid": "B016", "qid": "B016-Q08", "answer": "Ответ: 8-949-410-52-55.", "expect": "V5", "exact": "V5", "judge": "V5", "judge_raw": "{\"value\": \"8-949-410-52-55\"}", "final": "V5"}
+{"sid": "B028", "qid": "B028-Q06", "answer": "Ответ: +79392324041.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"+79392324041\"}", "final": "V1"}
+{"sid": "B009", "qid": "B009-Q09", "answer": "Это был вариант 171000 ₽.", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"171000 ₽\"}", "final": "V2"}
+{"sid": "B029", "qid": "B029-Q01", "answer": "Насколько я помню, это 9.30.", "expect": "V3", "exact": "V3", "judge": "V3", "judge_raw": "{\"value\": \"9.30\"}", "final": "V3"}
+{"sid": "B001", "qid": "B001-Q10", "answer": "Насколько я помню, это Светлая ул., д. 45.", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"Светлая ул., д. 45\"}", "final": "V2"}
+{"sid": "B020", "qid": "B020-Q03", "answer": "Это был вариант на 13 января.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"13 января\"}", "final": "NONE"}
+{"sid": "B022", "qid": "B022-Q16", "answer": "Это был вариант 8 (903) 552-13-27.", "expect": "V5", "exact": "V5", "judge": "V5", "judge_raw": "{\"value\": \"8 (903) 552-13-27\"}", "final": "V5"}
+{"sid": "B004", "qid": "B004-Q03", "answer": "Вы указывали 8 (969) 377-80-48.", "expect": "V4", "exact": "V4", "judge": "V4", "judge_raw": "{\"value\": \"8 (969) 377-80-48\"}", "final": "V4"}
+{"sid": "B016", "qid": "B016-Q11", "answer": "Вы указывали 8-922-138-88-02.", "expect": "V7", "exact": "V7", "judge": "V7", "judge_raw": "{\"value\": \"8-922-138-88-02\"}", "final": "V7"}
+{"sid": "B017", "qid": "B017-Q03", "answer": "16:00", "expect": "V9", "exact": "V9", "judge": "V9", "judge_raw": "{\"value\": \"16:00\"}", "final": "V9"}
+{"sid": "B012", "qid": "B012-Q11", "answer": "Вы указывали карта **** 9434.", "expect": "V5", "exact": "V5", "judge": "V5", "judge_raw": "{\"value\": \"**** 9434\"}", "final": "V5"}
+{"sid": "B016", "qid": "B016-Q20", "answer": "Насколько я помню, это 8-981-983-53-27.", "expect": "V4", "exact": "V4", "judge": "V4", "judge_raw": "{\"value\": \"8-981-983-53-27\"}", "final": "V4"}
+{"sid": "B016", "qid": "B016-Q12", "answer": "Вы указывали 8 (922) 138-88-20.", "expect": "V6", "exact": "V6", "judge": "V6", "judge_raw": "{\"value\": \"8 (922) 138-88-20\"}", "final": "V6"}
+{"sid": "B011", "qid": "B011-Q06", "answer": "Насколько я помню, это в 3 вечера.", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"3 вечера\"}", "final": "V2"}
+{"sid": "B023", "qid": "B023-Q20", "answer": "Это был вариант в 11 ч 30 мин.", "expect": "V7", "exact": "V7", "judge": "V7", "judge_raw": "{\"value\": \"11 ч 30 мин\"}", "final": "V7"}
+{"sid": "B015", "qid": "B015-Q08", "answer": "Ответ: 125000 ₽.", "expect": "V8", "exact": "V8", "judge": "V8", "judge_raw": "{\"value\": \"125000 ₽\"}", "final": "V8"}
+{"sid": "B019", "qid": "B019-Q24", "answer": "Это был вариант Парковая ул., д. 35.", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"Парковая ул., д. 35\"}", "final": "V2"}
+{"sid": "B015", "qid": "B015-Q25", "answer": "Это был вариант 140 тыс. руб..", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"140 тыс. руб.\"}", "final": "NONE"}
+{"sid": "B023", "qid": "B023-Q03", "answer": "Ответ: 20.00.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"20.00\"}", "final": "NONE"}
+{"sid": "B013", "qid": "B013-Q03", "answer": "Вы указывали Светлая, 52.", "expect": "V9", "exact": "V9", "judge": "V9", "judge_raw": "{\"value\": \"Светлая, 52\"}", "final": "V9"}
+{"sid": "B016", "qid": "B016-Q26", "answer": "Насколько я помню, это 8 (999) 464-88-51.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"8 (999) 464-88-51\"}", "final": "NONE"}
+{"sid": "B003", "qid": "B003-Q01", "answer": "Вы указывали 120 000 руб..", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"120 000 руб.\"}", "final": "V2"}
+{"sid": "B022", "qid": "B022-Q21", "answer": "8-928-559-88-38", "expect": "V7", "exact": "V7", "judge": "V7", "judge_raw": "{\"value\": \"8-928-559-88-38\"}", "final": "V7"}
+{"sid": "B023", "qid": "B023-Q21", "answer": "Насколько я помню, это в 12 ч 30 мин.", "expect": "V10", "exact": "V10", "judge": "V10", "judge_raw": "{\"value\": \"12 ч 30 мин\"}", "final": "V10"}
+{"sid": "B018", "qid": "B018-Q27", "answer": "…1733", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"…1733\"}", "final": "V1"}
+{"sid": "B007", "qid": "B007-Q01", "answer": "улица Зеленая, дом 5", "expect": "V5", "exact": "V5", "judge": "V5", "judge_raw": "{\"value\": \"улица Зеленая, дом 5\"}", "final": "V5"}
+{"sid": "B013", "qid": "B013-Q30", "answer": "Насколько я помню, это улица Луговая, дом 16.", "expect": "V8", "exact": "V8", "judge": "V8", "judge_raw": "{\"value\": \"улица Луговая, дом 16\"}", "final": "V8"}
+{"sid": "B002", "qid": "B002-Q11", "answer": "Ответ: на 11 января.", "expect": "V3", "exact": "V3", "judge": "V3", "judge_raw": "{\"value\": \"11 января\"}", "final": "V3"}
+{"sid": "B012", "qid": "B012-Q01", "answer": "Ответ: карта, оканчивающаяся на 9434.", "expect": "V5", "exact": "V5", "judge": "V5", "judge_raw": "{\"value\": \"9434\"}", "final": "V5"}
+{"sid": "B010", "qid": "B010-Q04", "answer": "Это был вариант 8-958-482-82-51.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"8-958-482-82-51\"}", "final": "V1"}
+{"sid": "B004", "qid": "B004-Q03", "answer": "Насколько я помню, это 8 (969) 377-80-48.", "expect": "V4", "exact": "V4", "judge": "V4", "judge_raw": "{\"value\": \"8 (969) 377-80-48\"}", "final": "V4"}
+{"sid": "B007", "qid": "B007-Q02", "answer": "Насколько я помню, это Песочная ул., д. 23.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"Песочная ул., д. 23\"}", "final": "NONE"}
+{"sid": "B018", "qid": "B018-Q27", "answer": "Это был вариант карта 1733.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"1733\"}", "final": "V1"}
+{"sid": "B023", "qid": "B023-Q12", "answer": "Это был вариант в 7 вечера.", "expect": "V6", "exact": "V6", "judge": "V6", "judge_raw": "{\"value\": \"7 вечера\"}", "final": "V6"}
+{"sid": "B012", "qid": "B012-Q06", "answer": "Насколько я помню, это карта, оканчивающаяся на 9392.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"9392\"}", "final": "NONE"}
+{"sid": "B006", "qid": "B006-Q06", "answer": "Это был вариант карта **** 4911.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"4911\"}", "final": "NONE"}
+{"sid": "B012", "qid": "B012-Q13", "answer": "Это был вариант карта **** 7629.", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"7629\"}", "final": "V2"}
+{"sid": "B005", "qid": "B005-Q02", "answer": "11.00", "expect": "V3", "exact": "V3", "judge": "V3", "judge_raw": "{\"value\": \"11.00\"}", "final": "V3"}
+{"sid": "B008", "qid": "B008-Q09", "answer": "Насколько я помню, это на 25 января.", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"25 января\"}", "final": "V2"}
+{"sid": "B020", "qid": "B020-Q19", "answer": "Насколько я помню, это 17-го января.", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"17-го января\"}", "final": "V2"}
+{"sid": "B002", "qid": "B002-Q09", "answer": "19-го января", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"19-го января\"}", "final": "NONE"}
+{"sid": "B021", "qid": "B021-Q28", "answer": "Это был вариант 220 тыс. руб..", "expect": "V7", "exact": "V7", "judge": "V7", "judge_raw": "{\"value\": \"220 тыс. руб.\"}", "final": "V7"}
+{"sid": "B013", "qid": "B013-Q07", "answer": "Спортивная, 37", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"Спортивная, 37\"}", "final": "V2"}
+{"sid": "B022", "qid": "B022-Q26", "answer": "Насколько я помню, это 8-903-552-13-27.", "expect": "V5", "exact": "V5", "judge": "V5", "judge_raw": "{\"value\": \"8-903-552-13-27\"}", "final": "V5"}
+{"sid": "B023", "qid": "B023-Q09", "answer": "Ответ: 11:30.", "expect": "V7", "exact": "V7", "judge": "V7", "judge_raw": "{\"value\": \"11:30\"}", "final": "V7"}
+{"sid": "B020", "qid": "B020-Q28", "answer": "11/01", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"11/01\"}", "final": "NONE"}
+{"sid": "B013", "qid": "B013-Q16", "answer": "Вы указывали на Дачной, 9.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"Дачной, 9\"}", "final": "V1"}
+{"sid": "B024", "qid": "B024-Q25", "answer": "Насколько я помню, это карта **** 6732.", "expect": "V9", "exact": "V9", "judge": "V9", "judge_raw": "{\"value\": \"**** 6732\"}", "final": "V9"}
+{"sid": "B002", "qid": "B002-Q14", "answer": "Насколько я помню, это 01.01.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"01.01\"}", "final": "V1"}
+{"sid": "B019", "qid": "B019-Q29", "answer": "Ответ: улица Дачная, дом 22.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"улица Дачная, дом 22\"}", "final": "V1"}
+{"sid": "B026", "qid": "B026-Q07", "answer": "08.12", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"08.12\"}", "final": "V1"}
+{"sid": "B020", "qid": "B020-Q17", "answer": "Ответ: 19-го января.", "expect": "V3", "exact": "V3", "judge": "V3", "judge_raw": "{\"value\": \"19-го января\"}", "final": "V3"}
+{"sid": "B012", "qid": "B012-Q12", "answer": "карта 6729", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"6729\"}", "final": "V1"}
+{"sid": "B024", "qid": "B024-Q12", "answer": "Ответ: карта, оканчивающаяся на 9408.", "expect": "V7", "exact": "V7", "judge": "V7", "judge_raw": "{\"value\": \"9408\"}", "final": "V7"}
+{"sid": "B015", "qid": "B015-Q24", "answer": "Насколько я помню, это 205000 ₽.", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"205000 ₽\"}", "final": "V2"}
+{"sid": "B015", "qid": "B015-Q06", "answer": "Ответ: 292к.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"292к\"}", "final": "NONE"}
+{"sid": "B020", "qid": "B020-Q27", "answer": "Вы указывали 10.01.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"10.01\"}", "final": "V1"}
+{"sid": "B013", "qid": "B013-Q11", "answer": "Это был вариант на Каштановой, 83.", "expect": "V7", "exact": "V7", "judge": "V7", "judge_raw": "{\"value\": \"на Каштановой, 83\"}", "final": "V7"}
+{"sid": "B001", "qid": "B001-Q04", "answer": "Ответ: ул.Заводская д.37.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"ул.Заводская д.37\"}", "final": "NONE"}
+{"sid": "B012", "qid": "B012-Q06", "answer": "Вы указывали карта, оканчивающаяся на 7949.", "expect": "V3", "exact": "V3", "judge": "V3", "judge_raw": "{\"value\": \"7949\"}", "final": "V3"}
+{"sid": "B022", "qid": "B022-Q21", "answer": "Насколько я помню, это 8 (903) 525-13-27.", "expect": "V4", "exact": "V4", "judge": "V4", "judge_raw": "{\"value\": \"8 (903) 525-13-27\"}", "final": "V4"}
+{"sid": "B026", "qid": "B026-Q01", "answer": "Это был вариант на 7 декабря.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"7 декабря\"}", "final": "NONE"}
+{"sid": "B019", "qid": "B019-Q21", "answer": "Ответ: Парковая, 36.", "expect": "V3", "exact": "V3", "judge": "V3", "judge_raw": "{\"value\": \"Парковая, 36\"}", "final": "V3"}
+{"sid": "B023", "qid": "B023-Q27", "answer": "Вы указывали в 5 вечера.", "expect": "V4", "exact": "V4", "judge": "V4", "judge_raw": "{\"value\": \"5 вечера\"}", "final": "V4"}
+{"sid": "B006", "qid": "B006-Q03", "answer": "Это был вариант карта 4768.", "expect": "V5", "exact": "V5", "judge": "V5", "judge_raw": "{\"value\": \"4768\"}", "final": "V5"}
+{"sid": "B002", "qid": "B002-Q08", "answer": "31/12", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"31/12\"}", "final": "V2"}
+{"sid": "B018", "qid": "B018-Q21", "answer": "Это был вариант карта, оканчивающаяся на 2515.", "expect": "V3", "exact": "V3", "judge": "V3", "judge_raw": "{\"value\": \"2515\"}", "final": "V3"}
+{"sid": "B004", "qid": "B004-Q08", "answer": "Вы указывали 8-969-378-70-84.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"8-969-378-70-84\"}", "final": "NONE"}
+{"sid": "B022", "qid": "B022-Q18", "answer": "Ответ: +79692158122.", "expect": "V10", "exact": "V10", "judge": "V10", "judge_raw": "{\"value\": \"+79692158122\"}", "final": "V10"}
+{"sid": "B013", "qid": "B013-Q08", "answer": "Насколько я помню, это ул.Луговая д.16.", "expect": "V8", "exact": "V8", "judge": "V8", "judge_raw": "{\"value\": \"ул.Луговая д.16\"}", "final": "V8"}
+{"sid": "B025", "qid": "B025-Q03", "answer": "Вы указывали на Речной, 54.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"Речной, 54\"}", "final": "NONE"}
+{"sid": "B027", "qid": "B027-Q01", "answer": "Ответ: 170 тысяч рублей.", "expect": "V3", "exact": "V3", "judge": "V3", "judge_raw": "{\"value\": \"170 тысяч рублей\"}", "final": "V3"}
+{"sid": "B018", "qid": "B018-Q24", "answer": "карта **** 5769", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"5769\"}", "final": "NONE"}
+{"sid": "B021", "qid": "B021-Q25", "answer": "50000 ₽", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"50000 ₽\"}", "final": "NONE"}
+{"sid": "B019", "qid": "B019-Q27", "answer": "Липовая, 39", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"Липовая, 39\"}", "final": "NONE"}
+{"sid": "B006", "qid": "B006-Q12", "answer": "Ответ: …4768.", "expect": "V5", "exact": "V5", "judge": "V5", "judge_raw": "{\"value\": \"…4768\"}", "final": "V5"}
+{"sid": "B012", "qid": "B012-Q06", "answer": "Вы указывали …2044.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"…2044\"}", "final": "NONE"}
+{"sid": "B019", "qid": "B019-Q27", "answer": "на Лесной, 19", "expect": "V5", "exact": "V5", "judge": "V5", "judge_raw": "{\"value\": \"на Лесной, 19\"}", "final": "V5"}
+{"sid": "B021", "qid": "B021-Q20", "answer": "Насколько я помню, это 130000 ₽.", "expect": "V4", "exact": "V4", "judge": "V4", "judge_raw": "{\"value\": \"130000 ₽\"}", "final": "V4"}
+{"sid": "B025", "qid": "B025-Q01", "answer": "Это был вариант Речная, 52.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"Речная, 52\"}", "final": "V1"}
+{"sid": "B018", "qid": "B018-Q04", "answer": "Вы указывали карта 7202.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"7202\"}", "final": "NONE"}
+{"sid": "B023", "qid": "B023-Q27", "answer": "Ответ: 11.30.", "expect": "V7", "exact": "V7", "judge": "V7", "judge_raw": "{\"value\": \"11.30\"}", "final": "V7"}
+{"sid": "B012", "qid": "B012-Q01", "answer": "Ответ: карта, оканчивающаяся на 9472.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"9472\"}", "final": "NONE"}
+{"sid": "B026", "qid": "B026-Q04", "answer": "на 11 декабря", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"11 декабря\"}", "final": "NONE"}
+{"sid": "B003", "qid": "B003-Q07", "answer": "Насколько я помню, это 270 000 руб..", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"270 000 руб.\"}", "final": "NONE"}
+{"sid": "B008", "qid": "B008-Q13", "answer": "Вы указывали 23/01.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"23/01\"}", "final": "V1"}
+{"sid": "B015", "qid": "B015-Q09", "answer": "Ответ: 205к.", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"205к\"}", "final": "V2"}
+{"sid": "B002", "qid": "B002-Q12", "answer": "Это был вариант на 21 января.", "expect": "V5", "exact": "V5", "judge": "V5", "judge_raw": "{\"value\": \"21 января\"}", "final": "V5"}
+{"sid": "B014", "qid": "B014-Q18", "answer": "Это был вариант 14.12.", "expect": "V5", "exact": "V5", "judge": "V5", "judge_raw": "{\"value\": \"14.12\"}", "final": "V5"}
+{"sid": "B010", "qid": "B010-Q13", "answer": "Это был вариант +79584828251.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"+79584828251\"}", "final": "V1"}
+{"sid": "B004", "qid": "B004-Q13", "answer": "Это был вариант 8-922-628-88-53.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"8-922-628-88-53\"}", "final": "V1"}
+{"sid": "B021", "qid": "B021-Q16", "answer": "Вы указывали 240 тыс. руб..", "expect": "V8", "exact": "V8", "judge": "V8", "judge_raw": "{\"value\": \"240 тыс. руб.\"}", "final": "V8"}
+{"sid": "B008", "qid": "B008-Q07", "answer": "Насколько я помню, это на 26 декабря.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"26 декабря\"}", "final": "NONE"}
+{"sid": "B013", "qid": "B013-Q20", "answer": "Ответ: ул.Каштановая д.37.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"ул.Каштановая д.37\"}", "final": "NONE"}
+{"sid": "B023", "qid": "B023-Q12", "answer": "Это был вариант 6:30 вечера.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"6:30 вечера\"}", "final": "NONE"}
+{"sid": "B007", "qid": "B007-Q12", "answer": "Ответ: на Цветочной, 12.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"на Цветочной, 12\"}", "final": "NONE"}
+{"sid": "B019", "qid": "B019-Q30", "answer": "Ответ: улица Дачная, дом 22.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"улица Дачная, дом 22\"}", "final": "V1"}
+{"sid": "B014", "qid": "B014-Q08", "answer": "на 5 января", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"на 5 января\"}", "final": "NONE"}
+{"sid": "B024", "qid": "B024-Q02", "answer": "карта, оканчивающаяся на 9480", "expect": "V6", "exact": "V6", "judge": "V6", "judge_raw": "{\"value\": \"9480\"}", "final": "V6"}
+{"sid": "B015", "qid": "B015-Q25", "answer": "Ответ: 105 тысяч рублей.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"105 тысяч рублей\"}", "final": "NONE"}
+{"sid": "B001", "qid": "B001-Q10", "answer": "на Луговой, 50", "expect": "V5", "exact": "V5", "judge": "V5", "judge_raw": "{\"value\": \"на Луговой, 50\"}", "final": "V5"}
+{"sid": "B006", "qid": "B006-Q12", "answer": "Вы указывали карта 7027.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"7027\"}", "final": "V1"}
+{"sid": "B011", "qid": "B011-Q09", "answer": "Насколько я помню, это в 19 ч 30 мин.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"19 ч 30 мин\"}", "final": "NONE"}
+{"sid": "B020", "qid": "B020-Q25", "answer": "Насколько я помню, это на 17 января.", "expect": "V2", "exact": "V2", "judge": "V2", "judge_raw": "{\"value\": \"17 января\"}", "final": "V2"}
+{"sid": "B024", "qid": "B024-Q30", "answer": "Насколько я помню, это карта 2119.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"2119\"}", "final": "V1"}
+{"sid": "B022", "qid": "B022-Q17", "answer": "Насколько я помню, это +79988844623.", "expect": "NONE", "exact": "NONE", "judge": "NONE", "judge_raw": "{\"value\": \"+79988844623\"}", "final": "NONE"}
+{"sid": "B009", "qid": "B009-Q14", "answer": "Ответ: 170000 ₽.", "expect": "V1", "exact": "V1", "judge": "V1", "judge_raw": "{\"value\": \"170000 ₽\"}", "final": "V1"}
+{"sid": "B019", "qid": "B019-Q08", "answer": "Вы указывали Липовая, 42.", "expect": "V8", "exact": "V8", "judge": "V8", "judge_raw": "{\"value\": \"Липовая, 42\"}", "final": "V8"}
+{"sid": "B023", "qid": "B023-Q20", "answer": "Ответ: в 12 ч 30 мин.", "expect": "V10", "exact": "V10", "judge": "V10", "judge_raw": "{\"value\": \"в 12 ч 30 мин\"}", "final": "V10"}

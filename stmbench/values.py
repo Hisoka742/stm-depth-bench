@@ -362,7 +362,7 @@ def satisfies(vt, old: str | None, new: str, cons: dict | None, busy: list | Non
         lo, hi = cons["busy"]
         if lo <= b < hi:
             return False
-        if not cons.get("dir") and not (lo <= a < hi):
+        if not (lo <= a < hi):
             return False
         if abs(b - a) < vt.min_step:
             return False
@@ -383,7 +383,7 @@ def applicable(vt, old: str, cons: dict | None, prev_cons: dict | None = None, r
     """
     if not cons or not vt.ordered:
         return True
-    if cons.get("busy") and not cons.get("dir"):
+    if cons.get("busy"):
         lo, hi = cons["busy"]
         if not (lo <= vt.key(old) < hi):
             return False

@@ -118,12 +118,12 @@ def main():
     with open(out_path, "w", encoding="utf-8") as f:
         for t in tests:
             s, q = smap[t["sid"]], qmap[t["qid"]]
-            if t["exact"] is None:
-                msgs, mapping = judge_prompt(s, q, t["answer"])
-                r = chat(args.judge, msgs, temperature=0.0, max_tokens=64, extra=NO_REASONING)
-                t["judge"] = parse_judge(r["content"], mapping)
-            else:
-                t["judge"] = None
+            # судья получает каждый тестовый ответ, даже если код уже извлёк значение:
+            # так отдельно измеряется точность самого судьи
+            msgs, mapping = judge_prompt(s, q, t["answer"])
+            r = chat(args.judge, msgs, temperature=0.0, max_tokens=64, extra=NO_REASONING)
+            t["judge"] = parse_judge(r["content"], mapping)
+            t["judge_raw"] = r["content"]
             t["final"] = t["exact"] if t["exact"] is not None else t["judge"]
             f.write(json.dumps(t, ensure_ascii=False) + "\n")
     for name, sub in (("все", tests), ("значения из диалога", [t for t in tests if t["expect"] != "NONE"]),
@@ -132,10 +132,13 @@ def main():
         by_code = [t for t in sub if t["exact"] is not None]
         by_judge = [t for t in sub if t["exact"] is None]
         jok = sum(t["final"] == t["expect"] for t in by_judge)
-        print(f"тест 1, {name}: верно {ok} из {len(sub)} ({ok / max(1, len(sub)):.3f}); код решил {len(by_code)}, "
-              f"судья — {len(by_judge)}, из них верно {jok}")
+        jall = sum(t["judge"] == t["expect"] for t in sub)
+        print(f"тест 1, {name}: проверка (код, затем судья) верна в {ok} из {len(sub)} ({ok / max(1, len(sub)):.3f}); "
+              f"код решил {len(by_code)}, судья — {len(by_judge)}, из них верно {jok}; "
+              f"судья отдельно — {jall} из {len(sub)} ({jall / max(1, len(sub)):.3f})")
     # тест 2: согласие с точной проверкой на ответах моделей
     agree = tot = 0
+    t2 = []
     for path in glob.glob(os.path.join(set_dir_results(args.set_dir), "*__scored.jsonl")):
         if "mock__" in path:
             continue
@@ -149,8 +152,13 @@ def main():
             lab = parse_judge(chat(args.judge, msgs, temperature=0.0, max_tokens=64, extra=NO_REASONING)["content"], mapping)
             agree += lab == r["label"]
             tot += 1
+            t2.append(dict(qid=r["qid"], item_id=r["item_id"], answer=res[r["item_id"]]["response"],
+                           code=r["label"], judge=lab))
     if tot:
         print(f"тест 2: согласие судьи с точной проверкой {agree} из {tot} ({agree / tot:.3f})")
+        with open(os.path.join(set_dir_results(args.set_dir), "judge_check2.jsonl"), "w", encoding="utf-8") as f:
+            for t in t2:
+                f.write(json.dumps(t, ensure_ascii=False) + "\n")
 
 
 def set_dir_results(set_dir):

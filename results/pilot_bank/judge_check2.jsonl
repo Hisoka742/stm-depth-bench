@@ -1,0 +1,700 @@
+{"qid": "B024-Q26", "item_id": "B024-Q26-facts", "answer": "*3273", "code": "V4", "judge": "V4"}
+{"qid": "B016-Q14", "item_id": "B016-Q14-log-middle", "answer": "+7 922 138-88-20", "code": "V6", "judge": "V6"}
+{"qid": "B018-Q20", "item_id": "B018-Q20-facts", "answer": "*2155", "code": "V4", "judge": "V4"}
+{"qid": "B019-Q26", "item_id": "B019-Q26-log-middle", "answer": "ул. Парковая, 35", "code": "V2", "judge": "V2"}
+{"qid": "B020-Q05", "item_id": "B020-Q05-log-middle", "answer": "10 декабря", "code": "V9", "judge": "V9"}
+{"qid": "B022-Q08", "item_id": "B022-Q08-log-middle", "answer": "+7 911 871-73-77", "code": "V8", "judge": "V8"}
+{"qid": "B017-Q14", "item_id": "B017-Q14-facts", "answer": "13:00", "code": "V6", "judge": "V6"}
+{"qid": "B013-Q14", "item_id": "B013-Q14-log-middle", "answer": "Каштановая, 38", "code": "V6", "judge": "V6"}
+{"qid": "B014-Q12", "item_id": "B014-Q12-log-middle", "answer": "23 декабря", "code": "V7", "judge": "V7"}
+{"qid": "B007-Q06", "item_id": "B007-Q06-facts", "answer": "ул. Песочная, 24", "code": "V3", "judge": "V3"}
+{"qid": "B018-Q06", "item_id": "B018-Q06-facts", "answer": "*1519", "code": "V8", "judge": "V8"}
+{"qid": "B023-Q27", "item_id": "B023-Q27-facts", "answer": "10:00", "code": "V1", "judge": "V1"}
+{"qid": "B022-Q02", "item_id": "B022-Q02-log-middle", "answer": "+7 911 871-73-77", "code": "V8", "judge": "V8"}
+{"qid": "B016-Q16", "item_id": "B016-Q16-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B019-Q06", "item_id": "B019-Q06-log-middle", "answer": "ул. Липовая, 42", "code": "V8", "judge": "V8"}
+{"qid": "B018-Q24", "item_id": "B018-Q24-facts", "answer": "*2515", "code": "V3", "judge": "V3"}
+{"qid": "B017-Q20", "item_id": "B017-Q20-log-middle", "answer": "12:30", "code": "V2", "judge": "V2"}
+{"qid": "B004-Q08", "item_id": "B004-Q08-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B016-Q04", "item_id": "B016-Q04-log-middle", "answer": "+7 964 793-78-75", "code": "V9", "judge": "V9"}
+{"qid": "B016-Q17", "item_id": "B016-Q17-log-middle", "answer": "+7 949 410-52-55", "code": "V5", "judge": "V5"}
+{"qid": "B015-Q28", "item_id": "B015-Q28-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B028-Q10", "item_id": "B028-Q10-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B014-Q19", "item_id": "B014-Q19-facts", "answer": "4 декабря", "code": "V3", "judge": "V3"}
+{"qid": "B025-Q03", "item_id": "B025-Q03-facts", "answer": "ул. Садовая, 58", "code": "V2", "judge": "V2"}
+{"qid": "B016-Q30", "item_id": "B016-Q30-facts", "answer": "+7 995 787-96-35", "code": "V1", "judge": "V1"}
+{"qid": "B002-Q09", "item_id": "B002-Q09-log-middle", "answer": "20 января", "code": "V4", "judge": "V4"}
+{"qid": "B016-Q07", "item_id": "B016-Q07-log-middle", "answer": "+7 922 138-88-02", "code": "V7", "judge": "V7"}
+{"qid": "B022-Q11", "item_id": "B022-Q11-facts", "answer": "+7 928 559-88-38", "code": "V7", "judge": "V7"}
+{"qid": "B011-Q12", "item_id": "B011-Q12-facts", "answer": "16:30", "code": "V5", "judge": "V5"}
+{"qid": "B017-Q13", "item_id": "B017-Q13-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B002-Q13", "item_id": "B002-Q13-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B017-Q21", "item_id": "B017-Q21-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B010-Q14", "item_id": "B010-Q14-facts", "answer": "+7 958 482-82-51", "code": "V1", "judge": "V1"}
+{"qid": "B028-Q08", "item_id": "B028-Q08-facts", "answer": "+7 939 232-40-41", "code": "V1", "judge": "V1"}
+{"qid": "B001-Q16", "item_id": "B001-Q16-facts", "answer": "ул. Луговая, 50", "code": "V5", "judge": "V5"}
+{"qid": "B015-Q19", "item_id": "B015-Q19-facts", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B017-Q17", "item_id": "B017-Q17-facts", "answer": "16:30", "code": "V5", "judge": "V5"}
+{"qid": "B030-Q05", "item_id": "B030-Q05-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B021-Q18", "item_id": "B021-Q18-facts", "answer": "240 000 рублей", "code": "V8", "judge": "V8"}
+{"qid": "B021-Q04", "item_id": "B021-Q04-log-middle", "answer": "175 000 рублей", "code": "V10", "judge": "V10"}
+{"qid": "B017-Q09", "item_id": "B017-Q09-log-middle", "answer": "16:30", "code": "V5", "judge": "V5"}
+{"qid": "B004-Q14", "item_id": "B004-Q14-log-middle", "answer": "+7 922 628-88-53", "code": "V1", "judge": "V1"}
+{"qid": "B015-Q09", "item_id": "B015-Q09-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B011-Q08", "item_id": "B011-Q08-log-middle", "answer": "14:00", "code": "V4", "judge": "V4"}
+{"qid": "B010-Q08", "item_id": "B010-Q08-log-middle", "answer": "+7 900 538-85-81", "code": "V3", "judge": "V3"}
+{"qid": "B023-Q16", "item_id": "B023-Q16-log-middle", "answer": "16:00", "code": "V5", "judge": "V5"}
+{"qid": "B021-Q13", "item_id": "B021-Q13-facts", "answer": "нет данных", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B024-Q16", "item_id": "B024-Q16-facts", "answer": "*9771", "code": "V5", "judge": "V5"}
+{"qid": "B006-Q09", "item_id": "B006-Q09-log-middle", "answer": "*6067", "code": "V2", "judge": "V2"}
+{"qid": "B012-Q06", "item_id": "B012-Q06-facts", "answer": "*7949", "code": "V3", "judge": "V3"}
+{"qid": "B017-Q03", "item_id": "B017-Q03-facts", "answer": "16:00", "code": "V9", "judge": "V9"}
+{"qid": "B025-Q10", "item_id": "B025-Q10-facts", "answer": "ул. Морская, 7", "code": "V3", "judge": "V3"}
+{"qid": "B005-Q05", "item_id": "B005-Q05-facts", "answer": "10:00", "code": "V4", "judge": "V4"}
+{"qid": "B022-Q12", "item_id": "B022-Q12-facts", "answer": "+7 906 220-22-15", "code": "V6", "judge": "V6"}
+{"qid": "B020-Q03", "item_id": "B020-Q03-log-middle", "answer": "11 декабря", "code": "V10", "judge": "V10"}
+{"qid": "B019-Q15", "item_id": "B019-Q15-facts", "answer": "ул. Липовая, 40", "code": "V7", "judge": "V7"}
+{"qid": "B018-Q28", "item_id": "B018-Q28-facts", "answer": "*1733", "code": "V1", "judge": "V1"}
+{"qid": "B010-Q16", "item_id": "B010-Q16-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B019-Q13", "item_id": "B019-Q13-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B023-Q03", "item_id": "B023-Q03-facts", "answer": "14:30", "code": "V9", "judge": "V9"}
+{"qid": "B016-Q26", "item_id": "B016-Q26-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B008-Q03", "item_id": "B008-Q03-facts", "answer": "11 января", "code": "V4", "judge": "V4"}
+{"qid": "B009-Q12", "item_id": "B009-Q12-facts", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B020-Q31", "item_id": "B020-Q31-facts", "answer": "11 декабря", "code": "V10", "judge": "V10"}
+{"qid": "B001-Q03", "item_id": "B001-Q03-log-middle", "answer": "ул. Спортивная, 47", "code": "V4", "judge": "V4"}
+{"qid": "B018-Q15", "item_id": "B018-Q15-log-middle", "answer": "*2155", "code": "V4", "judge": "V4"}
+{"qid": "B013-Q28", "item_id": "B013-Q28-facts", "answer": "ул. Дачная, 9", "code": "V1", "judge": "V1"}
+{"qid": "B007-Q14", "item_id": "B007-Q14-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B017-Q16", "item_id": "B017-Q16-log-middle", "answer": "12:30", "code": "V2", "judge": "V2"}
+{"qid": "B016-Q24", "item_id": "B016-Q24-facts", "answer": "+7 995 778-96-35", "code": "V2", "judge": "V2"}
+{"qid": "B015-Q13", "item_id": "B015-Q13-facts", "answer": "нет данных", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B021-Q11", "item_id": "B021-Q11-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B003-Q09", "item_id": "B003-Q09-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B001-Q04", "item_id": "B001-Q04-log-middle", "answer": "ул. Спортивная, 47", "code": "V4", "judge": "V4"}
+{"qid": "B004-Q12", "item_id": "B004-Q12-facts", "answer": "+7 922 628-88-53", "code": "V1", "judge": "V1"}
+{"qid": "B026-Q08", "item_id": "B026-Q08-log-middle", "answer": "8 декабря", "code": "V1", "judge": "V1"}
+{"qid": "B024-Q18", "item_id": "B024-Q18-log-middle", "answer": "*9408", "code": "V7", "judge": "V7"}
+{"qid": "B019-Q28", "item_id": "B019-Q28-facts", "answer": "ул. Дачная, 22", "code": "V1", "judge": "V1"}
+{"qid": "B003-Q03", "item_id": "B003-Q03-log-middle", "answer": "100 000 рублей", "code": "V5", "judge": "V5"}
+{"qid": "B030-Q10", "item_id": "B030-Q10-facts", "answer": "*8288", "code": "V3", "judge": "V3"}
+{"qid": "B004-Q13", "item_id": "B004-Q13-facts", "answer": "+7 922 628-88-53", "code": "V1", "judge": "V1"}
+{"qid": "B015-Q12", "item_id": "B015-Q12-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B027-Q04", "item_id": "B027-Q04-facts", "answer": "185 000 рублей", "code": "V1", "judge": "V1"}
+{"qid": "B018-Q13", "item_id": "B018-Q13-log-middle", "answer": "*4262", "code": "V5", "judge": "V5"}
+{"qid": "B027-Q07", "item_id": "B027-Q07-facts", "answer": "185 000 рублей", "code": "V1", "judge": "V1"}
+{"qid": "B019-Q10", "item_id": "B019-Q10-log-middle", "answer": "ул. Липовая, 40", "code": "V7", "judge": "V7"}
+{"qid": "B010-Q02", "item_id": "B010-Q02-facts", "answer": "+7 958 763-46-12", "code": "V4", "judge": "V4"}
+{"qid": "B015-Q31", "item_id": "B015-Q31-facts", "answer": "75 000 рублей", "code": "V10", "judge": "V10"}
+{"qid": "B027-Q03", "item_id": "B027-Q03-facts", "answer": "185 000 рублей", "code": "V1", "judge": "V1"}
+{"qid": "B025-Q06", "item_id": "B025-Q06-log-middle", "answer": "ул. Морская, 7", "code": "V3", "judge": "V3"}
+{"qid": "B019-Q11", "item_id": "B019-Q11-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B015-Q03", "item_id": "B015-Q03-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B014-Q13", "item_id": "B014-Q13-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B019-Q02", "item_id": "B019-Q02-facts", "answer": "ул. Сосновая, 22", "code": "V9", "judge": "V9"}
+{"qid": "B002-Q09", "item_id": "B002-Q09-facts", "answer": "11 января", "code": "V3", "judge": "V3"}
+{"qid": "B019-Q19", "item_id": "B019-Q19-log-middle", "answer": "ул. Липовая, 7", "code": "V4", "judge": "V4"}
+{"qid": "B019-Q24", "item_id": "B019-Q24-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B018-Q04", "item_id": "B018-Q04-facts", "answer": "*1591", "code": "V9", "judge": "V9"}
+{"qid": "B009-Q14", "item_id": "B009-Q14-facts", "answer": "нет данных", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B001-Q13", "item_id": "B001-Q13-log-middle", "answer": "ул. Почтовая, 13", "code": "V1", "judge": "V1"}
+{"qid": "B022-Q13", "item_id": "B022-Q13-log-middle", "answer": "Нет данных.", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B004-Q12", "item_id": "B004-Q12-facts", "answer": "+7 969 377-80-48", "code": "V4", "judge": "V4"}
+{"qid": "B015-Q31", "item_id": "B015-Q31-facts", "answer": "Переведу маме 75 000 рублей.", "code": "V10", "judge": "V10"}
+{"qid": "B010-Q14", "item_id": "B010-Q14-log-middle", "answer": "Ответ: +7 958 482-82-51.", "code": "V1", "judge": "V1"}
+{"qid": "B015-Q16", "item_id": "B015-Q16-facts", "answer": "290 000 рублей — но это значение клиент попросил удалить из записей и не называть, поэтому: нет данных.", "code": "V5", "judge": "V5"}
+{"qid": "B025-Q06", "item_id": "B025-Q06-facts", "answer": "ул. Речная, 52", "code": "V1", "judge": "V1"}
+{"qid": "B018-Q12", "item_id": "B018-Q12-facts", "answer": "*1204", "code": "V6", "judge": "V6"}
+{"qid": "B009-Q14", "item_id": "B009-Q14-log-middle", "answer": "Нет данных.", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B018-Q20", "item_id": "B018-Q20-log-middle", "answer": "Перед тем как вы сообщили о потере карты, для оплаты детского сада была указана *1024.", "code": "V7", "judge": "V7"}
+{"qid": "B028-Q06", "item_id": "B028-Q06-log-middle", "answer": "+7 939 232-40-41", "code": "V1", "judge": "V1"}
+{"qid": "B022-Q17", "item_id": "B022-Q17-facts", "answer": "+7 982 767-46-98", "code": "V3", "judge": "V3"}
+{"qid": "B018-Q25", "item_id": "B018-Q25-facts", "answer": "*7465", "code": "V2", "judge": "V2"}
+{"qid": "B020-Q20", "item_id": "B020-Q20-facts", "answer": "10 января", "code": "V1", "judge": "V1"}
+{"qid": "B019-Q30", "item_id": "B019-Q30-log-middle", "answer": "Ул. Дачная, 22.", "code": "V1", "judge": "V1"}
+{"qid": "B024-Q11", "item_id": "B024-Q11-log-middle", "answer": "До этого была *6723.", "code": "V10", "judge": "V10"}
+{"qid": "B027-Q04", "item_id": "B027-Q04-log-middle", "answer": "Нет данных.", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B022-Q31", "item_id": "B022-Q31-facts", "answer": "Нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B012-Q03", "item_id": "B012-Q03-facts", "answer": "*7949", "code": "V3", "judge": "V3"}
+{"qid": "B018-Q30", "item_id": "B018-Q30-facts", "answer": "Нужно найти значение, которое было указано непосредственно до сведения версии 2, то есть версии 1: *1733.", "code": "V1", "judge": "V1"}
+{"qid": "B020-Q28", "item_id": "B020-Q28-log-middle", "answer": "Первоначальная дата платежа за страховку — 10 января.", "code": "V1", "judge": "V1"}
+{"qid": "B014-Q30", "item_id": "B014-Q30-log-middle", "answer": "Тогда дата платежа за аренду была 7 декабря.", "code": "V1", "judge": "V1"}
+{"qid": "B006-Q03", "item_id": "B006-Q03-log-middle", "answer": "Предыдущая карта для оплаты парковки была *7027.", "code": "V1", "judge": "V1"}
+{"qid": "B009-Q05", "item_id": "B009-Q05-log-middle", "answer": "Нет данных.", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B013-Q20", "item_id": "B013-Q20-facts", "answer": "ул. Дачная, 9", "code": "V1", "judge": "V1"}
+{"qid": "B008-Q07", "item_id": "B008-Q07-log-middle", "answer": "21 декабря.", "code": "W", "judge": "W"}
+{"qid": "B018-Q11", "item_id": "B018-Q11-log-middle", "answer": "Карта *1024.", "code": "V7", "judge": "V7"}
+{"qid": "B016-Q01", "item_id": "B016-Q01-log-middle", "answer": "+7 961 352-14-93", "code": "V10", "judge": "V10"}
+{"qid": "B020-Q31", "item_id": "B020-Q31-facts", "answer": "11 декабря", "code": "V10", "judge": "V10"}
+{"qid": "B024-Q29", "item_id": "B024-Q29-facts", "answer": "*2119", "code": "V1", "judge": "V1"}
+{"qid": "B012-Q09", "item_id": "B012-Q09-facts", "answer": "*7629", "code": "V2", "judge": "V2"}
+{"qid": "B027-Q05", "item_id": "B027-Q05-facts", "answer": "180 000 рублей", "code": "V2", "judge": "V2"}
+{"qid": "B024-Q18", "item_id": "B024-Q18-facts", "answer": "*8198", "code": "V2", "judge": "V2"}
+{"qid": "B016-Q07", "item_id": "B016-Q07-facts", "answer": "+7 964 793-87-75", "code": "V8", "judge": "V8"}
+{"qid": "B021-Q19", "item_id": "B021-Q19-facts", "answer": "165 000 рублей", "code": "V9", "judge": "V9"}
+{"qid": "B002-Q15", "item_id": "B002-Q15-facts", "answer": "31 декабря", "code": "V2", "judge": "V2"}
+{"qid": "B022-Q23", "item_id": "B022-Q23-facts", "answer": "+7 909 434-85-14", "code": "V1", "judge": "V1"}
+{"qid": "B016-Q09", "item_id": "B016-Q09-log-middle", "answer": "Нет данных.", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B022-Q19", "item_id": "B022-Q19-facts", "answer": "+7 903 525-13-27", "code": "V4", "judge": "V4"}
+{"qid": "B026-Q02", "item_id": "B026-Q02-log-middle", "answer": "1 декабря", "code": "V3", "judge": "V3"}
+{"qid": "B020-Q05", "item_id": "B020-Q05-log-middle", "answer": "10 декабря.", "code": "V9", "judge": "V9"}
+{"qid": "B003-Q13", "item_id": "B003-Q13-facts", "answer": "220 000 рублей", "code": "V1", "judge": "V1"}
+{"qid": "B020-Q12", "item_id": "B020-Q12-log-middle", "answer": "Нет данных.", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B022-Q05", "item_id": "B022-Q05-log-middle", "answer": "Этот номер я не могу назвать.", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B024-Q11", "item_id": "B024-Q11-facts", "answer": "*9771", "code": "V5", "judge": "V5"}
+{"qid": "B017-Q23", "item_id": "B017-Q23-log-middle", "answer": "14:30", "code": "V3", "judge": "V3"}
+{"qid": "B024-Q14", "item_id": "B024-Q14-log-middle", "answer": "Нет данных.", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B020-Q09", "item_id": "B020-Q09-facts", "answer": "19 января", "code": "V3", "judge": "V3"}
+{"qid": "B015-Q29", "item_id": "B015-Q29-log-middle", "answer": "Ответ: нет данных.", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B007-Q12", "item_id": "B007-Q12-facts", "answer": "ул. Цветочная, 21", "code": "V1", "judge": "V1"}
+{"qid": "B012-Q03", "item_id": "B012-Q03-log-middle", "answer": "Карта *7949.", "code": "V3", "judge": "V3"}
+{"qid": "B010-Q11", "item_id": "B010-Q11-facts", "answer": "+7 958 842-82-51", "code": "V2", "judge": "V2"}
+{"qid": "B023-Q27", "item_id": "B023-Q27-facts", "answer": "10:00", "code": "V1", "judge": "V1"}
+{"qid": "B013-Q12", "item_id": "B013-Q12-facts", "answer": "ул. Каштановая, 38", "code": "V6", "judge": "V6"}
+{"qid": "B018-Q30", "item_id": "B018-Q30-log-middle", "answer": "Карта для оплаты детского сада до этого была *1733.", "code": "V1", "judge": "V1"}
+{"qid": "B024-Q30", "item_id": "B024-Q30-log-middle", "answer": "Перед тем как вы сказали о закрытии карты, для коммунальных услуг была указана *2119.", "code": "V1", "judge": "V1"}
+{"qid": "B018-Q18", "item_id": "B018-Q18-facts", "answer": "*2155", "code": "V4", "judge": "V4"}
+{"qid": "B001-Q04", "item_id": "B001-Q04-log-middle", "answer": "ул. Спортивная, 47", "code": "V4", "judge": "V4"}
+{"qid": "B011-Q03", "item_id": "B011-Q03-facts", "answer": "13:30", "code": "V3", "judge": "V3"}
+{"qid": "B023-Q01", "item_id": "B023-Q01-facts", "answer": "12:30", "code": "V10", "judge": "V10"}
+{"qid": "B009-Q09", "item_id": "B009-Q09-facts", "answer": "Нет данных.", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B001-Q02", "item_id": "B001-Q02-facts", "answer": "ул. Спортивная, 47", "code": "V4", "judge": "V4"}
+{"qid": "B014-Q08", "item_id": "B014-Q08-log-middle", "answer": "Дата платежа за аренду до этого была 29 декабря.", "code": "V8", "judge": "V8"}
+{"qid": "B001-Q11", "item_id": "B001-Q11-log-middle", "answer": "Ул. Почтовая, 13.", "code": "V1", "judge": "V1"}
+{"qid": "B025-Q09", "item_id": "B025-Q09-facts", "answer": "ул. Речная, 52", "code": "V1", "judge": "V1"}
+{"qid": "B019-Q13", "item_id": "B019-Q13-facts", "answer": "ул. Липовая, 7", "code": "V4", "judge": "V4"}
+{"qid": "B007-Q11", "item_id": "B007-Q11-facts", "answer": "ул. Цветочная, 22", "code": "V2", "judge": "V2"}
+{"qid": "B026-Q01", "item_id": "B026-Q01-log-middle", "answer": "1 декабря.", "code": "V3", "judge": "V3"}
+{"qid": "B016-Q12", "item_id": "B016-Q12-facts", "answer": "+7 922 138-88-20", "code": "V6", "judge": "V6"}
+{"qid": "B006-Q15", "item_id": "B006-Q15-facts", "answer": "*7027", "code": "V1", "judge": "V1"}
+{"qid": "B016-Q30", "item_id": "B016-Q30-facts", "answer": "Версия 1 — до исправления, где клиентка перепутала порядок цифр, была указана версия 1: +7 995 787-96-35.", "code": "V1", "judge": "V1"}
+{"qid": "B025-Q04", "item_id": "B025-Q04-facts", "answer": "ул. Садовая, 58", "code": "V2", "judge": "V2"}
+{"qid": "B015-Q20", "item_id": "B015-Q20-log-middle", "answer": "275 000 рублей.", "code": "V4", "judge": "V4"}
+{"qid": "B003-Q10", "item_id": "B003-Q10-log-middle", "answer": "Нет данных.", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B029-Q09", "item_id": "B029-Q09-facts", "answer": "11:30", "code": "V1", "judge": "V1"}
+{"qid": "B021-Q13", "item_id": "B021-Q13-facts", "answer": "210 000 рублей", "code": "V6", "judge": "V6"}
+{"qid": "B024-Q28", "item_id": "B024-Q28-facts", "answer": "*2119", "code": "V1", "judge": "V1"}
+{"qid": "B003-Q07", "item_id": "B003-Q07-log-middle", "answer": "Нет данных.", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B010-Q01", "item_id": "B010-Q01-log-middle", "answer": "+7 985 312-74-59", "code": "V5", "judge": "V5"}
+{"qid": "B024-Q15", "item_id": "B024-Q15-facts", "answer": "*3723", "code": "V3", "judge": "V3"}
+{"qid": "B017-Q07", "item_id": "B017-Q07-facts", "answer": "15:00", "code": "V10", "judge": "V10"}
+{"qid": "B014-Q12", "item_id": "B014-Q12-facts", "answer": "Четыре изменения назад от последней версии (10) — это версия 6, значение: 24 декабря.", "code": "V6", "judge": "V6"}
+{"qid": "B027-Q04", "item_id": "B027-Q04-facts", "answer": "180 000 рублей", "code": "V2", "judge": "V2"}
+{"qid": "B014-Q19", "item_id": "B014-Q19-log-middle", "answer": "Нет данных.", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B019-Q07", "item_id": "B019-Q07-log-middle", "answer": "Ул. Липовая, 42.", "code": "V8", "judge": "V8"}
+{"qid": "B019-Q03", "item_id": "B019-Q03-log-middle", "answer": "Предыдущий адрес доставки карты для мамы — ул. Липовая, 42.", "code": "V8", "judge": "V8"}
+{"qid": "B009-Q10", "item_id": "B009-Q10-log-middle", "answer": "Нет данных.", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B010-Q13", "item_id": "B010-Q13-facts", "answer": "+7 958 482-82-51", "code": "V1", "judge": "V1"}
+{"qid": "B027-Q05", "item_id": "B027-Q05-log-middle", "answer": "Нет данных.", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B026-Q10", "item_id": "B026-Q10-facts", "answer": "1 декабря", "code": "V3", "judge": "V3"}
+{"qid": "B010-Q02", "item_id": "B010-Q02-facts", "answer": "+7 958 763-46-12", "code": "V4", "judge": "V4"}
+{"qid": "B024-Q25", "item_id": "B024-Q25-facts", "answer": "*2119", "code": "V1", "judge": "V1"}
+{"qid": "B022-Q06", "item_id": "B022-Q06-log-middle", "answer": "Нет данных.", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B009-Q11", "item_id": "B009-Q11-facts", "answer": "Нет данных.", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B013-Q30", "item_id": "B013-Q30-facts", "answer": "ул. Дачная, 9", "code": "V1", "judge": "V1"}
+{"qid": "B013-Q30", "item_id": "B013-Q30-log-middle", "answer": "ул. Дачная, 9", "code": "V1", "judge": "V1"}
+{"qid": "B006-Q11", "item_id": "B006-Q11-facts", "answer": "*6067", "code": "V2", "judge": "V2"}
+{"qid": "B002-Q16", "item_id": "B002-Q16-facts", "answer": "21 января", "code": "V5", "judge": "V5"}
+{"qid": "B013-Q16", "item_id": "B013-Q16-log-middle", "answer": "Ул. Цветочная, 27.", "code": "V5", "judge": "V5"}
+{"qid": "B029-Q09", "item_id": "B029-Q09-log-middle", "answer": "11:30.", "code": "V1", "judge": "V1"}
+{"qid": "B013-Q05", "item_id": "B013-Q05-facts", "answer": "ул. Светлая, 52", "code": "V9", "judge": "V9"}
+{"qid": "B008-Q05", "item_id": "B008-Q05-facts", "answer": "11 января", "code": "V4", "judge": "V4"}
+{"qid": "B021-Q12", "item_id": "B021-Q12-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B014-Q19", "item_id": "B014-Q19-facts", "answer": "2 декабря", "code": "V4", "judge": "V4"}
+{"qid": "B002-Q10", "item_id": "B002-Q10-log-middle", "answer": "31 декабря", "code": "V2", "judge": "V2"}
+{"qid": "B005-Q05", "item_id": "B005-Q05-facts", "answer": "10:00", "code": "V4", "judge": "V4"}
+{"qid": "B023-Q02", "item_id": "B023-Q02-facts", "answer": "14:30", "code": "V9", "judge": "V9"}
+{"qid": "B016-Q07", "item_id": "B016-Q07-log-middle", "answer": "+7 949 410-52-55", "code": "V5", "judge": "V5"}
+{"qid": "B018-Q10", "item_id": "B018-Q10-facts", "answer": "*1024", "code": "V7", "judge": "V7"}
+{"qid": "B015-Q16", "item_id": "B015-Q16-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B021-Q10", "item_id": "B021-Q10-facts", "answer": "220 000 рублей", "code": "V7", "judge": "V7"}
+{"qid": "B018-Q11", "item_id": "B018-Q11-facts", "answer": "*1024", "code": "V7", "judge": "V7"}
+{"qid": "B015-Q15", "item_id": "B015-Q15-facts", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B007-Q02", "item_id": "B007-Q02-log-middle", "answer": "ул. Песочная, 24", "code": "V3", "judge": "V3"}
+{"qid": "B022-Q10", "item_id": "B022-Q10-log-middle", "answer": "+7 928 559-88-38", "code": "V7", "judge": "V7"}
+{"qid": "B023-Q22", "item_id": "B023-Q22-log-middle", "answer": "9:30", "code": "V2", "judge": "V2"}
+{"qid": "B024-Q18", "item_id": "B024-Q18-facts", "answer": "*8198", "code": "V2", "judge": "V2"}
+{"qid": "B016-Q01", "item_id": "B016-Q01-facts", "answer": "+7 961 352-14-93", "code": "V10", "judge": "V10"}
+{"qid": "B022-Q05", "item_id": "B022-Q05-facts", "answer": "+7 911 871-77-37", "code": "V9", "judge": "V9"}
+{"qid": "B017-Q08", "item_id": "B017-Q08-log-middle", "answer": "14:00", "code": "V7", "judge": "V7"}
+{"qid": "B020-Q11", "item_id": "B020-Q11-facts", "answer": "12 января", "code": "V7", "judge": "V7"}
+{"qid": "B018-Q09", "item_id": "B018-Q09-facts", "answer": "*1204", "code": "V6", "judge": "V6"}
+{"qid": "B009-Q04", "item_id": "B009-Q04-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B004-Q05", "item_id": "B004-Q05-facts", "answer": "+7 969 377-80-48", "code": "V4", "judge": "V4"}
+{"qid": "B030-Q09", "item_id": "B030-Q09-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B014-Q09", "item_id": "B014-Q09-log-middle", "answer": "23 декабря", "code": "V7", "judge": "V7"}
+{"qid": "B021-Q09", "item_id": "B021-Q09-facts", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B024-Q12", "item_id": "B024-Q12-facts", "answer": "*9480", "code": "V6", "judge": "V6"}
+{"qid": "B004-Q01", "item_id": "B004-Q01-facts", "answer": "+7 980 240-20-94", "code": "V5", "judge": "V5"}
+{"qid": "B013-Q18", "item_id": "B013-Q18-facts", "answer": "ул. Береговая, 1", "code": "V3", "judge": "V3"}
+{"qid": "B022-Q06", "item_id": "B022-Q06-facts", "answer": "+7 911 871-73-77", "code": "V8", "judge": "V8"}
+{"qid": "B013-Q08", "item_id": "B013-Q08-facts", "answer": "ул. Луговая, 16", "code": "V8", "judge": "V8"}
+{"qid": "B016-Q08", "item_id": "B016-Q08-log-middle", "answer": "+7 964 793-78-75", "code": "V9", "judge": "V9"}
+{"qid": "B016-Q28", "item_id": "B016-Q28-facts", "answer": "+7 995 787-96-35", "code": "V1", "judge": "V1"}
+{"qid": "B008-Q15", "item_id": "B008-Q15-log-middle", "answer": "25 января", "code": "V2", "judge": "V2"}
+{"qid": "B007-Q15", "item_id": "B007-Q15-log-middle", "answer": "ул. Зеленая, 6", "code": "V4", "judge": "V4"}
+{"qid": "B014-Q11", "item_id": "B014-Q11-facts", "answer": "23 декабря", "code": "V7", "judge": "V7"}
+{"qid": "B018-Q01", "item_id": "B018-Q01-log-middle", "answer": "*4571", "code": "V10", "judge": "V10"}
+{"qid": "B016-Q26", "item_id": "B016-Q26-log-middle", "answer": "+7 981 983-53-27", "code": "V4", "judge": "V4"}
+{"qid": "B026-Q08", "item_id": "B026-Q08-log-middle", "answer": "8 декабря.", "code": "V1", "judge": "V1"}
+{"qid": "B017-Q26", "item_id": "B017-Q26-facts", "answer": "12:30", "code": "V2", "judge": "V2"}
+{"qid": "B002-Q13", "item_id": "B002-Q13-log-middle", "answer": "1 января", "code": "V1", "judge": "V1"}
+{"qid": "B023-Q11", "item_id": "B023-Q11-log-middle", "answer": "11:30", "code": "V7", "judge": "V7"}
+{"qid": "B014-Q25", "item_id": "B014-Q25-facts", "answer": "5 декабря", "code": "V2", "judge": "V2"}
+{"qid": "B027-Q03", "item_id": "B027-Q03-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B011-Q08", "item_id": "B011-Q08-facts", "answer": "13:30", "code": "V3", "judge": "V3"}
+{"qid": "B017-Q05", "item_id": "B017-Q05-log-middle", "answer": "16:00", "code": "V9", "judge": "V9"}
+{"qid": "B004-Q09", "item_id": "B004-Q09-facts", "answer": "+7 932 501-88-24", "code": "V2", "judge": "V2"}
+{"qid": "B023-Q15", "item_id": "B023-Q15-facts", "answer": "17:00", "code": "V4", "judge": "V4"}
+{"qid": "B004-Q08", "item_id": "B004-Q08-log-middle", "answer": "+7 969 378-70-48", "code": "V3", "judge": "V3"}
+{"qid": "B013-Q23", "item_id": "B013-Q23-facts", "answer": "ул. Луговая, 16", "code": "V8", "judge": "V8"}
+{"qid": "B015-Q11", "item_id": "B015-Q11-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B024-Q04", "item_id": "B024-Q04-facts", "answer": "*6732", "code": "V9", "judge": "V9"}
+{"qid": "B011-Q01", "item_id": "B011-Q01-facts", "answer": "16:30", "code": "V5", "judge": "V5"}
+{"qid": "B008-Q06", "item_id": "B008-Q06-log-middle", "answer": "4 января", "code": "V3", "judge": "V3"}
+{"qid": "B005-Q01", "item_id": "B005-Q01-facts", "answer": "17:00", "code": "V5", "judge": "V5"}
+{"qid": "B019-Q30", "item_id": "B019-Q30-log-middle", "answer": "ул. Дачная, 22", "code": "V1", "judge": "V1"}
+{"qid": "B014-Q31", "item_id": "B014-Q31-facts", "answer": "18 декабря", "code": "V10", "judge": "V10"}
+{"qid": "B029-Q09", "item_id": "B029-Q09-facts", "answer": "11:30", "code": "V1", "judge": "V1"}
+{"qid": "B013-Q19", "item_id": "B013-Q19-facts", "answer": "ул. Береговая, 3", "code": "V4", "judge": "V4"}
+{"qid": "B009-Q16", "item_id": "B009-Q16-log-middle", "answer": "120 000 рублей", "code": "V5", "judge": "V5"}
+{"qid": "B012-Q16", "item_id": "B012-Q16-log-middle", "answer": "*9434", "code": "V5", "judge": "V5"}
+{"qid": "B022-Q06", "item_id": "B022-Q06-log-middle", "answer": "+7 906 220-22-15", "code": "V6", "judge": "V6"}
+{"qid": "B016-Q03", "item_id": "B016-Q03-facts", "answer": "+7 964 793-78-75", "code": "V9", "judge": "V9"}
+{"qid": "B025-Q10", "item_id": "B025-Q10-log-middle", "answer": "ул. Садовая, 58", "code": "V2", "judge": "V2"}
+{"qid": "B018-Q31", "item_id": "B018-Q31-facts", "answer": "*4571", "code": "V10", "judge": "V10"}
+{"qid": "B001-Q06", "item_id": "B001-Q06-log-middle", "answer": "ул. Спортивная, 49", "code": "V3", "judge": "V3"}
+{"qid": "B019-Q12", "item_id": "B019-Q12-facts", "answer": "ул. Лесная, 19", "code": "V5", "judge": "V5"}
+{"qid": "B006-Q13", "item_id": "B006-Q13-log-middle", "answer": "*7027", "code": "V1", "judge": "V1"}
+{"qid": "B018-Q15", "item_id": "B018-Q15-facts", "answer": "*2155", "code": "V4", "judge": "V4"}
+{"qid": "B016-Q11", "item_id": "B016-Q11-log-middle", "answer": "+7 922 138-88-02", "code": "V7", "judge": "V7"}
+{"qid": "B019-Q20", "item_id": "B019-Q20-facts", "answer": "ул. Липовая, 7", "code": "V4", "judge": "V4"}
+{"qid": "B022-Q12", "item_id": "B022-Q12-facts", "answer": "+7 903 552-13-27", "code": "V5", "judge": "V5"}
+{"qid": "B014-Q29", "item_id": "B014-Q29-log-middle", "answer": "7 декабря.", "code": "V1", "judge": "V1"}
+{"qid": "B003-Q07", "item_id": "B003-Q07-log-middle", "answer": "125 000 рублей.", "code": "V3", "judge": "V3"}
+{"qid": "B001-Q03", "item_id": "B001-Q03-log-middle", "answer": "ул. Спортивная, 47", "code": "V4", "judge": "V4"}
+{"qid": "B002-Q16", "item_id": "B002-Q16-log-middle", "answer": "21 января", "code": "V5", "judge": "V5"}
+{"qid": "B020-Q06", "item_id": "B020-Q06-log-middle", "answer": "12 января", "code": "V7", "judge": "V7"}
+{"qid": "B010-Q05", "item_id": "B010-Q05-facts", "answer": "+7 958 763-46-12", "code": "V4", "judge": "V4"}
+{"qid": "B010-Q02", "item_id": "B010-Q02-facts", "answer": "+7 958 763-46-12", "code": "V4", "judge": "V4"}
+{"qid": "B003-Q02", "item_id": "B003-Q02-log-middle", "answer": "135 000 рублей.", "code": "V4", "judge": "V4"}
+{"qid": "B030-Q02", "item_id": "B030-Q02-log-middle", "answer": "*2888", "code": "V2", "judge": "V2"}
+{"qid": "B021-Q05", "item_id": "B021-Q05-log-middle", "answer": "165 000 рублей.", "code": "V9", "judge": "V9"}
+{"qid": "B010-Q02", "item_id": "B010-Q02-log-middle", "answer": "+7 958 763-46-12", "code": "V4", "judge": "V4"}
+{"qid": "B027-Q06", "item_id": "B027-Q06-facts", "answer": "нет данных", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B026-Q05", "item_id": "B026-Q05-log-middle", "answer": "8 декабря", "code": "V1", "judge": "V1"}
+{"qid": "B011-Q07", "item_id": "B011-Q07-facts", "answer": "13:30", "code": "V3", "judge": "V3"}
+{"qid": "B019-Q13", "item_id": "B019-Q13-facts", "answer": "ул. Лесная, 21", "code": "V6", "judge": "V6"}
+{"qid": "B021-Q24", "item_id": "B021-Q24-facts", "answer": "296 000 рублей", "code": "V2", "judge": "V2"}
+{"qid": "B022-Q04", "item_id": "B022-Q04-log-middle", "answer": "+7 911 871-77-37", "code": "V9", "judge": "V9"}
+{"qid": "B018-Q18", "item_id": "B018-Q18-log-middle", "answer": "*2515", "code": "V3", "judge": "V3"}
+{"qid": "B025-Q06", "item_id": "B025-Q06-log-middle", "answer": "ул. Речная, 52", "code": "V1", "judge": "V1"}
+{"qid": "B012-Q15", "item_id": "B012-Q15-facts", "answer": "*6729", "code": "V1", "judge": "V1"}
+{"qid": "B015-Q19", "item_id": "B015-Q19-log-middle", "answer": "275 000 рублей.", "code": "V4", "judge": "V4"}
+{"qid": "B015-Q22", "item_id": "B015-Q22-log-middle", "answer": "291 000 рублей.", "code": "V6", "judge": "V6"}
+{"qid": "B020-Q26", "item_id": "B020-Q26-log-middle", "answer": "10 декабря", "code": "V9", "judge": "V9"}
+{"qid": "B025-Q02", "item_id": "B025-Q02-facts", "answer": "ул. Садовая, 58", "code": "V2", "judge": "V2"}
+{"qid": "B002-Q11", "item_id": "B002-Q11-facts", "answer": "31 декабря", "code": "V2", "judge": "V2"}
+{"qid": "B019-Q02", "item_id": "B019-Q02-facts", "answer": "ул. Сосновая, 22", "code": "V9", "judge": "V9"}
+{"qid": "B019-Q04", "item_id": "B019-Q04-log-middle", "answer": "ул. Сосновая, 22", "code": "V9", "judge": "V9"}
+{"qid": "B017-Q14", "item_id": "B017-Q14-log-middle", "answer": "16:00", "code": "V9", "judge": "V9"}
+{"qid": "B015-Q28", "item_id": "B015-Q28-log-middle", "answer": "185 000 рублей.", "code": "V7", "judge": "V7"}
+{"qid": "B014-Q18", "item_id": "B014-Q18-facts", "answer": "16 декабря", "code": "V9", "judge": "V9"}
+{"qid": "B020-Q01", "item_id": "B020-Q01-facts", "answer": "11 декабря", "code": "V10", "judge": "V10"}
+{"qid": "B020-Q06", "item_id": "B020-Q06-facts", "answer": "11 декабря", "code": "V10", "judge": "V10"}
+{"qid": "B018-Q04", "item_id": "B018-Q04-facts", "answer": "*1591", "code": "V9", "judge": "V9"}
+{"qid": "B001-Q06", "item_id": "B001-Q06-log-middle", "answer": "ул. Спортивная, 47", "code": "V4", "judge": "V4"}
+{"qid": "B023-Q11", "item_id": "B023-Q11-facts", "answer": "11:30", "code": "V7", "judge": "V7"}
+{"qid": "B021-Q27", "item_id": "B021-Q27-facts", "answer": "190 000 рублей", "code": "V3", "judge": "V3"}
+{"qid": "B004-Q04", "item_id": "B004-Q04-facts", "answer": "+7 969 377-80-48", "code": "V4", "judge": "V4"}
+{"qid": "B014-Q30", "item_id": "B014-Q30-log-middle", "answer": "7 декабря.", "code": "V1", "judge": "V1"}
+{"qid": "B012-Q16", "item_id": "B012-Q16-log-middle", "answer": "Нет, для оплаты подписок действует карта *9434.", "code": "V5", "judge": "V5"}
+{"qid": "B015-Q02", "item_id": "B015-Q02-facts", "answer": "85 000 рублей", "code": "V9", "judge": "V9"}
+{"qid": "B004-Q06", "item_id": "B004-Q06-log-middle", "answer": "+7 932 501-88-24", "code": "V2", "judge": "V2"}
+{"qid": "B009-Q12", "item_id": "B009-Q12-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B016-Q03", "item_id": "B016-Q03-log-middle", "answer": "+7 964 793-78-75", "code": "V9", "judge": "V9"}
+{"qid": "B020-Q22", "item_id": "B020-Q22-log-middle", "answer": "19 января.", "code": "V3", "judge": "V3"}
+{"qid": "B021-Q29", "item_id": "B021-Q29-facts", "answer": "205 000 рублей", "code": "O0.1", "judge": "O0.1"}
+{"qid": "B012-Q04", "item_id": "B012-Q04-log-middle", "answer": "*2404", "code": "V4", "judge": "V4"}
+{"qid": "B019-Q03", "item_id": "B019-Q03-facts", "answer": "ул. Сосновая, 22", "code": "V9", "judge": "V9"}
+{"qid": "B018-Q25", "item_id": "B018-Q25-facts", "answer": "*7465", "code": "V2", "judge": "V2"}
+{"qid": "B022-Q30", "item_id": "B022-Q30-facts", "answer": "+7 909 434-85-14", "code": "V1", "judge": "V1"}
+{"qid": "B003-Q03", "item_id": "B003-Q03-log-middle", "answer": "100 000 рублей.", "code": "V5", "judge": "V5"}
+{"qid": "B017-Q17", "item_id": "B017-Q17-facts", "answer": "14:30", "code": "V3", "judge": "V3"}
+{"qid": "B018-Q17", "item_id": "B018-Q17-log-middle", "answer": "*1733", "code": "V1", "judge": "V1"}
+{"qid": "B023-Q11", "item_id": "B023-Q11-log-middle", "answer": "11:30", "code": "V7", "judge": "V7"}
+{"qid": "B024-Q16", "item_id": "B024-Q16-facts", "answer": "*9771", "code": "V5", "judge": "V5"}
+{"qid": "B012-Q13", "item_id": "B012-Q13-log-middle", "answer": "*6729.", "code": "V1", "judge": "V1"}
+{"qid": "B007-Q02", "item_id": "B007-Q02-facts", "answer": "ул. Зеленая, 6", "code": "V4", "judge": "V4"}
+{"qid": "B019-Q26", "item_id": "B019-Q26-facts", "answer": "ул. Парковая, 35", "code": "V2", "judge": "V2"}
+{"qid": "B014-Q21", "item_id": "B014-Q21-log-middle", "answer": "15 января.", "code": "W", "judge": "W"}
+{"qid": "B030-Q10", "item_id": "B030-Q10-facts", "answer": "*8288", "code": "V3", "judge": "V3"}
+{"qid": "B019-Q09", "item_id": "B019-Q09-facts", "answer": "ул. Липовая, 40", "code": "V7", "judge": "V7"}
+{"qid": "B015-Q05", "item_id": "B015-Q05-log-middle", "answer": "85 000 рублей.", "code": "V9", "judge": "V9"}
+{"qid": "B020-Q13", "item_id": "B020-Q13-log-middle", "answer": "31 января.", "code": "V6", "judge": "V6"}
+{"qid": "B011-Q05", "item_id": "B011-Q05-log-middle", "answer": "16:30", "code": "V5", "judge": "V5"}
+{"qid": "B014-Q02", "item_id": "B014-Q02-facts", "answer": "16 декабря", "code": "V9", "judge": "V9"}
+{"qid": "B018-Q29", "item_id": "B018-Q29-log-middle", "answer": "*1733.", "code": "V1", "judge": "V1"}
+{"qid": "B021-Q13", "item_id": "B021-Q13-facts", "answer": "210 000 рублей", "code": "V6", "judge": "V6"}
+{"qid": "B021-Q11", "item_id": "B021-Q11-log-middle", "answer": "220 000 рублей.", "code": "V7", "judge": "V7"}
+{"qid": "B023-Q24", "item_id": "B023-Q24-log-middle", "answer": "10:00.", "code": "V1", "judge": "V1"}
+{"qid": "B013-Q09", "item_id": "B013-Q09-facts", "answer": "ул. Каштановая, 83", "code": "V7", "judge": "V7"}
+{"qid": "B015-Q04", "item_id": "B015-Q04-facts", "answer": "85 000 рублей", "code": "V9", "judge": "V9"}
+{"qid": "B014-Q25", "item_id": "B014-Q25-log-middle", "answer": "5 декабря.", "code": "V2", "judge": "V2"}
+{"qid": "B018-Q22", "item_id": "B018-Q22-log-middle", "answer": "*2515.", "code": "V3", "judge": "V3"}
+{"qid": "B015-Q14", "item_id": "B015-Q14-facts", "answer": "290 000 рублей", "code": "V5", "judge": "V5"}
+{"qid": "B009-Q07", "item_id": "B009-Q07-log-middle", "answer": "90 000 рублей.", "code": "V3", "judge": "V3"}
+{"qid": "B013-Q18", "item_id": "B013-Q18-facts", "answer": "ул. Береговая, 3", "code": "V4", "judge": "V4"}
+{"qid": "B015-Q23", "item_id": "B015-Q23-log-middle", "answer": "206 000 рублей.", "code": "V3", "judge": "V3"}
+{"qid": "B013-Q19", "item_id": "B013-Q19-log-middle", "answer": "ул. Береговая, 3.", "code": "V4", "judge": "V4"}
+{"qid": "B016-Q18", "item_id": "B016-Q18-log-middle", "answer": "+7 995 778-96-35", "code": "V2", "judge": "V2"}
+{"qid": "B016-Q31", "item_id": "B016-Q31-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B017-Q14", "item_id": "B017-Q14-facts", "answer": "14:30", "code": "V3", "judge": "V3"}
+{"qid": "B020-Q14", "item_id": "B020-Q14-log-middle", "answer": "31 января.", "code": "V6", "judge": "V6"}
+{"qid": "B018-Q01", "item_id": "B018-Q01-log-middle", "answer": "*4571.", "code": "V10", "judge": "V10"}
+{"qid": "B006-Q10", "item_id": "B006-Q10-log-middle", "answer": "*7027", "code": "V1", "judge": "V1"}
+{"qid": "B017-Q05", "item_id": "B017-Q05-log-middle", "answer": "16:00", "code": "V9", "judge": "V9"}
+{"qid": "B016-Q20", "item_id": "B016-Q20-facts", "answer": "+7 981 983-53-27", "code": "V4", "judge": "V4"}
+{"qid": "B011-Q10", "item_id": "B011-Q10-facts", "answer": "11:30", "code": "V1", "judge": "V1"}
+{"qid": "B004-Q12", "item_id": "B004-Q12-facts", "answer": "+7 922 628-88-53", "code": "V1", "judge": "V1"}
+{"qid": "B014-Q28", "item_id": "B014-Q28-facts", "answer": "7 декабря", "code": "V1", "judge": "V1"}
+{"qid": "B017-Q04", "item_id": "B017-Q04-facts", "answer": "14:00", "code": "V7", "judge": "V7"}
+{"qid": "B022-Q31", "item_id": "B022-Q31-facts", "answer": "+7 969 215-81-22", "code": "V10", "judge": "V10"}
+{"qid": "B023-Q26", "item_id": "B023-Q26-facts", "answer": "10:00", "code": "V1", "judge": "V1"}
+{"qid": "B005-Q10", "item_id": "B005-Q10-facts", "answer": "12:00", "code": "V2", "judge": "V2"}
+{"qid": "B027-Q07", "item_id": "B027-Q07-facts", "answer": "185 000 рублей", "code": "V1", "judge": "V1"}
+{"qid": "B023-Q13", "item_id": "B023-Q13-log-middle", "answer": "16:00.", "code": "V5", "judge": "V5"}
+{"qid": "B019-Q14", "item_id": "B019-Q14-log-middle", "answer": "ул. Лесная, 21.", "code": "V6", "judge": "V6"}
+{"qid": "B019-Q06", "item_id": "B019-Q06-log-middle", "answer": "ул. Липовая, 42.", "code": "V8", "judge": "V8"}
+{"qid": "B013-Q12", "item_id": "B013-Q12-facts", "answer": "ул. Каштановая, 38", "code": "V6", "judge": "V6"}
+{"qid": "B021-Q16", "item_id": "B021-Q16-facts", "answer": "120 000 рублей", "code": "V5", "judge": "V5"}
+{"qid": "B025-Q01", "item_id": "B025-Q01-facts", "answer": "ул. Морская, 7", "code": "V3", "judge": "V3"}
+{"qid": "B018-Q27", "item_id": "B018-Q27-facts", "answer": "*1733", "code": "V1", "judge": "V1"}
+{"qid": "B004-Q11", "item_id": "B004-Q11-facts", "answer": "+7 932 501-88-24", "code": "V2", "judge": "V2"}
+{"qid": "B019-Q24", "item_id": "B019-Q24-facts", "answer": "ул. Парковая, 35", "code": "V2", "judge": "V2"}
+{"qid": "B002-Q14", "item_id": "B002-Q14-facts", "answer": "1 января", "code": "V1", "judge": "V1"}
+{"qid": "B028-Q04", "item_id": "B028-Q04-log-middle", "answer": "+7 920 761-86-98.", "code": "V2", "judge": "V2"}
+{"qid": "B020-Q12", "item_id": "B020-Q12-log-middle", "answer": "31 января.", "code": "V6", "judge": "V6"}
+{"qid": "B021-Q25", "item_id": "B021-Q25-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B001-Q10", "item_id": "B001-Q10-log-middle", "answer": "ул. Светлая, 45.", "code": "V2", "judge": "V2"}
+{"qid": "B013-Q29", "item_id": "B013-Q29-log-middle", "answer": "ул. Дачная, 9.", "code": "V1", "judge": "V1"}
+{"qid": "B016-Q22", "item_id": "B016-Q22-log-middle", "answer": "+7 995 778-96-35", "code": "V2", "judge": "V2"}
+{"qid": "B012-Q03", "item_id": "B012-Q03-facts", "answer": "*2404", "code": "V4", "judge": "V4"}
+{"qid": "B019-Q28", "item_id": "B019-Q28-facts", "answer": "ул. Дачная, 22", "code": "V1", "judge": "V1"}
+{"qid": "B020-Q09", "item_id": "B020-Q09-facts", "answer": "12 января", "code": "V7", "judge": "V7"}
+{"qid": "B015-Q27", "item_id": "B015-Q27-log-middle", "answer": "75 000 рублей.", "code": "V10", "judge": "V10"}
+{"qid": "B010-Q02", "item_id": "B010-Q02-log-middle", "answer": "+7 958 763-46-12", "code": "V4", "judge": "V4"}
+{"qid": "B027-Q10", "item_id": "B027-Q10-log-middle", "answer": "Нет данных.", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B015-Q18", "item_id": "B015-Q18-facts", "answer": "275 000 рублей", "code": "V4", "judge": "V4"}
+{"qid": "B026-Q08", "item_id": "B026-Q08-facts", "answer": "8 декабря", "code": "V1", "judge": "V1"}
+{"qid": "B016-Q21", "item_id": "B016-Q21-log-middle", "answer": "+7 995 787-96-35", "code": "V1", "judge": "V1"}
+{"qid": "B016-Q10", "item_id": "B016-Q10-log-middle", "answer": "+7 922 138-88-02", "code": "V7", "judge": "V7"}
+{"qid": "B008-Q13", "item_id": "B008-Q13-log-middle", "answer": "23 января.", "code": "V1", "judge": "V1"}
+{"qid": "B015-Q12", "item_id": "B015-Q12-facts", "answer": "291 000 рублей", "code": "V6", "judge": "V6"}
+{"qid": "B024-Q08", "item_id": "B024-Q08-log-middle", "answer": "*8682", "code": "V8", "judge": "V8"}
+{"qid": "B007-Q07", "item_id": "B007-Q07-log-middle", "answer": "ул. Песочная, 24", "code": "V3", "judge": "V3"}
+{"qid": "B015-Q22", "item_id": "B015-Q22-log-middle", "answer": "206 000 рублей.", "code": "V3", "judge": "V3"}
+{"qid": "B017-Q02", "item_id": "B017-Q02-facts", "answer": "16:00", "code": "V9", "judge": "V9"}
+{"qid": "B022-Q01", "item_id": "B022-Q01-facts", "answer": "+7 969 215-81-22", "code": "V10", "judge": "V10"}
+{"qid": "B020-Q09", "item_id": "B020-Q09-log-middle", "answer": "19 января.", "code": "V3", "judge": "V3"}
+{"qid": "B002-Q16", "item_id": "B002-Q16-facts", "answer": "21 января", "code": "V5", "judge": "V5"}
+{"qid": "B024-Q25", "item_id": "B024-Q25-facts", "answer": "*8198", "code": "V2", "judge": "V2"}
+{"qid": "B016-Q16", "item_id": "B016-Q16-facts", "answer": "+7 949 410-52-55", "code": "V5", "judge": "V5"}
+{"qid": "B019-Q10", "item_id": "B019-Q10-log-middle", "answer": "ул. Лесная, 21", "code": "V6", "judge": "V6"}
+{"qid": "B018-Q26", "item_id": "B018-Q26-facts", "answer": "*7465", "code": "V2", "judge": "V2"}
+{"qid": "B020-Q22", "item_id": "B020-Q22-log-middle", "answer": "19 января", "code": "V3", "judge": "V3"}
+{"qid": "B019-Q11", "item_id": "B019-Q11-log-middle", "answer": "ул. Липовая, 40", "code": "V7", "judge": "V7"}
+{"qid": "B020-Q26", "item_id": "B020-Q26-facts", "answer": "17 января", "code": "V2", "judge": "V2"}
+{"qid": "B028-Q08", "item_id": "B028-Q08-log-middle", "answer": "+7 939 232-40-41", "code": "V1", "judge": "V1"}
+{"qid": "B014-Q28", "item_id": "B014-Q28-log-middle", "answer": "7 декабря", "code": "V1", "judge": "V1"}
+{"qid": "B018-Q19", "item_id": "B018-Q19-log-middle", "answer": "*2155", "code": "V4", "judge": "V4"}
+{"qid": "B006-Q08", "item_id": "B006-Q08-log-middle", "answer": "*6607", "code": "V3", "judge": "V3"}
+{"qid": "B017-Q23", "item_id": "B017-Q23-log-middle", "answer": "14:30", "code": "V3", "judge": "V3"}
+{"qid": "B016-Q04", "item_id": "B016-Q04-log-middle", "answer": "+7 964 793-78-75", "code": "V9", "judge": "V9"}
+{"qid": "B021-Q19", "item_id": "B021-Q19-facts", "answer": "нет данных", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B004-Q10", "item_id": "B004-Q10-facts", "answer": "+7 932 501-88-24", "code": "V2", "judge": "V2"}
+{"qid": "B017-Q12", "item_id": "B017-Q12-facts", "answer": "14:30", "code": "V3", "judge": "V3"}
+{"qid": "B017-Q03", "item_id": "B017-Q03-facts", "answer": "16:00", "code": "V9", "judge": "V9"}
+{"qid": "B020-Q12", "item_id": "B020-Q12-log-middle", "answer": "12 января", "code": "V7", "judge": "V7"}
+{"qid": "B010-Q08", "item_id": "B010-Q08-facts", "answer": "+7 900 538-85-81", "code": "V3", "judge": "V3"}
+{"qid": "B021-Q07", "item_id": "B021-Q07-facts", "answer": "175 000 рублей", "code": "V10", "judge": "V10"}
+{"qid": "B020-Q16", "item_id": "B020-Q16-facts", "answer": "30 января", "code": "V5", "judge": "V5"}
+{"qid": "B019-Q10", "item_id": "B019-Q10-facts", "answer": "ул. Липовая, 40", "code": "V7", "judge": "V7"}
+{"qid": "B023-Q07", "item_id": "B023-Q07-facts", "answer": "14:00", "code": "V8", "judge": "V8"}
+{"qid": "B018-Q02", "item_id": "B018-Q02-facts", "answer": "*1591", "code": "V9", "judge": "V9"}
+{"qid": "B015-Q07", "item_id": "B015-Q07-facts", "answer": "125 000 рублей", "code": "V8", "judge": "V8"}
+{"qid": "B017-Q06", "item_id": "B017-Q06-facts", "answer": "12:00", "code": "V8", "judge": "V8"}
+{"qid": "B015-Q17", "item_id": "B015-Q17-log-middle", "answer": "290 000 рублей", "code": "V5", "judge": "V5"}
+{"qid": "B014-Q14", "item_id": "B014-Q14-facts", "answer": "24 декабря", "code": "V6", "judge": "V6"}
+{"qid": "B012-Q02", "item_id": "B012-Q02-log-middle", "answer": "*2404", "code": "V4", "judge": "V4"}
+{"qid": "B015-Q01", "item_id": "B015-Q01-facts", "answer": "75 000 рублей", "code": "V10", "judge": "V10"}
+{"qid": "B018-Q27", "item_id": "B018-Q27-facts", "answer": "*1733", "code": "V1", "judge": "V1"}
+{"qid": "B016-Q09", "item_id": "B016-Q09-facts", "answer": "+7 964 793-87-75", "code": "V8", "judge": "V8"}
+{"qid": "B023-Q26", "item_id": "B023-Q26-log-middle", "answer": "10:00", "code": "V1", "judge": "V1"}
+{"qid": "B014-Q24", "item_id": "B014-Q24-facts", "answer": "5 декабря", "code": "V2", "judge": "V2"}
+{"qid": "B020-Q03", "item_id": "B020-Q03-facts", "answer": "10 декабря", "code": "V9", "judge": "V9"}
+{"qid": "B008-Q16", "item_id": "B008-Q16-facts", "answer": "11 января", "code": "V4", "judge": "V4"}
+{"qid": "B009-Q16", "item_id": "B009-Q16-facts", "answer": "120 000 рублей", "code": "V5", "judge": "V5"}
+{"qid": "B024-Q22", "item_id": "B024-Q22-facts", "answer": "*3723", "code": "V3", "judge": "V3"}
+{"qid": "B003-Q11", "item_id": "B003-Q11-facts", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B003-Q02", "item_id": "B003-Q02-facts", "answer": "125 000 рублей", "code": "V3", "judge": "V3"}
+{"qid": "B019-Q17", "item_id": "B019-Q17-facts", "answer": "ул. Лесная, 19", "code": "V5", "judge": "V5"}
+{"qid": "B024-Q29", "item_id": "B024-Q29-log-middle", "answer": "*2119", "code": "V1", "judge": "V1"}
+{"qid": "B019-Q17", "item_id": "B019-Q17-log-middle", "answer": "ул. Лесная, 19", "code": "V5", "judge": "V5"}
+{"qid": "B016-Q29", "item_id": "B016-Q29-facts", "answer": "+7 995 787-96-35", "code": "V1", "judge": "V1"}
+{"qid": "B016-Q26", "item_id": "B016-Q26-facts", "answer": "+7 995 778-96-35", "code": "V2", "judge": "V2"}
+{"qid": "B013-Q07", "item_id": "B013-Q07-facts", "answer": "ул. Луговая, 16", "code": "V8", "judge": "V8"}
+{"qid": "B013-Q02", "item_id": "B013-Q02-log-middle", "answer": "ул. Светлая, 52", "code": "V9", "judge": "V9"}
+{"qid": "B007-Q04", "item_id": "B007-Q04-facts", "answer": "ул. Зеленая, 6", "code": "V4", "judge": "V4"}
+{"qid": "B019-Q15", "item_id": "B019-Q15-log-middle", "answer": "ул. Липовая, 42", "code": "V8", "judge": "V8"}
+{"qid": "B008-Q15", "item_id": "B008-Q15-log-middle", "answer": "23 января", "code": "V1", "judge": "V1"}
+{"qid": "B015-Q23", "item_id": "B015-Q23-log-middle", "answer": "206 000 рублей", "code": "V3", "judge": "V3"}
+{"qid": "B017-Q02", "item_id": "B017-Q02-log-middle", "answer": "16:30", "code": "V5", "judge": "V5"}
+{"qid": "B027-Q06", "item_id": "B027-Q06-facts", "answer": "180 000 рублей", "code": "V2", "judge": "V2"}
+{"qid": "B015-Q19", "item_id": "B015-Q19-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B016-Q27", "item_id": "B016-Q27-log-middle", "answer": "+7 995 787-96-35", "code": "V1", "judge": "V1"}
+{"qid": "B021-Q18", "item_id": "B021-Q18-facts", "answer": "130 000 рублей", "code": "V4", "judge": "V4"}
+{"qid": "B017-Q24", "item_id": "B017-Q24-log-middle", "answer": "12:00", "code": "V8", "judge": "V8"}
+{"qid": "B015-Q25", "item_id": "B015-Q25-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B014-Q04", "item_id": "B014-Q04-facts", "answer": "16 декабря", "code": "V9", "judge": "V9"}
+{"qid": "B020-Q01", "item_id": "B020-Q01-facts", "answer": "11 декабря", "code": "V10", "judge": "V10"}
+{"qid": "B019-Q20", "item_id": "B019-Q20-facts", "answer": "ул. Липовая, 42", "code": "V8", "judge": "V8"}
+{"qid": "B014-Q16", "item_id": "B014-Q16-log-middle", "answer": "23 декабря", "code": "V7", "judge": "V7"}
+{"qid": "B001-Q05", "item_id": "B001-Q05-log-middle", "answer": "ул. Спортивная, 47", "code": "V4", "judge": "V4"}
+{"qid": "B002-Q15", "item_id": "B002-Q15-facts", "answer": "1 января", "code": "V1", "judge": "V1"}
+{"qid": "B020-Q04", "item_id": "B020-Q04-log-middle", "answer": "31 декабря", "code": "V8", "judge": "V8"}
+{"qid": "B021-Q14", "item_id": "B021-Q14-log-middle", "answer": "210 000 рублей", "code": "V6", "judge": "V6"}
+{"qid": "B001-Q14", "item_id": "B001-Q14-log-middle", "answer": "ул. Почтовая, 13", "code": "V1", "judge": "V1"}
+{"qid": "B004-Q01", "item_id": "B004-Q01-facts", "answer": "+7 980 240-20-94", "code": "V5", "judge": "V5"}
+{"qid": "B024-Q19", "item_id": "B024-Q19-log-middle", "answer": "*3273", "code": "V4", "judge": "V4"}
+{"qid": "B024-Q21", "item_id": "B024-Q21-log-middle", "answer": "*9408", "code": "V7", "judge": "V7"}
+{"qid": "B014-Q18", "item_id": "B014-Q18-facts", "answer": "24 декабря", "code": "V6", "judge": "V6"}
+{"qid": "B024-Q11", "item_id": "B024-Q11-facts", "answer": "*9408", "code": "V7", "judge": "V7"}
+{"qid": "B024-Q24", "item_id": "B024-Q24-facts", "answer": "*8198", "code": "V2", "judge": "V2"}
+{"qid": "B023-Q10", "item_id": "B023-Q10-log-middle", "answer": "16:00", "code": "V5", "judge": "V5"}
+{"qid": "B015-Q12", "item_id": "B015-Q12-log-middle", "answer": "205 000 рублей", "code": "V2", "judge": "V2"}
+{"qid": "B021-Q22", "item_id": "B021-Q22-facts", "answer": "нет данных", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B004-Q07", "item_id": "B004-Q07-facts", "answer": "+7 969 378-70-48", "code": "V3", "judge": "V3"}
+{"qid": "B021-Q05", "item_id": "B021-Q05-facts", "answer": "165 000 рублей", "code": "V9", "judge": "V9"}
+{"qid": "B018-Q17", "item_id": "B018-Q17-facts", "answer": "*2155", "code": "V4", "judge": "V4"}
+{"qid": "B007-Q01", "item_id": "B007-Q01-facts", "answer": "ул. Зеленая, 5", "code": "V5", "judge": "V5"}
+{"qid": "B019-Q23", "item_id": "B019-Q23-facts", "answer": "ул. Парковая, 36", "code": "V3", "judge": "V3"}
+{"qid": "B020-Q07", "item_id": "B020-Q07-log-middle", "answer": "31 декабря", "code": "V8", "judge": "V8"}
+{"qid": "B026-Q03", "item_id": "B026-Q03-facts", "answer": "2 декабря", "code": "V2", "judge": "V2"}
+{"qid": "B024-Q23", "item_id": "B024-Q23-log-middle", "answer": "*6732", "code": "V9", "judge": "V9"}
+{"qid": "B009-Q03", "item_id": "B009-Q03-log-middle", "answer": "125 000 рублей", "code": "V4", "judge": "V4"}
+{"qid": "B019-Q24", "item_id": "B019-Q24-facts", "answer": "ул. Липовая, 7", "code": "V4", "judge": "V4"}
+{"qid": "B007-Q07", "item_id": "B007-Q07-facts", "answer": "ул. Песочная, 24", "code": "V3", "judge": "V3"}
+{"qid": "B030-Q01", "item_id": "B030-Q01-facts", "answer": "*8288", "code": "V3", "judge": "V3"}
+{"qid": "B026-Q05", "item_id": "B026-Q05-log-middle", "answer": "2 декабря", "code": "V2", "judge": "V2"}
+{"qid": "B017-Q22", "item_id": "B017-Q22-facts", "answer": "14:30", "code": "V3", "judge": "V3"}
+{"qid": "B019-Q06", "item_id": "B019-Q06-log-middle", "answer": "ул. Липовая, 42", "code": "V8", "judge": "V8"}
+{"qid": "B027-Q09", "item_id": "B027-Q09-facts", "answer": "185 000 рублей", "code": "V1", "judge": "V1"}
+{"qid": "B002-Q01", "item_id": "B002-Q01-log-middle", "answer": "21 января", "code": "V5", "judge": "V5"}
+{"qid": "B021-Q22", "item_id": "B021-Q22-log-middle", "answer": "190 000 рублей", "code": "V3", "judge": "V3"}
+{"qid": "B014-Q10", "item_id": "B014-Q10-facts", "answer": "23 декабря", "code": "V7", "judge": "V7"}
+{"qid": "B014-Q13", "item_id": "B014-Q13-facts", "answer": "24 декабря", "code": "V6", "judge": "V6"}
+{"qid": "B022-Q26", "item_id": "B022-Q26-log-middle", "answer": "+7 982 677-46-98", "code": "V2", "judge": "V2"}
+{"qid": "B002-Q15", "item_id": "B002-Q15-log-middle", "answer": "1 января", "code": "V1", "judge": "V1"}
+{"qid": "B019-Q28", "item_id": "B019-Q28-log-middle", "answer": "ул. Дачная, 22", "code": "V1", "judge": "V1"}
+{"qid": "B016-Q17", "item_id": "B016-Q17-log-middle", "answer": "+7 949 410-52-55", "code": "V5", "judge": "V5"}
+{"qid": "B024-Q26", "item_id": "B024-Q26-facts", "answer": "*8198", "code": "V2", "judge": "V2"}
+{"qid": "B016-Q19", "item_id": "B016-Q19-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B018-Q13", "item_id": "B018-Q13-facts", "answer": "*1519", "code": "V8", "judge": "V8"}
+{"qid": "B019-Q20", "item_id": "B019-Q20-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B020-Q01", "item_id": "B020-Q01-log-middle", "answer": "11 декабря.", "code": "V10", "judge": "V10"}
+{"qid": "B021-Q30", "item_id": "B021-Q30-facts", "answer": "190 000 рублей", "code": "V3", "judge": "V3"}
+{"qid": "B017-Q17", "item_id": "B017-Q17-facts", "answer": "14:30", "code": "V3", "judge": "V3"}
+{"qid": "B013-Q06", "item_id": "B013-Q06-log-middle", "answer": "ул. Береговая, 3", "code": "V4", "judge": "V4"}
+{"qid": "B014-Q16", "item_id": "B014-Q16-log-middle", "answer": "23 декабря.", "code": "V7", "judge": "V7"}
+{"qid": "B007-Q01", "item_id": "B007-Q01-facts", "answer": "ул. Зеленая, 5", "code": "V5", "judge": "V5"}
+{"qid": "B018-Q06", "item_id": "B018-Q06-facts", "answer": "*1519", "code": "V8", "judge": "V8"}
+{"qid": "B023-Q26", "item_id": "B023-Q26-facts", "answer": "10:00", "code": "V1", "judge": "V1"}
+{"qid": "B022-Q02", "item_id": "B022-Q02-log-middle", "answer": "+7 911 871-77-37", "code": "V9", "judge": "V9"}
+{"qid": "B016-Q11", "item_id": "B016-Q11-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B019-Q18", "item_id": "B019-Q18-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B018-Q28", "item_id": "B018-Q28-facts", "answer": "*1733", "code": "V1", "judge": "V1"}
+{"qid": "B017-Q17", "item_id": "B017-Q17-log-middle", "answer": "16:30", "code": "V5", "judge": "V5"}
+{"qid": "B004-Q07", "item_id": "B004-Q07-log-middle", "answer": "+7 932 501-88-24", "code": "V2", "judge": "V2"}
+{"qid": "B016-Q07", "item_id": "B016-Q07-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B016-Q10", "item_id": "B016-Q10-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B015-Q25", "item_id": "B015-Q25-log-middle", "answer": "185 000 рублей.", "code": "V7", "judge": "V7"}
+{"qid": "B027-Q10", "item_id": "B027-Q10-facts", "answer": "170 000 рублей", "code": "V3", "judge": "V3"}
+{"qid": "B014-Q11", "item_id": "B014-Q11-facts", "answer": "24 декабря", "code": "V6", "judge": "V6"}
+{"qid": "B025-Q08", "item_id": "B025-Q08-facts", "answer": "ул. Речная, 52", "code": "V1", "judge": "V1"}
+{"qid": "B016-Q30", "item_id": "B016-Q30-facts", "answer": "+7 995 787-96-35", "code": "V1", "judge": "V1"}
+{"qid": "B002-Q10", "item_id": "B002-Q10-log-middle", "answer": "31 декабря.", "code": "V2", "judge": "V2"}
+{"qid": "B016-Q02", "item_id": "B016-Q02-log-middle", "answer": "+7 949 410-52-55", "code": "V5", "judge": "V5"}
+{"qid": "B022-Q06", "item_id": "B022-Q06-facts", "answer": "+7 982 677-46-98", "code": "V2", "judge": "V2"}
+{"qid": "B010-Q16", "item_id": "B010-Q16-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B017-Q14", "item_id": "B017-Q14-log-middle", "answer": "15:00", "code": "V10", "judge": "V10"}
+{"qid": "B002-Q15", "item_id": "B002-Q15-log-middle", "answer": "1 января.", "code": "V1", "judge": "V1"}
+{"qid": "B017-Q01", "item_id": "B017-Q01-facts", "answer": "15:00", "code": "V10", "judge": "V10"}
+{"qid": "B011-Q02", "item_id": "B011-Q02-log-middle", "answer": "16:30", "code": "V5", "judge": "V5"}
+{"qid": "B028-Q01", "item_id": "B028-Q01-facts", "answer": "+7 905 830-56-70", "code": "V3", "judge": "V3"}
+{"qid": "B002-Q16", "item_id": "B002-Q16-facts", "answer": "21 января", "code": "V5", "judge": "V5"}
+{"qid": "B015-Q17", "item_id": "B015-Q17-facts", "answer": "290 000 рублей", "code": "V5", "judge": "V5"}
+{"qid": "B017-Q15", "item_id": "B017-Q15-facts", "answer": "15:30", "code": "V4", "judge": "V4"}
+{"qid": "B030-Q07", "item_id": "B030-Q07-facts", "answer": "нет данных", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B021-Q13", "item_id": "B021-Q13-facts", "answer": "165 000 рублей", "code": "V9", "judge": "V9"}
+{"qid": "B021-Q05", "item_id": "B021-Q05-log-middle", "answer": "175 000 рублей.", "code": "V10", "judge": "V10"}
+{"qid": "B017-Q07", "item_id": "B017-Q07-log-middle", "answer": "15:00", "code": "V10", "judge": "V10"}
+{"qid": "B004-Q02", "item_id": "B004-Q02-facts", "answer": "+7 969 377-80-48", "code": "V4", "judge": "V4"}
+{"qid": "B015-Q21", "item_id": "B015-Q21-log-middle", "answer": "291 000 рублей.", "code": "V6", "judge": "V6"}
+{"qid": "B011-Q03", "item_id": "B011-Q03-facts", "answer": "16:30", "code": "V5", "judge": "V5"}
+{"qid": "B010-Q10", "item_id": "B010-Q10-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B023-Q18", "item_id": "B023-Q18-log-middle", "answer": "13:00", "code": "V3", "judge": "V3"}
+{"qid": "B021-Q17", "item_id": "B021-Q17-facts", "answer": "190 000 рублей", "code": "V3", "judge": "V3"}
+{"qid": "B024-Q13", "item_id": "B024-Q13-facts", "answer": "*9480", "code": "V6", "judge": "V6"}
+{"qid": "B006-Q14", "item_id": "B006-Q14-log-middle", "answer": "*7027.", "code": "V1", "judge": "V1"}
+{"qid": "B012-Q02", "item_id": "B012-Q02-facts", "answer": "*7629", "code": "V2", "judge": "V2"}
+{"qid": "B017-Q23", "item_id": "B017-Q23-log-middle", "answer": "15:30", "code": "V4", "judge": "V4"}
+{"qid": "B024-Q31", "item_id": "B024-Q31-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B005-Q01", "item_id": "B005-Q01-facts", "answer": "17:00", "code": "V5", "judge": "V5"}
+{"qid": "B022-Q03", "item_id": "B022-Q03-facts", "answer": "+7 903 552-13-27", "code": "V5", "judge": "V5"}
+{"qid": "B020-Q02", "item_id": "B020-Q02-log-middle", "answer": "12 января.", "code": "V7", "judge": "V7"}
+{"qid": "B019-Q08", "item_id": "B019-Q08-facts", "answer": "ул. Липовая, 42", "code": "V8", "judge": "V8"}
+{"qid": "B018-Q26", "item_id": "B018-Q26-facts", "answer": "*2515", "code": "V3", "judge": "V3"}
+{"qid": "B009-Q16", "item_id": "B009-Q16-log-middle", "answer": "120 000 рублей.", "code": "V5", "judge": "V5"}
+{"qid": "B019-Q09", "item_id": "B019-Q09-log-middle", "answer": "ул. Липовая, 42", "code": "V8", "judge": "V8"}
+{"qid": "B023-Q27", "item_id": "B023-Q27-log-middle", "answer": "10:00", "code": "V1", "judge": "V1"}
+{"qid": "B016-Q28", "item_id": "B016-Q28-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B008-Q14", "item_id": "B008-Q14-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B010-Q01", "item_id": "B010-Q01-log-middle", "answer": "+7 985 312-74-59.", "code": "V5", "judge": "V5"}
+{"qid": "B020-Q31", "item_id": "B020-Q31-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B001-Q08", "item_id": "B001-Q08-log-middle", "answer": "ул. Спортивная, 49", "code": "V3", "judge": "V3"}
+{"qid": "B018-Q19", "item_id": "B018-Q19-log-middle", "answer": "*2155.", "code": "V4", "judge": "V4"}
+{"qid": "B013-Q23", "item_id": "B013-Q23-facts", "answer": "ул. Береговая, 1", "code": "V3", "judge": "V3"}
+{"qid": "B007-Q14", "item_id": "B007-Q14-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B017-Q15", "item_id": "B017-Q15-log-middle", "answer": "15:00", "code": "V10", "judge": "V10"}
+{"qid": "B016-Q25", "item_id": "B016-Q25-facts", "answer": "+7 995 778-96-35", "code": "V2", "judge": "V2"}
+{"qid": "B015-Q13", "item_id": "B015-Q13-facts", "answer": "291 000 рублей", "code": "V6", "judge": "V6"}
+{"qid": "B021-Q09", "item_id": "B021-Q09-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B003-Q10", "item_id": "B003-Q10-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B001-Q02", "item_id": "B001-Q02-log-middle", "answer": "ул. Луговая, 50", "code": "V5", "judge": "V5"}
+{"qid": "B004-Q06", "item_id": "B004-Q06-facts", "answer": "+7 969 378-70-48", "code": "V3", "judge": "V3"}
+{"qid": "B026-Q01", "item_id": "B026-Q01-facts", "answer": "1 декабря", "code": "V3", "judge": "V3"}
+{"qid": "B024-Q11", "item_id": "B024-Q11-log-middle", "answer": "*9408", "code": "V7", "judge": "V7"}
+{"qid": "B019-Q30", "item_id": "B019-Q30-facts", "answer": "ул. Дачная, 22", "code": "V1", "judge": "V1"}
+{"qid": "B003-Q02", "item_id": "B003-Q02-log-middle", "answer": "100 000 рублей.", "code": "V5", "judge": "V5"}
+{"qid": "B030-Q10", "item_id": "B030-Q10-log-middle", "answer": "Оплачено с карты *8288.", "code": "V3", "judge": "V3"}
+{"qid": "B004-Q09", "item_id": "B004-Q09-facts", "answer": "+7 932 501-88-24", "code": "V2", "judge": "V2"}
+{"qid": "B015-Q15", "item_id": "B015-Q15-log-middle", "answer": "125 000 рублей.", "code": "V8", "judge": "V8"}
+{"qid": "B027-Q04", "item_id": "B027-Q04-facts", "answer": "180 000 рублей", "code": "V2", "judge": "V2"}
+{"qid": "B018-Q16", "item_id": "B018-Q16-log-middle", "answer": "*1024.", "code": "V7", "judge": "V7"}
+{"qid": "B027-Q08", "item_id": "B027-Q08-facts", "answer": "170 000 рублей", "code": "V3", "judge": "V3"}
+{"qid": "B019-Q07", "item_id": "B019-Q07-log-middle", "answer": "ул. Каштановая, 12.", "code": "V10", "judge": "V10"}
+{"qid": "B010-Q10", "item_id": "B010-Q10-facts", "answer": "+7 958 842-82-51", "code": "V2", "judge": "V2"}
+{"qid": "B016-Q31", "item_id": "B016-Q31-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B027-Q05", "item_id": "B027-Q05-facts", "answer": "180 000 рублей", "code": "V2", "judge": "V2"}
+{"qid": "B025-Q04", "item_id": "B025-Q04-log-middle", "answer": "ул. Речная, 52", "code": "V1", "judge": "V1"}
+{"qid": "B019-Q23", "item_id": "B019-Q23-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B015-Q11", "item_id": "B015-Q11-log-middle", "answer": "125 000 рублей.", "code": "V8", "judge": "V8"}
+{"qid": "B014-Q10", "item_id": "B014-Q10-log-middle", "answer": "23 декабря.", "code": "V7", "judge": "V7"}
+{"qid": "B019-Q04", "item_id": "B019-Q04-facts", "answer": "ул. Сосновая, 22", "code": "V9", "judge": "V9"}
+{"qid": "B002-Q10", "item_id": "B002-Q10-facts", "answer": "31 декабря", "code": "V2", "judge": "V2"}
+{"qid": "B019-Q27", "item_id": "B019-Q27-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B019-Q21", "item_id": "B019-Q21-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B018-Q02", "item_id": "B018-Q02-facts", "answer": "*1591", "code": "V9", "judge": "V9"}
+{"qid": "B009-Q14", "item_id": "B009-Q14-facts", "answer": "170 000 рублей", "code": "V1", "judge": "V1"}
+{"qid": "B001-Q11", "item_id": "B001-Q11-log-middle", "answer": "ул. Спортивная, 47", "code": "V4", "judge": "V4"}
+{"qid": "B008-Q07", "item_id": "B008-Q07-facts", "answer": "4 января", "code": "V3", "judge": "V3"}
+{"qid": "B021-Q09", "item_id": "B021-Q09-log-middle", "answer": "210 000 рублей.", "code": "V6", "judge": "V6"}
+{"qid": "B014-Q17", "item_id": "B014-Q17-facts", "answer": "14 декабря", "code": "V5", "judge": "V5"}
+{"qid": "B002-Q10", "item_id": "B002-Q10-log-middle", "answer": "31 декабря.", "code": "V2", "judge": "V2"}
+{"qid": "B005-Q05", "item_id": "B005-Q05-facts", "answer": "10:00", "code": "V4", "judge": "V4"}
+{"qid": "B023-Q02", "item_id": "B023-Q02-facts", "answer": "14:30", "code": "V9", "judge": "V9"}
+{"qid": "B016-Q10", "item_id": "B016-Q10-log-middle", "answer": "+7 922 138-88-02", "code": "V7", "judge": "V7"}
+{"qid": "B018-Q09", "item_id": "B018-Q09-facts", "answer": "*1024", "code": "V7", "judge": "V7"}
+{"qid": "B015-Q14", "item_id": "B015-Q14-log-middle", "answer": "291 000 рублей.", "code": "V6", "judge": "V6"}
+{"qid": "B021-Q09", "item_id": "B021-Q09-facts", "answer": "220 000 рублей", "code": "V7", "judge": "V7"}
+{"qid": "B018-Q08", "item_id": "B018-Q08-facts", "answer": "*1519", "code": "V8", "judge": "V8"}
+{"qid": "B015-Q15", "item_id": "B015-Q15-facts", "answer": "нет данных", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B007-Q07", "item_id": "B007-Q07-log-middle", "answer": "ул. Песочная, 24", "code": "V3", "judge": "V3"}
+{"qid": "B022-Q08", "item_id": "B022-Q08-log-middle", "answer": "+7 928 559-88-38", "code": "V7", "judge": "V7"}
+{"qid": "B023-Q20", "item_id": "B023-Q20-log-middle", "answer": "13:00", "code": "V3", "judge": "V3"}
+{"qid": "B024-Q19", "item_id": "B024-Q19-facts", "answer": "*3273", "code": "V4", "judge": "V4"}
+{"qid": "B016-Q28", "item_id": "B016-Q28-log-middle", "answer": "+7 995 778-96-35", "code": "V2", "judge": "V2"}
+{"qid": "B022-Q05", "item_id": "B022-Q05-facts", "answer": "+7 911 871-77-37", "code": "V9", "judge": "V9"}
+{"qid": "B017-Q09", "item_id": "B017-Q09-log-middle", "answer": "13:00", "code": "V6", "judge": "V6"}
+{"qid": "B020-Q14", "item_id": "B020-Q14-facts", "answer": "31 января", "code": "V6", "judge": "V6"}
+{"qid": "B018-Q07", "item_id": "B018-Q07-facts", "answer": "*1024", "code": "V7", "judge": "V7"}
+{"qid": "B009-Q02", "item_id": "B009-Q02-log-middle", "answer": "125 000 рублей.", "code": "V4", "judge": "V4"}
+{"qid": "B004-Q07", "item_id": "B004-Q07-facts", "answer": "+7 932 501-88-24", "code": "V2", "judge": "V2"}
+{"qid": "B030-Q03", "item_id": "B030-Q03-facts", "answer": "нет данных", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B014-Q08", "item_id": "B014-Q08-log-middle", "answer": "29 декабря.", "code": "V8", "judge": "V8"}
+{"qid": "B021-Q10", "item_id": "B021-Q10-facts", "answer": "220 000 рублей", "code": "V7", "judge": "V7"}
+{"qid": "B024-Q14", "item_id": "B024-Q14-facts", "answer": "*9771", "code": "V5", "judge": "V5"}
+{"qid": "B004-Q04", "item_id": "B004-Q04-facts", "answer": "+7 969 377-80-48", "code": "V4", "judge": "V4"}
+{"qid": "B013-Q19", "item_id": "B013-Q19-facts", "answer": "ул. Береговая, 3", "code": "V4", "judge": "V4"}
+{"qid": "B022-Q04", "item_id": "B022-Q04-facts", "answer": "+7 911 871-77-37", "code": "V9", "judge": "V9"}
+{"qid": "B013-Q03", "item_id": "B013-Q03-facts", "answer": "ул. Луговая, 16", "code": "V8", "judge": "V8"}
+{"qid": "B016-Q07", "item_id": "B016-Q07-log-middle", "answer": "+7 922 138-88-02", "code": "V7", "judge": "V7"}
+{"qid": "B016-Q28", "item_id": "B016-Q28-facts", "answer": "+7 995 778-96-35", "code": "V2", "judge": "V2"}
+{"qid": "B008-Q01", "item_id": "B008-Q01-facts", "answer": "29 января", "code": "V5", "judge": "V5"}
+{"qid": "B007-Q15", "item_id": "B007-Q15-log-middle", "answer": "ул. Цветочная, 21", "code": "V1", "judge": "V1"}
+{"qid": "B014-Q11", "item_id": "B014-Q11-facts", "answer": "23 декабря", "code": "V7", "judge": "V7"}
+{"qid": "B018-Q04", "item_id": "B018-Q04-log-middle", "answer": "*1591.", "code": "V9", "judge": "V9"}
+{"qid": "B016-Q21", "item_id": "B016-Q21-log-middle", "answer": "+7 995 778-96-35", "code": "V2", "judge": "V2"}
+{"qid": "B026-Q06", "item_id": "B026-Q06-log-middle", "answer": "8 декабря.", "code": "V1", "judge": "V1"}
+{"qid": "B017-Q25", "item_id": "B017-Q25-facts", "answer": "12:30", "code": "V2", "judge": "V2"}
+{"qid": "B002-Q13", "item_id": "B002-Q13-log-middle", "answer": "1 января.", "code": "V1", "judge": "V1"}
+{"qid": "B023-Q11", "item_id": "B023-Q11-log-middle", "answer": "11:30", "code": "V7", "judge": "V7"}
+{"qid": "B014-Q26", "item_id": "B014-Q26-facts", "answer": "5 декабря", "code": "V2", "judge": "V2"}
+{"qid": "B027-Q03", "item_id": "B027-Q03-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B011-Q09", "item_id": "B011-Q09-facts", "answer": "15:00", "code": "V2", "judge": "V2"}
+{"qid": "B017-Q05", "item_id": "B017-Q05-log-middle", "answer": "16:00", "code": "V9", "judge": "V9"}
+{"qid": "B004-Q08", "item_id": "B004-Q08-facts", "answer": "+7 969 378-70-48", "code": "V3", "judge": "V3"}
+{"qid": "B023-Q14", "item_id": "B023-Q14-facts", "answer": "19:00", "code": "V6", "judge": "V6"}
+{"qid": "B004-Q05", "item_id": "B004-Q05-log-middle", "answer": "+7 969 377-80-48", "code": "V4", "judge": "V4"}
+{"qid": "B013-Q21", "item_id": "B013-Q21-facts", "answer": "ул. Береговая, 3", "code": "V4", "judge": "V4"}
+{"qid": "B015-Q09", "item_id": "B015-Q09-log-middle", "answer": "291 000 рублей.", "code": "V6", "judge": "V6"}
+{"qid": "B024-Q05", "item_id": "B024-Q05-facts", "answer": "*6732", "code": "V9", "judge": "V9"}
+{"qid": "B011-Q01", "item_id": "B011-Q01-facts", "answer": "16:30", "code": "V5", "judge": "V5"}
+{"qid": "B008-Q05", "item_id": "B008-Q05-log-middle", "answer": "11 января.", "code": "V4", "judge": "V4"}
+{"qid": "B005-Q11", "item_id": "B005-Q11-log-middle", "answer": "12:00.", "code": "V2", "judge": "V2"}
+{"qid": "B019-Q01", "item_id": "B019-Q01-facts", "answer": "ул. Каштановая, 12", "code": "V10", "judge": "V10"}
+{"qid": "B011-Q12", "item_id": "B011-Q12-facts", "answer": "16:30", "code": "V5", "judge": "V5"}
+{"qid": "B029-Q07", "item_id": "B029-Q07-facts", "answer": "11:30", "code": "V1", "judge": "V1"}
+{"qid": "B013-Q20", "item_id": "B013-Q20-facts", "answer": "ул. Береговая, 3", "code": "V4", "judge": "V4"}
+{"qid": "B009-Q16", "item_id": "B009-Q16-log-middle", "answer": "120 000 рублей.", "code": "V5", "judge": "V5"}
+{"qid": "B013-Q31", "item_id": "B013-Q31-log-middle", "answer": "ул. Светлая, 53", "code": "V10", "judge": "V10"}
+{"qid": "B022-Q04", "item_id": "B022-Q04-log-middle", "answer": "+7 911 871-77-37", "code": "V9", "judge": "V9"}
+{"qid": "B016-Q05", "item_id": "B016-Q05-facts", "answer": "+7 964 793-78-75", "code": "V9", "judge": "V9"}
+{"qid": "B024-Q31", "item_id": "B024-Q31-log-middle", "answer": "*6723", "code": "V10", "judge": "V10"}
+{"qid": "B020-Q31", "item_id": "B020-Q31-log-middle", "answer": "11 декабря.", "code": "V10", "judge": "V10"}
+{"qid": "B001-Q03", "item_id": "B001-Q03-log-middle", "answer": "ул. Спортивная, 47.", "code": "V4", "judge": "V4"}
+{"qid": "B019-Q12", "item_id": "B019-Q12-facts", "answer": "ул. Лесная, 21", "code": "V6", "judge": "V6"}
+{"qid": "B006-Q13", "item_id": "B006-Q13-log-middle", "answer": "*7027", "code": "V1", "judge": "V1"}
+{"qid": "B018-Q10", "item_id": "B018-Q10-facts", "answer": "*1024", "code": "V7", "judge": "V7"}
+{"qid": "B016-Q12", "item_id": "B016-Q12-log-middle", "answer": "+7 922 138-88-20", "code": "V6", "judge": "V6"}
+{"qid": "B019-Q19", "item_id": "B019-Q19-facts", "answer": "ул. Липовая, 7", "code": "V4", "judge": "V4"}
+{"qid": "B022-Q13", "item_id": "B022-Q13-facts", "answer": "+7 906 220-22-15", "code": "V6", "judge": "V6"}
+{"qid": "B014-Q24", "item_id": "B014-Q24-log-middle", "answer": "15 января.", "code": "W", "judge": "W"}
+{"qid": "B003-Q09", "item_id": "B003-Q09-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B001-Q06", "item_id": "B001-Q06-log-middle", "answer": "ул. Спортивная, 49", "code": "V3", "judge": "V3"}
+{"qid": "B003-Q16", "item_id": "B003-Q16-log-middle", "answer": "100 000 рублей.", "code": "V5", "judge": "V5"}
+{"qid": "B020-Q03", "item_id": "B020-Q03-log-middle", "answer": "10 декабря.", "code": "V9", "judge": "V9"}
+{"qid": "B010-Q05", "item_id": "B010-Q05-facts", "answer": "+7 958 763-46-12", "code": "V4", "judge": "V4"}
+{"qid": "B010-Q02", "item_id": "B010-Q02-facts", "answer": "+7 958 763-46-12", "code": "V4", "judge": "V4"}
+{"qid": "B003-Q01", "item_id": "B003-Q01-log-middle", "answer": "100 000 рублей.", "code": "V5", "judge": "V5"}
+{"qid": "B030-Q06", "item_id": "B030-Q06-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "NONE"}
+{"qid": "B021-Q05", "item_id": "B021-Q05-log-middle", "answer": "165 000 рублей.", "code": "V9", "judge": "V9"}
+{"qid": "B010-Q02", "item_id": "B010-Q02-log-middle", "answer": "+7 958 763-46-12", "code": "V4", "judge": "V4"}
+{"qid": "B027-Q07", "item_id": "B027-Q07-facts", "answer": "185 000 рублей", "code": "V1", "judge": "V1"}
+{"qid": "B026-Q03", "item_id": "B026-Q03-log-middle", "answer": "2 декабря.", "code": "V2", "judge": "V2"}
+{"qid": "B011-Q03", "item_id": "B011-Q03-facts", "answer": "14:00", "code": "V4", "judge": "V4"}
+{"qid": "B019-Q16", "item_id": "B019-Q16-facts", "answer": "ул. Липовая, 7", "code": "V4", "judge": "V4"}
+{"qid": "B021-Q26", "item_id": "B021-Q26-facts", "answer": "296 000 рублей", "code": "V2", "judge": "V2"}
+{"qid": "B022-Q07", "item_id": "B022-Q07-log-middle", "answer": "+7 928 559-88-38", "code": "V7", "judge": "V7"}
+{"qid": "B018-Q21", "item_id": "B018-Q21-log-middle", "answer": "*1519", "code": "V8", "judge": "V8"}
+{"qid": "B025-Q05", "item_id": "B025-Q05-log-middle", "answer": "ул. Садовая, 58", "code": "V2", "judge": "V2"}
+{"qid": "B012-Q13", "item_id": "B012-Q13-facts", "answer": "*7629", "code": "V2", "judge": "V2"}
+{"qid": "B015-Q19", "item_id": "B015-Q19-log-middle", "answer": "275 000 рублей.", "code": "V4", "judge": "V4"}
+{"qid": "B015-Q18", "item_id": "B015-Q18-log-middle", "answer": "нет данных", "code": "REFUSAL", "judge": "REFUSAL"}
+{"qid": "B020-Q26", "item_id": "B020-Q26-log-middle", "answer": "17 января.", "code": "V2", "judge": "V2"}
+{"qid": "B025-Q07", "item_id": "B025-Q07-facts", "answer": "ул. Речная, 52", "code": "V1", "judge": "V1"}
+{"qid": "B002-Q11", "item_id": "B002-Q11-facts", "answer": "31 декабря", "code": "V2", "judge": "V2"}
+{"qid": "B019-Q27", "item_id": "B019-Q27-log-middle", "answer": "ул. Дачная, 22.", "code": "V1", "judge": "V1"}
+{"qid": "B019-Q02", "item_id": "B019-Q02-log-middle", "answer": "ул. Сосновая, 22", "code": "V9", "judge": "V9"}
+{"qid": "B017-Q16", "item_id": "B017-Q16-log-middle", "answer": "16:30", "code": "V5", "judge": "V5"}

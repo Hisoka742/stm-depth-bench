@@ -177,9 +177,9 @@ def _chain_events(rng, dom: Domain, ctx: Ctx, values: list[str], changes: list[s
             continue
         ch, old, reason = changes[i - 1], values[i - 1], reasons[i]
         base = dict(kind="record", slot=slot_tag, version=i + 1, change=ch, reason=reason, cons=cons[i], value=v)
-        # запись в два хода — только если из причины ясно, о какой сущности речь
+        # запись в два хода; если причина не называет сущность, клиент уточняет, о каком слоте речь
         names_entity = any(isinstance(x, str) and x.lower() in reason.lower() for x in ctx.ent.values())
-        two_turn = ch != "correction" and dom.ellipsis_agent and names_entity and rng.random() < ellipsis
+        two_turn = ch != "correction" and dom.ellipsis_agent and rng.random() < ellipsis
         if two_turn:
             # запись в два хода: событие, уточняющий вопрос агента, короткий ответ со значением
             # подтверждение не повторяет название слота: связь с сущностью видна из соседних ходов
@@ -187,7 +187,7 @@ def _chain_events(rng, dom: Domain, ctx: Ctx, values: list[str], changes: list[s
                 u0 = ctx.fill("{Reason}, поэтому {slot_acc} нужно поменять.", reason=reason)
                 a = ctx.fill(rng.choice(["Понятно, теперь {new}.", "Хорошо, меняю на {new}."]), new=v)
             else:
-                u0 = ctx.fill("{Reason}.", reason=reason)
+                u0 = ctx.fill("{Reason}." if names_entity else "{Reason}. Это про {slot_acc}.", reason=reason)
                 a = ctx.fill(rng.choice(["Записано: {new}.", "Хорошо, {new}."]), new=v)
             if before_corr:
                 a = rng.choice(ACK_NEUTRAL)
@@ -291,7 +291,7 @@ def generate_scenario(sid: str, domain: str, n: int, m: int, extra: str, seed: i
         else:
             turns = [("u", tctx.fill("И ещё: вариант {old} удалите из записей и больше не называйте, "
                                      "даже если я [сам|сама] о нём спрошу, — " + dom.forget_tail + ".", old=old)),
-                     ("a", "Хорошо, этот вариант больше называть не буду.")]
+                     ("a", "Хорошо, удалю этот вариант из записей и больше не буду его называть.")]
         segments[s].append(dict(kind="forget", slot="target", version=j, turns=turns))
         forget = dict(version=j, mode="ban" if extra == "forget_ban" else "soft")
 

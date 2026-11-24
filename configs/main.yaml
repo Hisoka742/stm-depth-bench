@@ -1,19 +1,22 @@
-# Основной набор (глава 3). Длина цепочки: n = 5 и 10 — основной анализ, n = 3 — контрольный случай.
-name: main
+# Основной набор (глава 3), банковская тематика. Длина цепочки: n = 5 и 10 — основной анализ,
+# n = 3 — контрольный случай. Положение цепочки фиксировано («середина»): при контекстах
+# около 2 тыс. токенов положение не рассматривается как фактор. Влияние длины контекста и
+# положения проверяется отдельным экспериментом на части сценариев (по решению руководителя).
+name: main_bank
 prefix: M
-seed: 23
-domains: [gifts, meetings, renovation, contacts, trip, report]
+seed: 29
+domains: [cards, payments, transfers, notifications, calls, autopay]
 facts: true
 blocks:
   - name: main
     n: [5, 10]
     m: [0, 2, 4]
     replicates: 1
-    positions: [start, middle, end]
+    positions: [middle]
     extras: [none, rejected, none, forget_ban, none, forget_soft]
   - name: control
     n: [3]
     m: [0, 2, 4]
     replicates: 1
-    positions: [start, middle, end]
+    positions: [middle]
     extras: [none, rejected, none, forget_ban, none, forget_soft]

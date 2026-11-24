@@ -28,7 +28,7 @@ from stmbench.judge import judge_prompt, parse_judge  # noqa: E402
 from stmbench.openrouter import NO_REASONING, chat  # noqa: E402
 from stmbench.scoring import exact_match  # noqa: E402
 
-MONTHS = {"марта": "03", "апреля": "04"}
+MONTHS = {"декабря": "12", "января": "01"}
 WRAP = ["{p}", "Ответ: {p}.", "Насколько я помню, это {p}.", "Вы указывали {p}.", "Это был вариант {p}."]
 
 
@@ -43,19 +43,19 @@ def paraphrases(value: str, vtype: str) -> list[str]:
         return [f"{int(d):02d}.{MONTHS[m]}", f"{d}-го {m}", f"{d}/{MONTHS[m]}", f"на {d} {m}"]
     if vtype == "money":
         n = int(value.split()[0])
-        return [f"{n} тыс. руб.", f"{n * 1000} ₽", f"{n} тысяч рублей", f"{n} 000 руб."]
+        return [f"{n} тыс. руб.", f"{n * 1000} ₽", f"{n} тысяч рублей", f"{n} 000 руб.", f"{n}к"]
     if vtype == "phone":
         d = re.sub(r"\D", "", value)
         return [f"8 ({d[1:4]}) {d[4:7]}-{d[7:9]}-{d[9:]}", f"+{d}", f"8-{d[1:4]}-{d[4:7]}-{d[7:9]}-{d[9:]}"]
     if vtype == "time":
         h, mm = value.split(":")
-        out = [f"{h}.{mm}", f"в {h} часов {mm} минут" if mm != "00" else f"в {h} часов ровно", f"{h} ч {mm} мин"]
+        out = [f"{h}.{mm}", f"{int(h):02d}:{mm}", f"в {h} ч {mm} мин" if mm != "00" else f"в {h}:00 ровно"]
         if int(h) > 12:
-            out.append(f"{int(h) - 12}:{mm} вечера")
+            out.append(f"{int(h) - 12}:{mm} вечера" if mm != "00" else f"в {int(h) - 12} вечера")
         return out
-    if vtype == "title":
-        t = value.strip("«»")
-        return [t, t.lower(), f"\"{t}\"", f"заголовок {t}"]
+    if vtype == "card":
+        d = value[-4:]
+        return [f"карта, оканчивающаяся на {d}", f"…{d}", f"карта {d}", f"карта **** {d}"]
     raise ValueError(vtype)
 
 
@@ -64,6 +64,12 @@ def absent_value(s: dict, rng) -> str:
     used = {c["value"] for c in s["chain"]} | {c["value"] for o in s["others"] for c in o["chain"]}
     if s.get("rejected"):
         used.add(s["rejected"]["value"])
+    used = {dom.vt.canon(v) for v in used}
+    # половина отсутствующих значений — близкие к значениям цепочки (проверка «притягивания»)
+    if rng.random() < 0.5:
+        near = [v for c in s["chain"] for v in dom.vt.near(rng, c["value"]) if dom.vt.canon(v) not in used]
+        if near:
+            return rng.choice(near)
     return dom.sample_values(rng, 1, used)[0]
 
 
@@ -74,7 +80,7 @@ def build_tests(set_dir, n, seed=0):
     tests = []
     for _ in range(n):
         s, q = rng.choice(pairs)
-        if rng.random() < 0.15:
+        if rng.random() < 0.3:
             v = absent_value(s, rng)
             expect = "NONE"
         else:
@@ -100,22 +106,34 @@ def main():
     qmap = {q["qid"]: q for s in scen for q in s["questions"]}
     exact_ok = sum(t["exact"] == t["expect"] for t in tests if t["expect"] != "NONE")
     n_pos = sum(t["expect"] != "NONE" for t in tests)
-    print(f"тестовых ответов: {len(tests)}; точная проверка узнаёт {exact_ok} из {n_pos} перефразировок")
+    abs_ok = sum(t["exact"] == "NONE" for t in tests if t["expect"] == "NONE")
+    print(f"тестовых ответов: {len(tests)}; извлечение кодом узнаёт {exact_ok} из {n_pos} перефразировок "
+          f"и {abs_ok} из {len(tests) - n_pos} отсутствующих значений; ошибок извлечения: "
+          f"{sum(t['exact'] is not None and t['exact'] != t['expect'] for t in tests)}")
     out_path = os.path.join(set_dir_results(args.set_dir), "judge_check.jsonl")
     if args.dry or not args.judge:
         for t in tests[:10]:
             print(t)
         return
-    ok = 0
     with open(out_path, "w", encoding="utf-8") as f:
         for t in tests:
             s, q = smap[t["sid"]], qmap[t["qid"]]
-            msgs, mapping = judge_prompt(s, q, t["answer"])
-            r = chat(args.judge, msgs, temperature=0.0, max_tokens=64, extra=NO_REASONING)
-            t["judge"] = parse_judge(r["content"], mapping)
-            ok += t["judge"] == t["expect"]
+            if t["exact"] is None:
+                msgs, mapping = judge_prompt(s, q, t["answer"])
+                r = chat(args.judge, msgs, temperature=0.0, max_tokens=64, extra=NO_REASONING)
+                t["judge"] = parse_judge(r["content"], mapping)
+            else:
+                t["judge"] = None
+            t["final"] = t["exact"] if t["exact"] is not None else t["judge"]
             f.write(json.dumps(t, ensure_ascii=False) + "\n")
-    print(f"тест 1: судья верно определил {ok} из {len(tests)} ({ok / len(tests):.3f})")
+    for name, sub in (("все", tests), ("значения из диалога", [t for t in tests if t["expect"] != "NONE"]),
+                      ("отсутствующие значения", [t for t in tests if t["expect"] == "NONE"])):
+        ok = sum(t["final"] == t["expect"] for t in sub)
+        by_code = [t for t in sub if t["exact"] is not None]
+        by_judge = [t for t in sub if t["exact"] is None]
+        jok = sum(t["final"] == t["expect"] for t in by_judge)
+        print(f"тест 1, {name}: верно {ok} из {len(sub)} ({ok / max(1, len(sub)):.3f}); код решил {len(by_code)}, "
+              f"судья — {len(by_judge)}, из них верно {jok}")
     # тест 2: согласие с точной проверкой на ответах моделей
     agree = tot = 0
     for path in glob.glob(os.path.join(set_dir_results(args.set_dir), "*__scored.jsonl")):

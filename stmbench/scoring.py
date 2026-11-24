@@ -1,15 +1,21 @@
 """Проверка ответов (п. 2.4 ВКР).
 
-Шаг 1 — точное совпадение после нормализации: в ответе ищутся «ядра» всех значений,
-которые есть во входе (версии целевой цепочки, несостоявшееся значение, значения
-слотов-помех). Если найдено ровно одно значение, ответ классифицирован.
-Шаг 2 — если не найдено ни одного значения или найдено несколько, ответ передаётся
-LLM-судье (judge.py), который выбирает версию, совпадающую по смыслу, или сообщает,
-что совпадения нет. Доля ответов, решённых судьёй, приводится в результатах.
+Сравнение с эталоном всегда выполняет код.
+Шаг 1 — извлечение: из ответа регулярными выражениями извлекаются все значения типа слота
+(адреса, даты, суммы, телефоны, время, карты) и приводятся к канонической форме
+(stmbench/values.py: «07:30» = «7:30» = «7.30», «260 тыс.» = «260 000 рублей»). Каноническая
+форма сравнивается с каноническими формами всех значений из входа (версии целевой цепочки,
+несостоявшееся значение, значения слотов-помех). Значение, которого во входе нет, получает
+метку NONE. Если в ответе одно значение (или одно и то же несколько раз), ответ классифицирован.
+Шаг 2 — если значений нет или их несколько, LLM-судья только выписывает из ответа значение,
+которое модель дала как ответ, в каноническом формате (judge.py); сопоставление с эталоном
+снова выполняет код. Списка значений из диалога судья не видит.
 """
 from __future__ import annotations
 
 import re
+
+from .values import TYPES
 
 REFUSAL_RE = re.compile(
     r"нет данных|не могу (?:назвать|сообщить|указать)|не (?:буду|стану) называть|не называ|"
@@ -19,41 +25,13 @@ REFUSAL_RE = re.compile(
 def normalize(text: str) -> str:
     t = text.lower().replace("ё", "е")
     t = re.sub(r"[«»\"“”„'`*_()\[\]]", " ", t)
-    t = re.sub(r"(\d)\s+(?=\d{3}(?!\d))", r"\1", t)       # 85 000 -> 85000
     t = re.sub(r"[^\w:+.\-]+", " ", t)
-    t = re.sub(r"(?<!\d)\.|\.(?!\d)", " ", t)              # точки, не стоящие между цифрами
     return re.sub(r"\s+", " ", t).strip()
 
 
-def core_regex(value: str, vtype: str) -> re.Pattern:
-    """Регулярное выражение для поиска значения в нормализованном ответе."""
-    nv = normalize(value)
-    if vtype == "addr":
-        m = re.match(r"ул (\w+) (\d+)", nv)
-        street, num = m.group(1), m.group(2)
-        return re.compile(rf"(?<!\w){street}\s+(?:д\s+|дом\s+)?{num}(?!\d)")
-    if vtype == "date":
-        d, month = nv.split()
-        return re.compile(rf"(?<!\d){d}\s+{month}")
-    if vtype == "money":
-        digits = re.sub(r"\D", "", value)
-        return re.compile(rf"(?<!\d){digits}(?!\d)")
-    if vtype == "phone":
-        digits = re.sub(r"\D", "", value)[-10:]
-        return re.compile(digits)          # ищется в строке из одних цифр ответа
-    if vtype == "time":
-        h, mnt = nv.split(":")
-        return re.compile(rf"(?<!\d){h}[:.]{mnt}(?!\d)")
-    if vtype == "title":
-        return re.compile(rf"(?<!\w){re.escape(nv)}(?!\w)")
-    raise ValueError(vtype)
-
-
 def value_in(answer: str, value: str, vtype: str) -> bool:
-    rx = core_regex(value, vtype)
-    if vtype == "phone":
-        return bool(rx.search(re.sub(r"\D", "", answer)))
-    return bool(rx.search(normalize(answer)))
+    vt = TYPES[vtype]
+    return vt.canon(value) in vt.extract(answer)
 
 
 def candidates(s: dict) -> list[tuple[str, str]]:
@@ -67,9 +45,22 @@ def candidates(s: dict) -> list[tuple[str, str]]:
     return out
 
 
+def label_of(canon_values: list, s: dict) -> list[str]:
+    """Метки для канонических значений: метка значения из входа или NONE."""
+    vt = TYPES[s["vtype"]]
+    cmap = {vt.canon(v): lab for lab, v in candidates(s)}
+    out = []
+    for c in canon_values:
+        lab = cmap.get(c, "NONE")
+        if lab not in out:
+            out.append(lab)
+    return out
+
+
 def exact_match(answer: str, s: dict) -> dict:
-    """Результат шага 1: label (V3, W, O1.2, REFUSAL) либо None, если нужен судья."""
-    found = [lab for lab, v in candidates(s) if value_in(answer, v, s["vtype"])]
+    """Результат шага 1: label (V3, W, O1.2, NONE, REFUSAL) либо None, если нужен судья."""
+    vt = TYPES[s["vtype"]]
+    found = label_of(vt.extract(answer), s)
     refusal = bool(REFUSAL_RE.search(normalize(answer)))
     if len(found) == 1:
         return dict(label=found[0], method="exact", found=found)

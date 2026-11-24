@@ -1,16 +1,19 @@
-# Пилотный набор: 30 цепочек для ручной проверки разметки и проверки нижних границ.
-name: pilot
-prefix: P
-seed: 11
-domains: [gifts, meetings, renovation, contacts, trip, report]
-rotate_positions: true      # каждая цепочка в одной позиции, позиции чередуются
+# Пилотный набор (банковская тематика): 30 цепочек для проверки разметки, нижних границ
+# и пробного прогона моделей. Положение цепочки фиксировано («середина»): при коротких
+# контекстах положение не рассматривается как фактор (замечание к первому пилоту).
+name: pilot_bank
+prefix: B
+seed: 23
+domains: [cards, payments, transfers, notifications, calls, autopay]
 facts: true
 blocks:
   - name: main
     n: [5, 10]
     m: [0, 2]
     extras: [none, rejected, forget_ban, none, forget_soft, rejected]
+    positions: [middle]
   - name: control
     n: [3]
     m: [2]
     extras: [none, rejected, forget_ban]
+    positions: [middle]

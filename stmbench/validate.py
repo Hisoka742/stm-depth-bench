@@ -12,6 +12,7 @@ from .generator import CHANGE_MARKERS
 from .lang import CHANGES_AGO, ordinal_instr, resolve_gender
 from .render import POSITIONS, dialog_turns
 from .scoring import value_in
+from .values import satisfies
 
 
 def validate(s: dict) -> list[str]:
@@ -25,7 +26,8 @@ def validate(s: dict) -> list[str]:
     allv = vals + [c["value"] for o in s["others"] for c in o["chain"]]
     if s.get("rejected"):
         allv.append(s["rejected"]["value"])
-    if len(set(allv)) != len(allv):
+    vt = dom.vt
+    if len({vt.canon(v) for v in allv}) != len(allv):
         errs.append("повторяются значения слотов")
     for v in allv:
         if not rx.fullmatch(v):
@@ -85,6 +87,34 @@ def validate(s: dict) -> list[str]:
             errs.append("просьба забыть стоит до смены забываемой версии")
         if any(vals[fj - 1] in t for _, t in turns[fi + 2:]):
             errs.append("забытое значение упоминается после просьбы забыть")
+    # 9. исправление идёт сразу после ошибочной записи
+    order = [b for b in s["region"]]
+    for j in range(2, n + 1):
+        if s["chain"][j - 1]["change"] == "correction":
+            i_err = order.index(rec_blocks[j - 1])
+            if order[i_err + 1] is not rec_blocks[j]:
+                errs.append(f"между ошибочной записью v{j - 1} и исправлением v{j} есть другие ходы")
+    # 10. значения согласованы с причинами (с учётом всех ранее названных причин);
+    #     исправление даёт близкое значение
+    busy: list = []
+    last_c = None
+    from .values import applicable
+    for j in range(2, n + 1):
+        c = s["chain"][j - 1]
+        if c["change"] == "correction":
+            if vals[j - 1] not in vt.near(None, vals[j - 2]):
+                errs.append(f"исправление v{j} не близко к ошибочному значению")
+            prev_cons = s["chain"][j - 2].get("cons")
+            if j >= 3 and not satisfies(vt, vals[j - 3], vals[j - 1], prev_cons, busy[-3:]):
+                errs.append(f"исправление v{j} нарушает условие причины v{j - 1}")
+            continue
+        cn = c.get("cons")
+        if not applicable(vt, vals[j - 2], cn, last_c, dom.resolves) or                 not satisfies(vt, vals[j - 2], vals[j - 1], cn, busy[-3:]):
+            errs.append(f"значение v{j} не согласовано с причиной «{c['reason']}»")
+        if cn:
+            last_c = cn
+            if cn.get("busy"):
+                busy.append(tuple(cn["busy"]))
     # 8. эталоны вопросов
     forg = s.get("forget")
     g = dom.gender

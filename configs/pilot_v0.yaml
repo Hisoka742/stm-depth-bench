@@ -1,9 +1,9 @@
-# Пилотный набор: 30 цепочек для ручной проверки разметки и проверки нижних границ.
-name: pilot_v0
-prefix: P
-seed: 11
-domains: [gifts, meetings, renovation, contacts, trip, report]
-rotate_positions: true      # каждая цепочка в одной позиции, позиции чередуются
+# Пилотный набор без помех для поверхностного поиска (уровень помех 0): с ним сравниваются
+# нижние границы текущей версии генератора.
+name: pilot_bank_v0
+prefix: B
+seed: 23
+domains: [cards, payments, transfers, notifications, calls, autopay]
 facts: true
 noise: 0
 blocks:
@@ -11,7 +11,9 @@ blocks:
     n: [5, 10]
     m: [0, 2]
     extras: [none, rejected, forget_ban, none, forget_soft, rejected]
+    positions: [middle]
   - name: control
     n: [3]
     m: [2]
     extras: [none, rejected, forget_ban]
+    positions: [middle]

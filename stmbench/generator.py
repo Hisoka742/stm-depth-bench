@@ -1,14 +1,14 @@
 """Генератор сценариев и вопросов (п. 2.2 ВКР).
 
 Сценарий строится в три шага:
-  1) выбираются значения целевой цепочки v1..vn, цепочки m однотипных слотов-помех,
-     виды изменений, описания событий и дополнительные события;
+  1) планируются цепочки: виды изменений, причины и значения. Значение выбирается после
+     причины и должно ей соответствовать (направление и диапазон, stmbench/values.py);
+     исправление ошибки даёт близкое к ошибочному значение;
   2) из событий собирается «область цепочки»: записи версий, записи слотов-помех,
      посторонние ходы, случайные упоминания значений, предложение несостоявшегося
-     изменения, просьба забыть;
+     изменения, просьба забыть. Исправление стоит сразу после ошибочной записи: между ними
+     нет других ходов;
   3) к цепочке строится набор вопросов с эталонами по формуле a*(q) = v_{n-k}.
-Положение цепочки в контексте (начало/середина/конец) задаётся при отрисовке
-(render.py), содержание сценария при этом не меняется.
 """
 from __future__ import annotations
 
@@ -17,6 +17,7 @@ import re
 
 from .domains import DOMAINS, Domain
 from .lang import SLOT_FORMS, CHANGES_AGO, cap, join_ru, ordinal_instr, resolve_gender
+from .values import applicable, error_kind, satisfies, step_values
 
 CHANGE_TYPES = ("explicit", "implicit", "correction")
 
@@ -32,6 +33,7 @@ ACK_EXPLICIT = ["Хорошо, {slot} {izmenen}: было {old}, стало {new
 ACK_IMPLICIT = ["Записано: {slot} — {new}.", "Хорошо, {new}.", "Принято."]
 ACK_CORRECTION = ["Исправлено: {slot} — {new}.", "Исправлено: вместо {old} — {new}.", "Хорошо, исправлено."]
 ACK_STRAY = ["Буду знать.", "Ясно, спасибо.", "Понятно."]
+ACK_NEUTRAL = ["Хорошо, записано.", "Принято."]
 
 
 def quote(v: str) -> str:
@@ -75,37 +77,109 @@ def _assign_changes(rng: random.Random, count: int) -> list[str]:
     return out[:count]
 
 
-def _chain_events(rng, dom: Domain, ctx: Ctx, values: list[str], changes: list[str],
-                  used_reasons: set[str], slot_tag: str, reserve: set[str] | None = None,
-                  ellipsis: float = 0.0) -> list[dict]:
+def _plan_chain(rng, dom: Domain, ctx: Ctx, n: int, changes: list[str], used_canon: set,
+                used_reasons: set, reserve: set | None = None, allow_repeat: bool = False,
+                used_tpl: set | None = None, reserve_tpl: set | None = None):
+    """Значения, причины и ограничения цепочки из n версий.
+
+    Для явной замены и неявного обновления сначала выбирается причина, подходящая к текущему
+    значению, затем новое значение, удовлетворяющее её ограничению. Для исправления берётся
+    близкое значение, которое удовлетворяет ограничению ошибочной записи.
+    """
+    vt = dom.vt
+    reasons_all = dom.reason_list()
+    for attempt in range(800):
+        # сначала учитываются все ранее названные причины, при неудаче — только три последние
+        window = None if attempt < 400 else 3
+        used = set(used_canon)
+        ur = set(used_reasons)
+        v1 = dom.sample_values(rng, 1, used)[0]
+        used.add(vt.canon(v1))
+        vals, reasons, cons = [v1], [None], [None]
+        tpls: list = []          # шаблоны выбранных причин
+        busy: list = []          # интервалы, занятые по уже названным причинам (время)
+        last_c = None            # ограничение последней причины (для смены направления)
+        ok = True
+        for i in range(1, n):
+            ch, old = changes[i - 1], vals[-1]
+            if ch == "correction":
+                prev = vals[-2] if len(vals) >= 2 else None
+                cands = [v for v in vt.near(rng, old)
+                         if vt.canon(v) not in used and satisfies(vt, prev, v, cons[-1], busy[-window:] if window else busy)]
+                if not cands:
+                    ok = False
+                    break
+                v = rng.choice(cands)
+                rpool = [_reason_text(ctx, t) for t in dom.corr_pool(error_kind(old, v))]
+                rpool = [r for r in rpool if r not in ur and not (reserve and r in reserve)] or \
+                        ([r for r in rpool if not (reserve and r in reserve)] if allow_repeat else [])
+                if not rpool:
+                    ok = False
+                    break
+                r, c = rng.choice(rpool), None
+            else:
+                pool = list(reasons_all)
+                rng.shuffle(pool)
+                choice = None
+                for tries in (0, 1):
+                    for tpl, cn in pool:
+                        r = _reason_text(ctx, tpl)
+                        if (reserve and r in reserve) or (reserve_tpl and tpl in reserve_tpl):
+                            continue
+                        if r in ur and not (tries == 1 and allow_repeat):
+                            continue
+                        if ch == "implicit" and CHANGE_MARKERS.search(r):
+                            continue
+                        if not applicable(vt, old, cn, last_c, dom.resolves):
+                            continue
+                        opts = step_values(vt, rng, old, cn, used, busy[-window:] if window else busy)
+                        if opts:
+                            choice = (rng.choice(opts), r, cn)
+                            tpl_chosen = tpl
+                            break
+                    if choice or not allow_repeat:
+                        break
+                if not choice:
+                    ok = False
+                    break
+                v, r, c = choice
+                tpls.append(tpl_chosen)
+                if c:
+                    last_c = c
+                    if c.get("busy"):
+                        busy.append(c["busy"])
+            vals.append(v)
+            reasons.append(r)
+            cons.append(c)
+            used.add(vt.canon(v))
+            ur.add(r)
+        if ok:
+            used_canon |= {vt.canon(v) for v in vals}
+            used_reasons |= {r for r in reasons if r}
+            if used_tpl is not None:
+                used_tpl |= set(tpls)
+            return vals, reasons, cons
+    raise RuntimeError(f"не удалось спланировать цепочку ({dom.key}, n = {n})")
+
+
+def _chain_events(rng, dom: Domain, ctx: Ctx, values: list[str], changes: list[str], reasons: list,
+                  cons: list, slot_tag: str, ellipsis: float = 0.0) -> list[dict]:
     """События записей одной цепочки: первая запись и n-1 изменений."""
     events = []
-    plain = [r for r in dom.reasons]
     for i, v in enumerate(values):
+        # перед исправлением ассистент не повторяет ошибочное значение: клиент перепроверяет запись
+        before_corr = i + 1 < len(values) and changes[i] == "correction"
         if i == 0:
             u = ctx.fill(rng.choice(dom.first_user), v=v)
-            a = ctx.fill(rng.choice(ACK_FIRST), v=v)
-            events.append(dict(kind="record", slot=slot_tag, version=1, change="first", reason=None,
+            a = rng.choice(ACK_NEUTRAL) if before_corr else ctx.fill(rng.choice(ACK_FIRST), v=v)
+            events.append(dict(kind="record", slot=slot_tag, version=1, change="first", reason=None, cons=None,
                                turns=[("u", u), ("a", a)], value=v, value_turn=0))
             continue
-        ch = changes[i - 1]
-        old = values[i - 1]
-        pool = dom.corr_reasons if ch == "correction" else plain
-        cands = []
-        for tpl in pool:
-            r = _reason_text(ctx, tpl)
-            if r in used_reasons or (reserve and r in reserve):
-                continue
-            if ch == "implicit" and CHANGE_MARKERS.search(r):
-                continue
-            cands.append(r)
-        if not cands:  # для слотов-помех допускаем повтор причины
-            cands = [_reason_text(ctx, t) for t in pool
-                     if not (ch == "implicit" and CHANGE_MARKERS.search(_reason_text(ctx, t)))
-                     and not (reserve and _reason_text(ctx, t) in reserve)]
-        reason = rng.choice(cands)
-        used_reasons.add(reason)
-        two_turn = ch != "correction" and dom.ellipsis_agent and rng.random() < ellipsis
+        ch, old, reason = changes[i - 1], values[i - 1], reasons[i]
+        base = dict(kind="record", slot=slot_tag, version=i + 1, change=ch, reason=reason, cons=cons[i], value=v)
+        # запись в два хода — только если из причины ясно, о какой сущности речь
+        names_entity = any(isinstance(x, str) and x.lower() in reason.lower() for x in ctx.ent.values())
+        two_turn = ch != "correction" and dom.ellipsis_agent and names_entity and rng.random() < ellipsis
         if two_turn:
             # запись в два хода: событие, уточняющий вопрос агента, короткий ответ со значением
             # подтверждение не повторяет название слота: связь с сущностью видна из соседних ходов
@@ -115,9 +189,10 @@ def _chain_events(rng, dom: Domain, ctx: Ctx, values: list[str], changes: list[s
             else:
                 u0 = ctx.fill("{Reason}.", reason=reason)
                 a = ctx.fill(rng.choice(["Записано: {new}.", "Хорошо, {new}."]), new=v)
-            turns = [("u", u0), ("a", dom.ellipsis_agent), ("u", ctx.fill(dom.ellipsis_user, new=v)), ("a", a)]
-            events.append(dict(kind="record", slot=slot_tag, version=i + 1, change=ch, reason=reason,
-                               turns=turns, value=v, value_turn=2))
+            if before_corr:
+                a = rng.choice(ACK_NEUTRAL)
+            turns = [("u", u0), ("a", ctx.fill(dom.ellipsis_agent)), ("u", ctx.fill(dom.ellipsis_user, new=v)), ("a", a)]
+            events.append(dict(base, turns=turns, value_turn=2))
             continue
         if ch == "explicit":
             u = ctx.fill(rng.choice(dom.explicit_user), reason=reason, old=old, new=v)
@@ -128,8 +203,9 @@ def _chain_events(rng, dom: Domain, ctx: Ctx, values: list[str], changes: list[s
         else:
             u = ctx.fill(rng.choice(dom.correction_user), reason=reason, old=old, new=v)
             a = ctx.fill(rng.choice(ACK_CORRECTION), old=old, new=v)
-        events.append(dict(kind="record", slot=slot_tag, version=i + 1, change=ch, reason=reason,
-                           turns=[("u", u), ("a", a)], value=v, value_turn=0))
+        if before_corr:
+            a = rng.choice(ACK_NEUTRAL)
+        events.append(dict(base, turns=[("u", u), ("a", a)], value_turn=0))
     return events
 
 
@@ -147,49 +223,58 @@ def generate_scenario(sid: str, domain: str, n: int, m: int, extra: str, seed: i
     nz = NOISE[noise]
     rng = random.Random(seed)
     dom = DOMAINS[domain]
+    vt = dom.vt
     ug = rng.choice(["m", "f"])
     ents = rng.sample(dom.entities, m + 1)
     target_ent, other_ents = ents[0], ents[1:]
     tctx = Ctx(dom, target_ent, ug)
 
-    used_values: set[str] = set()
-    tvals = dom.sample_values(rng, n, used_values)
-    used_values |= set(tvals)
-    tchanges = _assign_changes(rng, n - 1)
-
-    # причины для целевой цепочки выбираются первыми и затем не повторяются
+    used_canon: set = set()
     used_reasons: set[str] = set()
-    target_events = _chain_events(rng, dom, tctx, tvals, tchanges, used_reasons, "target",
+    tchanges = _assign_changes(rng, n - 1)
+    target_tpl: set = set()
+    tvals, treasons, tcons = _plan_chain(rng, dom, tctx, n, tchanges, used_canon, used_reasons,
+                                         used_tpl=target_tpl)
+    target_events = _chain_events(rng, dom, tctx, tvals, tchanges, treasons, tcons, "target",
                                   ellipsis=nz["ellipsis"])
-    target_reasons = {e["reason"] for e in target_events if e["reason"]}
+    target_reasons = {r for r in treasons if r}
 
     others = []
     for oi, oe in enumerate(other_ents):
         octx = Ctx(dom, oe, ug)
         L = rng.choice([2, 3])
-        ov = dom.sample_values(rng, L, used_values)
-        used_values |= set(ov)
-        och = [rng.choice(CHANGE_TYPES) for _ in range(L - 1)]
-        evs = _chain_events(rng, dom, octx, ov, och, set(used_reasons), f"other{oi}", reserve=target_reasons,
-                            ellipsis=nz["ellipsis"])
+        och = []
+        for _ in range(L - 1):
+            opts = [c for c in CHANGE_TYPES if not (c == "correction" and och and och[-1] == "correction")]
+            och.append(rng.choice(opts))
+        ov, orr, oc = _plan_chain(rng, dom, octx, L, och, used_canon, set(used_reasons),
+                                  reserve=target_reasons, allow_repeat=True, reserve_tpl=target_tpl)
+        evs = _chain_events(rng, dom, octx, ov, och, orr, oc, f"other{oi}", ellipsis=nz["ellipsis"])
         others.append(dict(slot=octx.slot, entity=oe["E"], chain=[dict(value=e["value"], change=e["change"],
                                                                            reason=e["reason"]) for e in evs],
                            events=evs))
 
-    # --- сегменты между записями целевой цепочки: S_0, T1, S_1, ..., Tn, S_n
+    # --- сегменты между записями целевой цепочки: S_0, T1, S_1, ..., Tn, S_n.
+    # Сегмент перед исправлением пуст: исправление идёт сразу после ошибочной записи.
+    blocked = {i for i in range(1, n) if tchanges[i - 1] == "correction"}
+    allowed = [s for s in range(n + 1) if s not in blocked]
     segments: list[list[dict]] = [[] for _ in range(n + 1)]
     for o in others:
-        idx = sorted(rng.randint(0, n) for _ in o["events"])
+        idx = sorted(rng.choice(allowed) for _ in o["events"])
+        for t, e in enumerate(o["events"]):
+            if e["change"] == "correction":
+                idx[t] = idx[t - 1]
+        idx = [max(idx[:t + 1]) for t in range(len(idx))]
         for e, s in zip(o["events"], idx):
             segments[s].append(e)
 
     rejected = None
     forget = None
     if extra == "rejected":
-        i = rng.randint(1, n)        # предложение звучит, пока действует v_i
-        w = dom.sample_values(rng, 1, used_values)[0]
-        used_values.add(w)
+        i = rng.choice([x for x in range(1, n + 1) if x not in blocked])   # пока действует v_i
         cur = tvals[i - 1]
+        w = dom.sample_values(rng, 1, used_canon)[0]
+        used_canon.add(vt.canon(w))
         turns = [("u", tctx.fill(dom.rejected_user, w=w)),
                  ("a", tctx.fill("Можно. Поменять на {w}?", w=w)),
                  ("u", tctx.fill("Нет, всё-таки оставим {cur}.", cur=cur)),
@@ -197,7 +282,8 @@ def generate_scenario(sid: str, domain: str, n: int, m: int, extra: str, seed: i
         segments[i].append(dict(kind="rejected", slot="target", value=w, turns=turns))
         rejected = dict(value=w, while_version=i)
     elif extra in ("forget_soft", "forget_ban"):
-        j = rng.randint(1, n - 1)
+        opts = [(j, s) for j in range(1, n) for s in range(j + 1, n + 1) if s not in blocked]
+        j, s = rng.choice(opts)       # просьба звучит только после того, как v_j перестала действовать
         old = tvals[j - 1]
         if extra == "forget_soft":
             turns = [("u", tctx.fill("Кстати, вариант {old} можно забыть — он больше не понадобится.", old=old)),
@@ -205,8 +291,7 @@ def generate_scenario(sid: str, domain: str, n: int, m: int, extra: str, seed: i
         else:
             turns = [("u", tctx.fill("И ещё: вариант {old} удалите из записей и больше не называйте, "
                                      "даже если я [сам|сама] о нём спрошу, — " + dom.forget_tail + ".", old=old)),
-                     ("a", "Хорошо, этот вариант удалён и называться не будет.")]
-        s = rng.randint(j + 1, n)    # только после того, как v_j перестала действовать
+                     ("a", "Хорошо, этот вариант больше называть не буду.")]
         segments[s].append(dict(kind="forget", slot="target", version=j, turns=turns))
         forget = dict(version=j, mode="ban" if extra == "forget_ban" else "soft")
 
@@ -227,7 +312,10 @@ def generate_scenario(sid: str, domain: str, n: int, m: int, extra: str, seed: i
         if not cands:
             continue
         ver = rng.choice(cands)
-        seg = rng.randint(ver + 1, n) if back else rng.randint(0, ver - 1)
+        seg_opts = [x for x in (range(ver + 1, n + 1) if back else range(0, ver)) if x not in blocked]
+        if not seg_opts:
+            continue
+        seg = rng.choice(seg_opts)
         use_ent = bool(ent_tpls) and rng.random() < nz["stray_entity"]
         first = ent_tpls if use_ent else stray_tpls
         pool = [x for x in first if x not in used_tpl] or [x for x in stray_tpls + ent_tpls if x not in used_tpl]
@@ -245,7 +333,7 @@ def generate_scenario(sid: str, domain: str, n: int, m: int, extra: str, seed: i
     rng.shuffle(fill_pool)
     gaps = []
     for i in range(1, n):
-        g = rng.choice([0, 1])
+        g = 0 if i in blocked else rng.choice([0, 1])
         gaps.append(g)
         for _ in range(g):
             if fill_pool:
@@ -254,31 +342,47 @@ def generate_scenario(sid: str, domain: str, n: int, m: int, extra: str, seed: i
     gaps.append(0)
     n_pos = min(6, len(fill_pool))
     pos_filler = [dict(kind="filler", turns=[("u", fu), ("a", fa)]) for fu, fa in fill_pool[:n_pos]]
+    extra_filler = [dict(kind="filler", turns=[("u", fu), ("a", fa)]) for fu, fa in fill_pool[n_pos:]]
 
     region: list[dict] = []
     for s in range(n + 1):
         seg = segments[s]
         rng.shuffle(seg)
         # записи одной цепочки-помехи внутри сегмента должны идти по порядку
-        seg = _stable_order(seg)
+        seg = _glue_corrections(_stable_order(seg))
         region.extend(seg)
         if s < n:
             region.append(target_events[s])
 
     ent_list = [e[dom.list_form] for e in ents]
     rng.shuffle(ent_list)
-    intro = [("u", cap(dom.intro_user.format(list=join_ru(ent_list)))), ("a", dom.intro_agent)]
+    if len(ents) == 1 and dom.intro_one:
+        intro_u, intro_a = dom.intro_one.format(**ents[0]), dom.intro_agent_one
+    else:
+        intro_u, intro_a = dom.intro_user.format(list=join_ru(ent_list)), dom.intro_agent
+    intro = [("u", cap(intro_u)), ("a", intro_a)]
 
     scen = dict(
         id=sid, domain=domain, vtype=dom.vtype, n=n, m=m, extra=extra, seed=seed, user_gender=ug,
         slot=tctx.slot, entity=target_ent["E"],
-        chain=[dict(value=e["value"], change=e["change"], reason=e["reason"]) for e in target_events],
+        chain=[dict(value=e["value"], change=e["change"], reason=e["reason"], cons=e["cons"]) for e in target_events],
         others=[{k: v for k, v in o.items() if k != "events"} for o in others],
         rejected=rejected, forget=forget, strays=[dict(version=v, segment=sg, back=b) for v, sg, b in strays],
-        gaps=gaps, intro=intro, region=region, pos_filler=pos_filler,
+        gaps=gaps, intro=intro, region=region, pos_filler=pos_filler, extra_filler=extra_filler,
     )
-    scen["questions"] = build_questions(scen, rng)
+    scen["questions"] = build_questions(scen, rng, tctx)
     return scen
+
+
+def _glue_corrections(seg: list[dict]) -> list[dict]:
+    """Ставит исправление слота-помехи сразу после ошибочной записи того же слота."""
+    out = [e for e in seg if not (e.get("kind") == "record" and e["change"] == "correction")]
+    for e in seg:
+        if e.get("kind") == "record" and e["change"] == "correction":
+            i = next(k for k, x in enumerate(out) if x.get("kind") == "record" and x["slot"] == e["slot"]
+                     and x["version"] == e["version"] - 1)
+            out.insert(i + 1, e)
+    return out
 
 
 def _stable_order(seg: list[dict]) -> list[dict]:
@@ -294,7 +398,7 @@ def _stable_order(seg: list[dict]) -> list[dict]:
 
 
 # ---------------------------------------------------------------- вопросы
-def build_questions(s: dict, rng: random.Random) -> list[dict]:
+def build_questions(s: dict, rng: random.Random, ctx: Ctx | None = None) -> list[dict]:
     dom = DOMAINS[s["domain"]]
     g = dom.gender
     ug = s["user_gender"]
@@ -345,18 +449,14 @@ def build_questions(s: dict, rng: random.Random) -> list[dict]:
             q["qtype"] = "forgotten"
         out.append(q)
 
+    # ложная предпосылка: просьба выполнить действие с устаревшим значением как с действующим
     cand = [j for j in range(1, n) if not (forg and j == forg["version"])]
     pj = rng.choice(cand)
+    ctx = ctx or Ctx(dom, next(e for e in dom.entities if f"{dom.slot_nom} {e['q']}" == slot), ug)
     out.append(dict(k=None, sigma="false_premise", direction=None, qtype="false_premise",
-                    text=R(f"{cap(slot)} ведь {vals[pj - 1]}, верно? Назови {F['cur_acc']} {_slot_acc(s)}."),
+                    text=ctx.fill(dom.action_user, old=vals[pj - 1]),
                     premise_version=pj, gold_version=n, gold=vals[-1],
                     change_of_version=s["chain"][-1]["change"], change_after=None))
     for i, q in enumerate(out, 1):
         q["qid"] = f"{s['id']}-Q{i:02d}"
     return out
-
-
-def _slot_acc(s: dict) -> str:
-    dom = DOMAINS[s["domain"]]
-    q = s["slot"][len(dom.slot_nom) + 1:]
-    return f"{dom.slot_acc} {q}"

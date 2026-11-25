@@ -46,8 +46,12 @@ def main():
     ap.add_argument("--only", help="идентификатор одной модели из конфигурации")
     ap.add_argument("--fmt", choices=["log", "facts", "all"], default="all")
     ap.add_argument("--limit", type=int, default=0, help="не более N входов (для пробного запуска)")
+    ap.add_argument("--n", type=int, nargs="*", help="только сценарии с этими длинами цепочки")
     ap.add_argument("--workers", type=int, default=6)
     ap.add_argument("--mock", choices=["oracle", "heuristic"], help="ответы без обращения к API")
+    ap.add_argument("--by-group", action="store_true",
+                    help="входы с общим началом (сценарий, формат, положение) идут подряд в одном потоке: "
+                         "так провайдер берёт повторное начало из кэша")
     args = ap.parse_args()
 
     set_name = os.path.basename(os.path.normpath(args.set_dir))
@@ -57,6 +61,8 @@ def main():
     if args.limit:
         items = items[:args.limit]
     scen = {s["id"]: s for s in load_jsonl(os.path.join(args.set_dir, "scenarios.jsonl"))}
+    if args.n:
+        items = [it for it in items if scen[it["sid"]]["n"] in args.n]
     qmap = {q["qid"]: (s, q) for s in scen.values() for q in s["questions"]}
 
     if args.mock:
@@ -70,7 +76,8 @@ def main():
     out_dir = os.path.join(ROOT, "results", set_name)
     os.makedirs(out_dir, exist_ok=True)
     for m in models:
-        path = os.path.join(out_dir, slug(m["id"]) + ".jsonl")
+        # метка (tag) отличает условия одной модели, например запуск с рассуждением
+        path = os.path.join(out_dir, slug(m["id"]) + (f"__{m['tag']}" if m.get("tag") else "") + ".jsonl")
         done = {r["item_id"] for r in load_jsonl(path) if r.get("error") is None}
         todo = [it for it in items if it["item_id"] not in done]
         print(f"{m['id']}: уже есть {len(done)}, осталось {len(todo)}")
@@ -85,7 +92,7 @@ def main():
                 if args.mock == "oracle":
                     rec["response"] = q["gold"] if q["gold"] is not None else "нет данных"
                 elif args.mock == "heuristic":
-                    turns, _ = dialog_turns(s, it["position"] or "end")
+                    turns, _ = dialog_turns(s, (it["position"] or "end").split("@")[0])
                     rec["response"] = heuristic_answer(s, q, turns, ("all", "entity", "first")) or "не знаю"
                 else:
                     r = chat(m["id"], it["messages"], temperature=0.0, max_tokens=m.get("max_tokens", 512),
@@ -101,13 +108,26 @@ def main():
             return rec
 
         n_err = 0
-        with ThreadPoolExecutor(max_workers=1 if args.mock else args.workers) as ex:
-            futs = [ex.submit(work, it) for it in todo]
-            for i, f in enumerate(as_completed(futs), 1):
-                if f.result()["error"]:
-                    n_err += 1
-                if i % 100 == 0:
-                    print(f"  {i}/{len(todo)}, ошибок: {n_err}")
+        if args.by_group:
+            groups = {}
+            for it in todo:
+                groups.setdefault((it["sid"], it["fmt"], it["position"]), []).append(it)
+
+            def run_group(g):
+                return [work(it) for it in g]
+            with ThreadPoolExecutor(max_workers=1 if args.mock else args.workers) as ex:
+                for i, recs in enumerate(ex.map(run_group, groups.values()), 1):
+                    n_err += sum(1 for r in recs if r["error"])
+                    if i % 20 == 0:
+                        print(f"  групп {i}/{len(groups)}, ошибок: {n_err}")
+        else:
+            with ThreadPoolExecutor(max_workers=1 if args.mock else args.workers) as ex:
+                futs = [ex.submit(work, it) for it in todo]
+                for i, f in enumerate(as_completed(futs), 1):
+                    if f.result()["error"]:
+                        n_err += 1
+                    if i % 100 == 0:
+                        print(f"  {i}/{len(todo)}, ошибок: {n_err}")
         fout.close()
         recs = [r for r in load_jsonl(path) if r.get("error") is None and r.get("usage")]
         cost = sum((r["usage"] or {}).get("cost") or 0 for r in recs)

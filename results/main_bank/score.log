@@ -1,0 +1,157 @@
+﻿{
+ "n_answers": 1988,
+ "share_judge": 0.004024144869215292,
+ "share_unresolved": 0.0,
+ "false_premise": {
+  "correct": 0.7129629629629629,
+  "accepted_premise": 0.08333333333333333
+ },
+ "forgotten": {
+  "refusal": 0.8939393939393939,
+  "leak": 0.0
+ },
+ "leak_rate_all_answers": 0.03064516129032258
+}
+[log] точность (макро по k): 0.451; по n: 3: 0.635, 5: 0.527, 10: 0.358
+   по способам: direct: 0.944, event_desc: 0.447, event_value: 0.361, ordinal: 0.249, relative: 0.440
+   классы: {'correct': 356, 'later_version': 192, 'earlier_version': 120, 'refusal': 231, 'absent_value': 4, 'rejected_value': 3, 'other_slot': 1}
+[facts] точность (макро по k): 0.700; по n: 3: 0.912, 5: 0.811, 10: 0.580
+   по способам: direct: 0.944, event_desc: 0.729, event_value: 0.618, ordinal: 0.639, relative: 0.735
+   классы: {'correct': 616, 'refusal': 73, 'later_version': 74, 'earlier_version': 139, 'rejected_value': 2, 'other_slot': 1, 'absent_value': 2}
+{
+ "n_answers": 1988,
+ "share_judge": 0.22283702213279677,
+ "share_unresolved": 0.006036217303822937,
+ "false_premise": {
+  "correct": 0.8888888888888888,
+  "accepted_premise": 0.046296296296296294
+ },
+ "forgotten": {
+  "refusal": 0.3939393939393939,
+  "leak": 0.5
+ },
+ "leak_rate_all_answers": 0.2032258064516129
+}
+[log] точность (макро по k): 0.630; по n: 3: 0.836, 5: 0.699, 10: 0.534
+   по способам: direct: 0.926, event_desc: 0.754, event_value: 0.558, ordinal: 0.435, relative: 0.571
+   классы: {'earlier_version': 133, 'correct': 540, 'refusal': 114, 'later_version': 102, 'unresolved': 11, 'absent_value': 7}
+[facts] точность (макро по k): 0.700; по n: 3: 0.938, 5: 0.791, 10: 0.584
+   по способам: direct: 1.000, event_desc: 0.603, event_value: 0.642, ordinal: 0.666, relative: 0.844
+   классы: {'correct': 612, 'earlier_version': 141, 'later_version': 136, 'refusal': 11, 'other_slot': 2, 'rejected_value': 1, 'absent_value': 4}
+{
+ "n_answers": 548,
+ "share_judge": 0.0,
+ "share_unresolved": 0.0,
+ "false_premise": {
+  "correct": 1.0,
+  "accepted_premise": 0.0
+ },
+ "forgotten": {
+  "refusal": 1.0,
+  "leak": 0.0
+ },
+ "leak_rate_all_answers": 0.0
+}
+[log] точность (макро по k): 0.946; по n: 10: 0.946
+   по способам: direct: 1.000, event_desc: 0.987, event_value: 0.904, ordinal: 0.941, relative: 0.882
+   классы: {'correct': 490, 'earlier_version': 23, 'rejected_value': 2, 'later_version': 5}
+{
+ "n_answers": 1988,
+ "share_judge": 0.0,
+ "share_unresolved": 0.0,
+ "false_premise": {
+  "correct": 0.8703703703703703,
+  "accepted_premise": 0.09259259259259259
+ },
+ "forgotten": {
+  "refusal": 0.5,
+  "leak": 0.2878787878787879
+ },
+ "leak_rate_all_answers": 0.06774193548387097
+}
+[log] точность (макро по k): 0.657; по n: 3: 0.851, 5: 0.723, 10: 0.565
+   по способам: direct: 0.963, event_desc: 0.765, event_value: 0.621, ordinal: 0.424, relative: 0.685
+   классы: {'correct': 569, 'earlier_version': 166, 'later_version': 153, 'rejected_value': 4, 'absent_value': 1, 'refusal': 12, 'other_slot': 2}
+[facts] точность (макро по k): 0.880; по n: 3: 0.972, 5: 0.896, 10: 0.845
+   по способам: direct: 1.000, event_desc: 0.948, event_value: 0.956, ordinal: 0.669, relative: 0.921
+   классы: {'correct': 790, 'earlier_version': 77, 'rejected_value': 2, 'later_version': 27, 'other_slot': 4, 'refusal': 7}
+{
+ "n_answers": 1988,
+ "share_judge": 0.0025150905432595573,
+ "share_unresolved": 0.0,
+ "false_premise": {
+  "correct": 0.8148148148148148,
+  "accepted_premise": 0.027777777777777776
+ },
+ "forgotten": {
+  "refusal": 0.3787878787878788,
+  "leak": 0.5454545454545454
+ },
+ "leak_rate_all_answers": 0.09516129032258064
+}
+[log] точность (макро по k): 0.657; по n: 3: 0.859, 5: 0.698, 10: 0.575
+   по способам: direct: 1.000, event_desc: 0.856, event_value: 0.618, ordinal: 0.348, relative: 0.548
+   классы: {'correct': 560, 'earlier_version': 128, 'later_version': 168, 'refusal': 49, 'other_slot': 2}
+[facts] точность (макро по k): 0.815; по n: 3: 0.933, 5: 0.879, 10: 0.747
+   по способам: direct: 1.000, event_desc: 0.809, event_value: 0.836, ordinal: 0.709, relative: 0.815
+   классы: {'correct': 723, 'earlier_version': 69, 'later_version': 108, 'refusal': 3, 'other_slot': 3, 'absent_value': 1}
+{
+ "n_answers": 1988,
+ "share_judge": 0.012072434607645875,
+ "share_unresolved": 0.002012072434607646,
+ "false_premise": {
+  "correct": 0.7407407407407407,
+  "accepted_premise": 0.027777777777777776
+ },
+ "forgotten": {
+  "refusal": 0.5757575757575758,
+  "leak": 0.3333333333333333
+ },
+ "leak_rate_all_answers": 0.056451612903225805
+}
+[log] точность (макро по k): 0.635; по n: 3: 0.870, 5: 0.692, 10: 0.536
+   по способам: direct: 0.981, event_desc: 0.770, event_value: 0.648, ordinal: 0.333, relative: 0.602
+   классы: {'later_version': 168, 'correct': 547, 'earlier_version': 105, 'refusal': 68, 'unresolved': 4, 'absent_value': 15}
+[facts] точность (макро по k): 0.847; по n: 3: 0.967, 5: 0.928, 10: 0.770
+   по способам: direct: 1.000, event_desc: 0.911, event_value: 0.869, ordinal: 0.677, relative: 0.900
+   классы: {'correct': 758, 'earlier_version': 48, 'later_version': 88, 'refusal': 13}
+{
+ "n_answers": 1988,
+ "share_judge": 0.006036217303822937,
+ "share_unresolved": 0.0,
+ "false_premise": {
+  "correct": 0.4722222222222222,
+  "accepted_premise": 0.2037037037037037
+ },
+ "forgotten": {
+  "refusal": 0.4393939393939394,
+  "leak": 0.36363636363636365
+ },
+ "leak_rate_all_answers": 0.09032258064516129
+}
+[log] точность (макро по k): 0.388; по n: 3: 0.577, 5: 0.451, 10: 0.299
+   по способам: direct: 0.963, event_desc: 0.344, event_value: 0.289, ordinal: 0.236, relative: 0.179
+   классы: {'earlier_version': 133, 'correct': 285, 'later_version': 338, 'refusal': 149, 'rejected_value': 2}
+[facts] точность (макро по k): 0.607; по n: 3: 0.835, 5: 0.704, 10: 0.490
+   по способам: direct: 0.963, event_desc: 0.502, event_value: 0.675, ordinal: 0.440, relative: 0.655
+   классы: {'correct': 517, 'earlier_version': 129, 'later_version': 259, 'refusal': 1, 'other_slot': 1}
+{
+ "n_answers": 1988,
+ "share_judge": 0.0,
+ "share_unresolved": 0.0,
+ "false_premise": {
+  "correct": 1.0,
+  "accepted_premise": 0.0
+ },
+ "forgotten": {
+  "refusal": 0.9696969696969697,
+  "leak": 0.0
+ },
+ "leak_rate_all_answers": 0.008064516129032258
+}
+[log] точность (макро по k): 0.855; по n: 3: 0.961, 5: 0.896, 10: 0.802
+   по способам: direct: 1.000, event_desc: 0.961, event_value: 0.880, ordinal: 0.639, relative: 0.900
+   классы: {'correct': 763, 'earlier_version': 84, 'rejected_value': 4, 'refusal': 20, 'later_version': 36}
+[facts] точность (макро по k): 0.750; по n: 3: 0.854, 5: 0.857, 10: 0.665
+   по способам: direct: 1.000, event_desc: 0.734, event_value: 0.587, ordinal: 0.836, relative: 0.605
+   классы: {'correct': 654, 'later_version': 215, 'earlier_version': 29, 'refusal': 8, 'other_slot': 1}

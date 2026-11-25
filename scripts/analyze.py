@@ -43,12 +43,16 @@ def acc(rows):
 def main(set_dir):
     name = os.path.basename(os.path.normpath(set_dir))
     rdir = os.path.join(ROOT, "results", name)
-    models = {}
+    models, tagged = {}, {}
     for p in sorted(glob.glob(os.path.join(rdir, "*__scored.jsonl"))):
         base = os.path.basename(p)[: -len("__scored.jsonl")]
         if base.startswith("mock__"):
             continue
-        models[base.split("__", 1)[1]] = load(p)
+        parts = base.split("__")
+        if len(parts) > 2:  # дополнительное условие той же модели (метка tag), например с рассуждением
+            tagged[(parts[1], parts[2])] = load(p)
+        else:
+            models[parts[1]] = load(p)
     if not models:
         sys.exit("нет оценённых ответов")
     order = sorted(models, key=lambda m: -(acc([r for r in models[m] if r["qtype"] == "depth" and r["fmt"] == "log"]) or 0))
@@ -62,7 +66,7 @@ def main(set_dir):
 
     for n in ns:
         ks = list(range(n))
-        cnt = Counter(r["k"] for r in depth(models[order[0]]) if r["n"] == n)
+        cnt = Counter(r["k"] for r in depth(models[order[-1]]) if r["n"] == n)
         L += [f"## Точность по глубине k, n = {n}", "",
               "| Модель | " + " | ".join(f"k = {k} ({cnt[k]})" for k in ks) + " |",
               "|---|" + "---|" * len(ks)]
@@ -115,6 +119,30 @@ def main(set_dir):
             dd = [r for r in d if r["extra"] == ex]
             cells.append(f2(sum(r["cls"] == "refusal" for r in dd) / len(dd)) if dd else "—")
         L.append(f"| {m} | " + " | ".join(cells) + " |")
+
+    if tagged:
+        sigmas = ["direct", "ordinal", "relative", "event_value", "event_desc"]
+        L += ["", "## Дополнительные условия той же модели на одних и тех же входах", "",
+              "Сравниваются только входы, на которые есть ответы в обоих условиях (вопросы о глубине). "
+              "Точность — среднее по глубинам; затем по способам задания глубины.", "",
+              "| Модель | Условие | Входов | Точность | " + " | ".join(sigmas) + " |",
+              "|---|---|---|---|" + "---|" * len(sigmas)]
+        for (m, tag), rs in tagged.items():
+            if m not in models:
+                continue
+            t = {r["item_id"]: r for r in rs if r["qtype"] == "depth"}
+            b = {r["item_id"]: r for r in models[m] if r["qtype"] == "depth"}
+            common = sorted(set(t) & set(b))
+
+            def macro(rows):
+                by = {}
+                for r in rows:
+                    by.setdefault((r["n"], r["k"]), []).append(r["cls"] == "correct")
+                return sum(sum(v) / len(v) for v in by.values()) / len(by) if by else None
+            for lab, src in (("основное", b), (tag, t)):
+                rows = [src[i] for i in common]
+                L.append(f"| {m} | {lab} | {len(common)} | {f2(macro(rows))} | "
+                         + " | ".join(f2(acc([r for r in rows if r["sigma"] == s])) for s in sigmas) + " |")
 
     # рисунки
     try:

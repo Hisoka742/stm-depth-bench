@@ -1,0 +1,17 @@
+﻿{
+ "n_answers": 548,
+ "share_judge": 0.0,
+ "share_unresolved": 0.0,
+ "false_premise": {
+  "correct": 1.0,
+  "accepted_premise": 0.0
+ },
+ "forgotten": {
+  "refusal": 1.0,
+  "leak": 0.0
+ },
+ "leak_rate_all_answers": 0.0
+}
+[log] точность (макро по k): 0.946; по n: 10: 0.946
+   по способам: direct: 1.000, event_desc: 0.987, event_value: 0.904, ordinal: 0.941, relative: 0.882
+   классы: {'correct': 490, 'earlier_version': 23, 'rejected_value': 2, 'later_version': 5}

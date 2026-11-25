@@ -79,7 +79,7 @@ def _assign_changes(rng: random.Random, count: int) -> list[str]:
 
 def _plan_chain(rng, dom: Domain, ctx: Ctx, n: int, changes: list[str], used_canon: set,
                 used_reasons: set, reserve: set | None = None, allow_repeat: bool = False,
-                used_tpl: set | None = None, reserve_tpl: set | None = None):
+                used_tpl: set | None = None, reserve_tpl: set | None = None, avoid_tpl: set | None = None):
     """Значения, причины и ограничения цепочки из n версий.
 
     Для явной замены и неявного обновления сначала выбирается причина, подходящая к текущему
@@ -125,6 +125,9 @@ def _plan_chain(rng, dom: Domain, ctx: Ctx, n: int, changes: list[str], used_can
                     for tpl, cn in pool:
                         r = _reason_text(ctx, tpl)
                         if (reserve and r in reserve) or (reserve_tpl and tpl in reserve_tpl):
+                            continue
+                        # шаблоны, уже взятые другими слотами-помехами, — только если свободных не осталось
+                        if tries == 0 and avoid_tpl and tpl in avoid_tpl:
                             continue
                         if r in ur and not (tries == 1 and allow_repeat):
                             continue
@@ -240,6 +243,7 @@ def generate_scenario(sid: str, domain: str, n: int, m: int, extra: str, seed: i
     target_reasons = {r for r in treasons if r}
 
     others = []
+    others_tpl: set = set()
     for oi, oe in enumerate(other_ents):
         octx = Ctx(dom, oe, ug)
         L = rng.choice([2, 3])
@@ -248,7 +252,8 @@ def generate_scenario(sid: str, domain: str, n: int, m: int, extra: str, seed: i
             opts = [c for c in CHANGE_TYPES if not (c == "correction" and och and och[-1] == "correction")]
             och.append(rng.choice(opts))
         ov, orr, oc = _plan_chain(rng, dom, octx, L, och, used_canon, set(used_reasons),
-                                  reserve=target_reasons, allow_repeat=True, reserve_tpl=target_tpl)
+                                  reserve=target_reasons, allow_repeat=True, reserve_tpl=target_tpl,
+                                  used_tpl=others_tpl, avoid_tpl=others_tpl)
         evs = _chain_events(rng, dom, octx, ov, och, orr, oc, f"other{oi}", ellipsis=nz["ellipsis"])
         others.append(dict(slot=octx.slot, entity=oe["E"], chain=[dict(value=e["value"], change=e["change"],
                                                                            reason=e["reason"]) for e in evs],

@@ -1,0 +1,17 @@
+# Эксперимент с длиной контекста и положением цепочки (data/length_bank, около 29 млн входных
+# токенов на модель). Выбраны модели с контекстом не меньше 256 тыс. токенов, у которых на пробном
+# прогоне провайдер брал повторное начало входа из кэша: вопросы к одному сценарию в одном условии
+# различаются только последней репликой, поэтому длинный наполнитель оплачивается в основном по
+# цене кэша. Параметры — как в основном условии (configs/models.yaml).
+models:
+  - id: deepseek/deepseek-v4.1-flash
+    max_tokens: 512
+    extra: {reasoning: {effort: none}}
+  - id: qwen/qwen3.8-flash
+    max_tokens: 512
+    extra: {reasoning: {effort: none}}
+  - id: mistralai/mistral-small-2603
+    max_tokens: 512
+    extra: {reasoning: {effort: none}}
+judge:
+  id: deepseek/deepseek-v4-pro

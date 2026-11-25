@@ -1,0 +1,8 @@
+# Проверка эффекта потолка при разрешённом рассуждении: сильная модель с небольшим бюджетом
+# рассуждения на цепочках n = 10 основного набора (формат лога), запуск:
+#   python scripts/run_models.py data/main_bank --models configs/models_reasoning.yaml --fmt log --n 10
+models:
+  - id: openai/gpt-6.1-terra
+    tag: reasoning-low
+    max_tokens: 4096
+    extra: {reasoning: {effort: low}}

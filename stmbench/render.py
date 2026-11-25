@@ -25,13 +25,13 @@ SYSTEM_FACTS = (
 POSITIONS = ("start", "middle", "end")
 
 
-def dialog_turns(s: dict, position: str) -> tuple[list[tuple[str, str]], dict]:
+def dialog_turns(s: dict, position: str, pos_filler: list | None = None) -> tuple[list[tuple[str, str]], dict]:
     """Ходы диалога и разметка: номер хода каждой записи версии.
 
     Посторонний блок pos_filler целиком стоит после цепочки (start), делится пополам (middle)
     или целиком стоит перед ней (end). Остальное содержание одинаково при любом p.
     """
-    pf = s["pos_filler"]
+    pf = s["pos_filler"] if pos_filler is None else pos_filler   # длинный наполнитель (эксперимент с длиной)
     cut = {"start": 0, "middle": len(pf) // 2, "end": len(pf)}[position]
     blocks = [dict(kind="intro", turns=s["intro"])] + pf[:cut] + s["region"] + pf[cut:]
     turns: list[tuple[str, str]] = []
@@ -48,8 +48,8 @@ def dialog_turns(s: dict, position: str) -> tuple[list[tuple[str, str]], dict]:
     return turns, meta
 
 
-def messages_log(s: dict, q: dict, position: str) -> list[dict]:
-    turns, _ = dialog_turns(s, position)
+def messages_log(s: dict, q: dict, position: str, pos_filler: list | None = None) -> list[dict]:
+    turns, _ = dialog_turns(s, position, pos_filler)
     msgs = [{"role": "system", "content": SYSTEM_LOG}]
     for role, text in turns:
         msgs.append({"role": "user" if role == "u" else "assistant", "content": text})

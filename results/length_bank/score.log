@@ -1,0 +1,24 @@
+﻿{
+ "n_answers": 1080,
+ "share_judge": 0.016666666666666666,
+ "share_unresolved": 0.0
+}
+[log] точность (макро по k): 0.559; по n: 10: 0.559
+   по способам: direct: 0.796, event_desc: 0.784, event_value: 0.630, ordinal: 0.185
+   классы: {'correct': 604, 'earlier_version': 174, 'later_version': 288, 'refusal': 10, 'absent_value': 4}
+{
+ "n_answers": 1080,
+ "share_judge": 0.041666666666666664,
+ "share_unresolved": 0.003703703703703704
+}
+[log] точность (макро по k): 0.515; по n: 10: 0.515
+   по способам: direct: 0.815, event_desc: 0.654, event_value: 0.580, ordinal: 0.210
+   классы: {'correct': 556, 'earlier_version': 247, 'later_version': 206, 'absent_value': 33, 'refusal': 33, 'unresolved': 4, 'other_slot': 1}
+{
+ "n_answers": 1080,
+ "share_judge": 0.10185185185185185,
+ "share_unresolved": 0.000925925925925926
+}
+[log] точность (макро по k): 0.221; по n: 10: 0.221
+   по способам: direct: 0.583, event_desc: 0.207, event_value: 0.238, ordinal: 0.099
+   классы: {'correct': 239, 'later_version': 400, 'earlier_version': 178, 'refusal': 243, 'absent_value': 14, 'unresolved': 1, 'other_slot': 5}
